@@ -22,7 +22,7 @@
   --primary: #11b2f7; /* Biru */
   --secondary: #fdd636; /* Ungu */
   --accent: #006897; /* Orange */
-  --dark: #111154 /* Biru gelap */
+  --dark: #111154; /* Biru gelap */
   --neutral: #374151; /* Abu-abu */
   --light-gray: #F3F4F6; /* Abu-abu terang */
   --success: #10B981; /* Hijau */
@@ -43,6 +43,10 @@
 /* Contoh penggunaan variabel */
 .bg-primary {
   background-color: var(--primary);
+}
+
+.bg-dark {
+  background-color: var(--dark);
 }
 
 .text-primary {
