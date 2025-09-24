@@ -13,7 +13,7 @@ import { SiWhatsapp } from "vue-icons-plus/si";
 
         <!-- Promo Kelas Trial & Diskon GABI Les Privat -->
         <section>
-            <div class="container font-poppins mx-auto px-4 py-8"> 
+            <div class="container font-poppins mx-auto px-10 py-8"> 
                 <h1 class="text-2xl md:text-3xl font-bold text-center">
                     Promo Kelas Trial & Diskon GABI Les Privat
                 </h1>
@@ -30,13 +30,13 @@ import { SiWhatsapp } from "vue-icons-plus/si";
 
         <!-- Kenapa Harus Coba Trial & Paket Hemat GABI? -->
         <section>
-            <div class="container font-poppins mx-auto px-4 py-8">
-                <div class="bg-primary rounded-2xl p-6 md:p-8 flex flex-col md:flex-row gap-6 items-center shadow">
-                    <div class="flex-1">
-                        <h2 class="text-2xl font-semibold text-white">
+            <div class="container font-poppins mx-auto px-10 py-8">
+                <div class="bg-primary rounded-2xl items-end shadow-md grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div class="flex-1 p-4 md:col-span-2">
+                        <h2 class="text-base md:text-2xl font-semibold text-white">
                             Kenapa Harus Coba Trial & Paket Hemat GABI?
                         </h2>
-                        <ul class="mt-4 list-disc list-inside text-white space-y-2 text-base">
+                        <ul class="mt-3 text-base md:text-base list-disc list-inside text-white space-y-2">
                             <li>
                                 Anak bisa kenalan dulu dengan tutor, sementara orang tua bisa melihat langsung cara mengajar. 
                             </li>
@@ -44,7 +44,7 @@ import { SiWhatsapp } from "vue-icons-plus/si";
                                 Dalam 60 menit, Ayah/Bunda dapat memastikan apakah anak nyaman belajar bersama tutor GABI. 
                             </li>
                             <li>
-                                Dapatkan diskon 10% untuk paket 1 bulan (8x pertemuan). 
+                                Dapatkan <span class="font-bold">diskon 10%</span> untuk paket 1 bulan (8x pertemuan). 
                             </li>
                             <li>
                                 Gratis bahan ajar/referensi belajar berbentuk softfile. 
@@ -58,12 +58,8 @@ import { SiWhatsapp } from "vue-icons-plus/si";
                         </ul>
                     </div>
 
-                    <div class="w-3xs flex-shrink-0">
-                        <img
-                            src="/public/img/maskot/Admin Gabi CTA (pakai bohlam).png"
-                            alt="Kenapa coba"
-                            class="w-full"
-                        />
+                    <div class="w-xs">
+                        <img src="/public/img/maskot/Admin Gabi CTA (pakai bohlam).png" alt="Maskot admin pakai bohlam"/>
                     </div>
                 </div>
             </div>
@@ -71,14 +67,14 @@ import { SiWhatsapp } from "vue-icons-plus/si";
 
         <!-- Syarat & Ketentuan Promo GABI -->
         <section>
-            <div class="container font-poppins mx-auto px-4 py-8">
+            <div class="container font-poppins mx-auto px-10 py-8">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
                     <!-- Left Content -->
-                    <div>
+                    <div class="p-4">
                         <h2 class="text-2xl font-semibold">
                             Syarat & Ketentuan Promo GABI
                         </h2>
-                        <ul class="mt-3 space-y-2 text-black list-disc list-inside">
+                        <ul class="mt-3 text-base space-y-2 text-black list-disc list-inside">
                             <li>
                                 Promo berlaku untuk pendaftaran baru (siswa yang belum pernah les di gabi) 
                             </li>
@@ -126,7 +122,7 @@ import { SiWhatsapp } from "vue-icons-plus/si";
 
         <!-- Rasakan pengalaman belajar -->
         <section>
-            <div class="container font-poppins mx-auto px-4 py-8">
+            <div class="container font-poppins mx-auto px-10 py-8">
                 <h1 class="text-2xl md:text-3xl font-semibold text-center">
                     Rasakan pengalaman belajar dengan tutor berpengalaman, <br></br>
                     belajar nyaman, hemat, dan fleksibel mulai dari trial.<br></br>
@@ -134,6 +130,7 @@ import { SiWhatsapp } from "vue-icons-plus/si";
                 </h1>
             </div>
         </section>
+        
     </AppLayout>
 </template>
 
