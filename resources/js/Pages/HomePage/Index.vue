@@ -11,7 +11,7 @@ import Testimoni from './Components/Testimoni.vue';
 </script>
 <template>
   <AppLayout>
-    <section>
+    <section class="">
        <Hero />
     </section>
 
