@@ -15,7 +15,7 @@
 /* resources/css/app.css */
 
 :root {
-   font-family: var(--font-sans); /* Set default font to Quicksand */
+   font-family: var(--font-onest); /* Set default font to Quicksand */
 
   --primary: #11b2f7; /* Biru */
   --secondary: #fdd636; /* Ungu */
@@ -58,6 +58,10 @@
 
 .bg-green {
   background-color: var(--green);
+}
+
+.bg-warning {
+  background-color: var(--warning);
 }
 
 .text-accent {
