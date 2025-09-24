@@ -1,6 +1,6 @@
 <script setup>
 import { SiWhatsapp } from "vue-icons-plus/si";
-import { Fa6RegMessage } from 'vue-icons-plus/fa6'
+import { Fa6RegMessage } from "vue-icons-plus/fa6";
 
 // array logo kurikulum
 const logos = [
@@ -11,22 +11,22 @@ const logos = [
 ];
 
 const problems = [
-  {
-    title: "Biaya les terasa memberatkan?",
-    desc: "Harga les privat di GABI disesuaikan domisili, adil, dan ramah kantong. Orang tua bisa pilih sesuai kemampuan tanpa kompromi kualitas.",
-  },
-  {
-    title: "Jadwal Belajar Tidak Fleksibel?",
-    desc: "Les privat GABI dapat diatur pagi, siang, atau sore secara online dan offline! Tetap seimbang dengan aktivitas anak dan keluarga.",
-  },
-  {
-    title: "Tutor Kurang Komunikatif?",
-    desc: "Tutor di les privat GABI terlatih microteaching dan menjaga etika komunikasi. Orang tua tetap update, anak tetap nyaman.",
-  },
-  {
-    title: "Metode Belajar Monoton?",
-    desc: "Metode interaktif dan materi variatif membuat anak tetap bersemangat. Hasil belajar lebih maksimal dan menyenangkan!",
-  },
+    {
+        title: "Biaya les terasa memberatkan?",
+        desc: "Harga les privat di GABI disesuaikan domisili, adil, dan ramah kantong. Orang tua bisa pilih sesuai kemampuan tanpa kompromi kualitas.",
+    },
+    {
+        title: "Jadwal Belajar Tidak Fleksibel?",
+        desc: "Les privat GABI dapat diatur pagi, siang, atau sore secara online dan offline! Tetap seimbang dengan aktivitas anak dan keluarga.",
+    },
+    {
+        title: "Tutor Kurang Komunikatif?",
+        desc: "Tutor di les privat GABI terlatih microteaching dan menjaga etika komunikasi. Orang tua tetap update, anak tetap nyaman.",
+    },
+    {
+        title: "Metode Belajar Monoton?",
+        desc: "Metode interaktif dan materi variatif membuat anak tetap bersemangat. Hasil belajar lebih maksimal dan menyenangkan!",
+    },
 ];
 </script>
 
@@ -36,7 +36,7 @@ const problems = [
     >
         <!-- LEFT CONTENT -->
         <div
-            class="w-full lg:w-7/12 space-y-6 text-center lg:text-left py-6 lg:py-10 lg:px-10"
+            class="w-full lg:w-7/12 space-y-6 text-left py-6 lg:py-10 lg:px-10"
         >
             <h1
                 class="text-lg sm:text-2xl md:text-3xl lg:text-2xl font-bold leading-snug sm:leading-tight text-gray-900 font-onest"
@@ -69,13 +69,13 @@ const problems = [
             <div class="relative">
                 <!-- Polygon Background -->
                 <div
-                    class="absolute top-[2.5rem] sm:top-[3.5rem] left-0 polygon bg-[radial-gradient(circle,_#feeca4_26%,_#fdd636_60%,_#fdb436_100%)] z-0 rounded-full w-[220px] h-[220px] sm:w-[280px] sm:h-[280px] md:w-[310px] md:h-[310px]"
+                    class="absolute top-[4rem] left-[9.8rem] -translate-x-[9.8rem] xl:left-[11rem] xl:top-[5rem] bg-[radial-gradient(circle,_#feeca4_26%,_#fdd636_60%,_#fdb436_100%)] z-0 rounded-full w-[84vw] max-w-[310px] aspect-square"
                 ></div>
                 <!-- Gambar -->
                 <img
                     :src="'/img/maskot/Maskot-Gabi.png'"
                     alt="Student"
-                    class="w-48 sm:w-60 md:w-72 rounded-lg relative left-2 sm:left-3"
+                    class="w-72 sm:w-60 md:w-72 lg:w-72 xl:w-80 rounded-lg relative left-2 sm:left-3"
                 />
             </div>
         </div>
@@ -108,21 +108,23 @@ const problems = [
     <div class="bg-white w-full relative -top-16 px-4 sm:px-6 md:px-10">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
             <!-- LEFT CONTENT -->
-            <div class="space-y-6 text-center lg:text-left relative -top-0 lg:-top-16 ">
-                <p class="text-gray-800 text-sm font-medium">
+            <div
+                class="space-y-6 lg:px-0 px-5 text-left relative top-7 lg:-top-16"
+            >
+                <p class="text-gray-800 lg:text-md text-mlg font-medium mb-2">
                     Problem & Solusi
                 </p>
                 <h2
-                    class="text-2xl sm:text-3xl md:text-4xl font-bold leading-snug text-gray-900"
+                    class="text-3xl sm:text-3xl md:text-4xl font-bold leading-snug text-gray-900"
                 >
                     Belajar jadi beban? <br />
                     Atau tutor yang membuat orang tua kecewa?
                 </h2>
-                <p class="text-gray-500 text-base">
+                <p class="text-gray-800 text-base hidden lg:block">
                     Tenang Kami Punya Jawabannya!
                 </p>
 
-                <div>
+                <div class="hidden lg:block">
                     <a
                         href="https://wa.me/6281234567890"
                         target="_blank"
@@ -135,7 +137,7 @@ const problems = [
             </div>
 
             <!-- RIGHT CONTENT -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:p-0 p-5">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:px-0 px-5">
                 <div
                     v-for="(item, i) in problems"
                     :key="i"
@@ -148,11 +150,27 @@ const problems = [
                         <Fa6RegMessage />
                     </div>
 
-                    <h3 class="font-bold text-lg mb-2 text-center">{{ item.title }}</h3>
+                    <h3 class="font-bold text-lg mb-2 text-center">
+                        {{ item.title }}
+                    </h3>
                     <p class="text-sm leading-relaxed">
                         {{ item.desc }}
                     </p>
                 </div>
+            </div>
+
+            <div class="block lg:hidden px-5 mt-0">
+                <p class="text-gray-900 font-semibold text-2xl  mb-5">
+                    Tenang Kami Punya Jawabannya!
+                </p>
+                <a
+                    href="https://wa.me/6281234567890"
+                    target="_blank"
+                    class="inline-flex items-center px-10 py-3 bg-green-500 hover:bg-green-600 text-white text-sm sm:text-base font-semibold rounded-lg shadow transition"
+                >
+                    <SiWhatsapp class="mr-2 w-5 h-5" /> Konsultasikan dengan
+                    admin
+                </a>
             </div>
         </div>
     </div>
