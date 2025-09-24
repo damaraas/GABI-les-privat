@@ -115,13 +115,16 @@ import { SiWhatsapp } from "vue-icons-plus/si";
                     </div>
 
                     <!-- Right Image Bulet -->
-                    <div class="w-full flex justify-center">
-                        <img :src="mascotImage"  alt="Maskot GABI" class="w-64 h-64 rounded-full object-cover shadow-lg bg-primary"/>
+                    <div class="w-full flex justify-center self-stretch items-center">
+                        <div class="w-64 h-64 rounded-full bg-primary flex items-center justify-center shadow-lg">
+                            <img :src="mascotImage" alt="Maskot GABI" class="w-80 h-80"/>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- Rasakan pengalaman belajar -->
         <section>
             <div class="container font-poppins mx-auto px-4 py-8">
                 <h1 class="text-2xl md:text-3xl font-semibold text-center">
