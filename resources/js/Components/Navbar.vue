@@ -6,7 +6,7 @@ const mobileMenuOpen = ref(false);
 </script>
 
 <template>
-    <div>
+    <div class="sticky top-0 w-full z-50 bg-white/80 backdrop-blur-md">
         <!-- Promo Banner -->
         <div>
             <img src="../../../public/img/diskon/Header.jpg" alt="Header" />
@@ -14,8 +14,8 @@ const mobileMenuOpen = ref(false);
 
         <!-- Header -->
         <nav>
-            <div className="container m-auto bg-white font-poppins">
-                <div className="flex justify-between items-center px-12 border-t border-gray-200 border-2">
+            <div className="container m-auto font-poppins">
+                <div className="flex justify-between items-center px-26 border-t border-1 border-gray-200">
                     <div>
                         <a href="" className="gap-2">
                             <img
