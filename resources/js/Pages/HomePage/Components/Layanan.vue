@@ -157,8 +157,8 @@ const scroll = (direction) => {
                 class="px-6 py-2 rounded-md font-semibold transition"
                 :class="
                     activeCategory === cat
-                        ? 'bg-yellow-400 text-black'
-                        : 'bg-yellow-200 text-gray-700'
+                        ? 'bg-secondary text-black'
+                        : 'bg-warning text-gray-700'
                 "
             >
                 {{ cat }}

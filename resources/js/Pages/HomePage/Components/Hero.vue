@@ -128,7 +128,7 @@ const problems = [
                     <a
                         href="https://wa.me/6281234567890"
                         target="_blank"
-                        class="inline-flex items-center px-5 py-3 bg-green-500 hover:bg-green-600 text-white text-sm sm:text-base font-semibold rounded-lg shadow transition"
+                        class="inline-flex items-center px-5 py-3 bg-green hover:bg-green-900 text-white text-sm sm:text-base font-semibold rounded-lg shadow transition"
                     >
                         <SiWhatsapp class="mr-2 w-5 h-5" /> Konsultasikan dengan
                         admin
