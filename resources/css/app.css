@@ -67,3 +67,7 @@
 .text-accent {
   color: var(--accent);
 }
+
+.text-danger {
+  color: var(--danger);
+}

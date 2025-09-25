@@ -112,7 +112,7 @@ const items = [
             <a
                 href="https://wa.me/6281234567890"
                 target="_blank"
-                class="bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-3 rounded-full flex items-center gap-2 justify-center w-fit mx-auto"
+                class="bg-green hover:bg-success text-white font-semibold px-6 py-2 rounded-xl border-2 border-white flex items-center gap-2 justify-center w-fit mx-auto shadow"
             >
                 <SiWhatsapp class="mr-2 w-5 h-5" />
                 Temukan Paket Les Kamu
