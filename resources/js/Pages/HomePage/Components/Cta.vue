@@ -50,7 +50,7 @@ defineProps({
 
                     <!-- Maskot Image -->
                     <img
-                        :src="'/img/maskot/Maskot-cta.webp'"
+                        :src="'/img/maskot/maskot-cta-1.webp'"
                         alt="Lightbulb Character"
                         class="relative z-10 w-72 sm:w-60 md:w-72 lg:w-[440px] h-auto"
                     />
