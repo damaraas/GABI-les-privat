@@ -56,7 +56,7 @@ const problems = [
             <!-- CTA Button -->
             <div>
                 <a
-                    href="https://wa.me/6281234567890"
+                    href="https://wa.me/6285712230349"
                     class="inline-flex items-center px-4 py-2 sm:px-6 sm:py-3 bg-green hover:bg-green-600 text-white text-sm sm:text-md font-semibold rounded-lg shadow transition"
                 >
                     <SiWhatsapp class="mr-2 w-4 h-4 sm:w-5 sm:h-5" />Cari Guru
@@ -126,7 +126,7 @@ const problems = [
 
                 <div class="hidden lg:block">
                     <a
-                        href="https://wa.me/6281234567890"
+                        href="https://wa.me/6285712230349"
                         target="_blank"
                         class="inline-flex items-center px-5 py-3 bg-green hover:bg-green-900 text-white text-sm sm:text-base font-semibold rounded-lg shadow transition"
                     >

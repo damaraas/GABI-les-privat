@@ -6,7 +6,7 @@ import { Fa6Whatsapp } from "vue-icons-plus/fa6";
 const props = defineProps({
     whatsappNumber: {
         type: String,
-        default: "6281234567890",
+        default: "6285712230349",
     },
     faqItems: {
         type: Array,

@@ -110,7 +110,7 @@ const items = [
         <!-- CTA -->
         <div class="mt-10">
             <a
-                href="https://wa.me/6281234567890"
+                href="https://wa.me/6285712230349"
                 target="_blank"
                 class="bg-green hover:bg-success text-white font-semibold px-6 py-2 rounded-xl border-2 border-white flex items-center gap-2 justify-center w-fit mx-auto shadow"
             >

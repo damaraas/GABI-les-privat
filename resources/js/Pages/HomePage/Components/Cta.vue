@@ -4,7 +4,7 @@ import { Fa6Whatsapp } from "vue-icons-plus/fa6";
 defineProps({
     whatsappNumber: {
         type: String,
-        default: "6281234567890",
+        default: "6285712230349",
     },
     title: {
         type: String,
@@ -32,7 +32,7 @@ defineProps({
 
                     <!-- CTA Button -->
                     <a
-                        href="https://wa.me/6281234567890"
+                        href="https://wa.me/6285712230349"
                         target="_blank"
                         class="items-center gap-3 bg-green text-white font-semibold text-lg md:text-xl px-8 py-4 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl lg:inline-flex hidden"
                     >
@@ -57,7 +57,7 @@ defineProps({
                 </div>
 
                 <a
-                    href="https://wa.me/6281234567890"
+                    href="https://wa.me/6285712230349"
                     target="_blank"
                     class="items-center gap-3 bg-green text-white font-semibold text-lg md:text-xl px-6 py-4 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl lg:hidden inline-flex"
                 >
