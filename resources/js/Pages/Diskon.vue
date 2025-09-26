@@ -13,7 +13,7 @@ import { SiWhatsapp } from "vue-icons-plus/si";
 
         <!-- Promo Kelas Trial & Diskon GABI Les Privat -->
         <section>
-            <div class="container font-poppins mx-auto px-10 py-8"> 
+            <div class="container font-poppins mx-auto px-5 py-4 md:px-10 md:py-8"> 
                 <h1 class="text-2xl md:text-3xl font-bold text-center">
                     Promo Kelas Trial & Diskon GABI Les Privat
                 </h1>
@@ -30,13 +30,13 @@ import { SiWhatsapp } from "vue-icons-plus/si";
 
         <!-- Kenapa Harus Coba Trial & Paket Hemat GABI? -->
         <section>
-            <div class="container font-poppins mx-auto px-10 py-8">
+            <div class="container font-poppins mx-auto px-5 py-4 md:px-10 md:py-8">
                 <div class="bg-primary rounded-2xl items-end shadow-md grid grid-cols-1 md:grid-cols-3 gap-4">
-                    <div class="flex-1 p-4 md:col-span-2">
+                    <div class="flex-1 p-4 md:p-8 md:col-span-2">
                         <h2 class="text-base md:text-2xl font-semibold text-white">
                             Kenapa Harus Coba Trial & Paket Hemat GABI?
                         </h2>
-                        <ul class="mt-3 text-base md:text-base list-disc list-inside text-white space-y-2">
+                        <ul class="mt-3 text-base md:text-base list-disc list-outside pl-6 text-white">
                             <li>
                                 Anak bisa kenalan dulu dengan tutor, sementara orang tua bisa melihat langsung cara mengajar. 
                             </li>
@@ -67,14 +67,14 @@ import { SiWhatsapp } from "vue-icons-plus/si";
 
         <!-- Syarat & Ketentuan Promo GABI -->
         <section>
-            <div class="container font-poppins mx-auto px-10 py-8">
+            <div class="container font-poppins mx-auto px-5 py-4 md:px-10 md:py-8">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
                     <!-- Left Content -->
-                    <div class="p-4">
-                        <h2 class="text-2xl font-semibold">
+                    <div class="p-4 md:p-8">
+                        <h2 class="text-base md:text-2xl font-semibold">
                             Syarat & Ketentuan Promo GABI
                         </h2>
-                        <ul class="mt-3 text-base space-y-2 text-black list-disc list-inside">
+                        <ul class="mt-3 text-base text-black list-disc list-outside pl-6">
                             <li>
                                 Promo berlaku untuk pendaftaran baru (siswa yang belum pernah les di gabi) 
                             </li>
@@ -104,7 +104,7 @@ import { SiWhatsapp } from "vue-icons-plus/si";
                             :href="whatsappLink"
                             target="_blank"
                             rel="noopener noreferrer"
-                            class="bg-[#00C13E] text-white px-4 py-4 rounded-md shadow-2xl inline-flex items-center gap-2 hover:bg-green-500 transition duration-300">
+                            class="bg-[#00C13E] text-white font-bold text-base px-4 py-4 rounded-md shadow-2xl inline-flex items-center gap-2 hover:bg-green-500 transition duration-300">
                                 KLAIM PROMO SEKARANG!<SiWhatsapp class="mr-2 w-4 h-4 sm:w-5 sm:h-5" />
                             </a>
                         </div>
@@ -112,8 +112,8 @@ import { SiWhatsapp } from "vue-icons-plus/si";
 
                     <!-- Right Image Bulet -->
                     <div class="w-full flex justify-center self-stretch items-center">
-                        <div class="w-72 h-72 rounded-full bg-primary flex items-center justify-center">
-                            <img :src="mascotImage" alt="Maskot GABI" class="h-96 w-96 drop-shadow-lg"/>
+                        <div class="w-72 h-72 rounded-full bg-primary flex items-center justify-center overflow-visible">
+                            <img :src="mascotImage" alt="Maskot GABI" class="h-96 object-contain drop-shadow-xl absolute -translate-y-6"/>
                         </div>
                     </div>
                 </div>
@@ -122,7 +122,7 @@ import { SiWhatsapp } from "vue-icons-plus/si";
 
         <!-- Rasakan pengalaman belajar -->
         <section>
-            <div class="container font-poppins mx-auto px-10 py-8">
+            <div class="container font-poppins mx-auto px-5 py-4 md:px-10 md:py-8">
                 <h1 class="text-2xl md:text-3xl font-semibold text-center">
                     Rasakan pengalaman belajar dengan tutor berpengalaman, <br></br>
                     belajar nyaman, hemat, dan fleksibel mulai dari trial.<br></br>
