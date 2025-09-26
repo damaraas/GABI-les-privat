@@ -10,7 +10,7 @@ const mobileMenuOpen = ref(false);
     <!-- Promo Banner -->
     <div>
       <img
-        src="../../../public/img/diskon/Header.webp"
+        src="../../../public/img/diskon/bannerBeranda.webp"
         alt="Header"
         class="w-full"
       />
@@ -24,7 +24,7 @@ const mobileMenuOpen = ref(false);
           <div>
             <Link href="/" class="flex items-center gap-2">
               <img
-                src="../../../public/img/logo/Logotype Gabi.webp"
+                src="../../../public/img/logo/GABIWarna.webp"
                 alt="GABI les privat"
                 class="w-28 md:w-34"
               />

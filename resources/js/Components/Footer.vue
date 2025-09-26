@@ -16,7 +16,7 @@ import { BsLinkedin } from "vue-icons-plus/bs";
       
       <!-- Kolom 1 -->
       <div class="md:col-span-3 lg:col-span-1 md:text-center lg:text-left">
-        <img src="../../../public/img/logo/Logo GABI Putih.webp" alt="GABI les privat" class="w-45 lg:w-50 block md:mx-auto lg:mx-0 mx-0">
+        <img src="../../../public/img/logo/GABIPutih.webp" alt="GABI les privat" class="w-45 lg:w-50 block md:mx-auto lg:mx-0 mx-0">
         <h3 class="font-bold mb-5">Part of GATRACO MITRA SEJAHTERA</h3>
         <p>Suncity Square, Jl. Mayor Madmuin Hasibuan Blok E No.19, RT.004/RW.002, Marga Jaya, Kec.
             Bekasi Sel, Kota Bks, Jawa Barat 17141, Indonesia.</p>
