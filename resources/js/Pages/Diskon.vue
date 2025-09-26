@@ -8,7 +8,7 @@ import { SiWhatsapp } from "vue-icons-plus/si";
 
         <!-- HERO BANNER PROMO TRIAL -->
         <section class="w-full">
-            <img src="\public\img\diskon\bannerTrialGABI.png" alt="Promo Trial GABI" class="w-full h-auto"/>
+            <img src="\public\img\diskon\bannerTrialGABI.webp" alt="Promo Trial GABI" class="w-full h-auto"/>
         </section>
 
         <!-- Promo Kelas Trial & Diskon GABI Les Privat -->
@@ -59,7 +59,7 @@ import { SiWhatsapp } from "vue-icons-plus/si";
                     </div>
 
                     <div class="w-xs">
-                        <img src="/public/img/maskot/Admin Gabi CTA (pakai bohlam).png" alt="Maskot admin pakai bohlam"/>
+                        <img src="/public/img/maskot/Admin Gabi CTA (pakai bohlam).webp" alt="Maskot admin pakai bohlam"/>
                     </div>
                 </div>
             </div>
@@ -145,7 +145,7 @@ export default {
     },
     mascotImage: {
       type: String,
-      default: "/img/maskot/Maskot-cta.png",
+      default: "/img/maskot/Maskot-cta.webp",
     },
   },
 };
