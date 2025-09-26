@@ -16,7 +16,7 @@ import { BsLinkedin } from "vue-icons-plus/bs";
       
       <!-- Kolom 1 -->
       <div class="md:col-span-3 lg:col-span-1 md:text-center lg:text-left">
-        <img src="../../../public/img/logo/Logo GABI Putih.png" alt="GABI les privat" class="w-45 lg:w-50 block md:mx-auto lg:mx-0 mx-0">
+        <img src="../../../public/img/logo/Logo GABI Putih.webp" alt="GABI les privat" class="w-45 lg:w-50 block md:mx-auto lg:mx-0 mx-0">
         <h3 class="font-bold mb-5">Part of GATRACO MITRA SEJAHTERA</h3>
         <p>Suncity Square, Jl. Mayor Madmuin Hasibuan Blok E No.19, RT.004/RW.002, Marga Jaya, Kec.
             Bekasi Sel, Kota Bks, Jawa Barat 17141, Indonesia.</p>
@@ -63,25 +63,25 @@ import { BsLinkedin } from "vue-icons-plus/bs";
           <h3 class="font-bold lg:mt-6 mb-4">BANTUAN</h3>
         <ul class="space-y-1">
           <li>
-            <Link to="/" class="hover:underline">Tentang GABI</Link>
+            <Link href="/tentang" class="hover:underline">Tentang GABI</Link>
           </li>
           <li>
-            <Link to="/" class="hover:underline">Promo GABI</Link>
+            <Link href="/promo" class="hover:underline">Promo GABI</Link>
           </li>
           <li>
-            <Link to="/" class="hover:underline">FAQ & Bantuan</Link>
+            <Link href="/" class="hover:underline">FAQ & Bantuan</Link>
           </li>
           <li>
-            <Link to="/" class="hover:underline">Trial Gratis</Link>
+            <Link href="/" class="hover:underline">Trial Gratis</Link>
           </li>
           <li>
-            <Link to="/" class="hover:underline">Karier</Link>
+            <Link href="/" class="hover:underline">Karier</Link>
           </li>
           <li>
-            <Link to="/" class="hover:underline">Blog</Link>
+            <Link href="/" class="hover:underline">Blog</Link>
           </li>
           <li>
-            <Link to="/" class="hover:underline">Press</Link>
+            <Link href="/" class="hover:underline">Press</Link>
           </li>
         </ul>
         </div>
