@@ -68,7 +68,7 @@ const toggleFaq = (index) => {
             <!-- Gambar -->
             <div
               class="relative w-48 h-48 sm:w-56 sm:h-64 md:w-56 md:h-64 lg:w-[300px] lg:h-64 rounded-lg overflow-hidden translate-x-5 lg:right-9 bottom-4">
-              <img :src="'/img/maskot/Maskot-Buku.png'" alt="Character Image"
+              <img :src="'/img/maskot/Maskot-Buku.webp'" alt="Character Image"
                 class="absolute inset-0 w-full h-full object-cover rounded-lg">
             </div>
           </div>

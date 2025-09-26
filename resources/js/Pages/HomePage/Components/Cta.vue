@@ -38,7 +38,7 @@ defineProps({
         <div class="relative">
           <div class="absolute inset-0 rounded-full bg-sky-500 z-10 lg:w-80 lg:h-80"></div>
 
-          <img :src="'/img/maskot/Maskot-cta.png'" alt="Lightbulb Character"
+          <img :src="'/img/maskot/Maskot-cta.webp'" alt="Lightbulb Character"
             class="w-64 md:w-80 lg:w-[410px] h-auto relative z-10 lg:right-9 bottom-10" />
         </div>
       </div>
