@@ -45,11 +45,11 @@ const toggleFaq = (index) => {
       <div class="grid grid-cols-1 lg:grid-cols-2 items-start">
 
         <!-- Left Side - Title and Character -->
-        <div class="flex flex-col items-center lg:items-center justify-center bg-yellow-400 py-8 px-6 rounded-lg">
+        <div class="flex flex-col items-center lg:items-center justify-center bg-secondary py-8 px-6">
           <!-- Title -->
           <div class="mb-8 lg:text-left flex flex-col lg:flex-row items-center lg:items-start gap-4 px-8">
             <!-- Heading -->
-            <h2 class="text-6xl md:text-7xl lg:text-8xl font-black text-black mb-0">FAQ</h2>
+            <h2 class="text-6xl md:text-7xl lg:text-7xl font-black text-black mb-0">FAQ</h2>
 
             <!-- Paragraph -->
             <p class="text-xl md:text-2xl text-black font-semibold mb-0 text-center lg:text-left">
@@ -62,12 +62,12 @@ const toggleFaq = (index) => {
           <div class="relative mb-2 flex justify-center items-center">
             <!-- Background Circle -->
             <div
-              class="absolute inset-0 w-64 h-64 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-500 opacity-40">
+              class="absolute inset-0 w-60 h-60 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-500 opacity-40">
             </div>
 
             <!-- Gambar -->
             <div
-              class="relative w-48 h-48 sm:w-56 sm:h-64 md:w-56 md:h-64 lg:w-56 lg:h-64 rounded-lg overflow-hidden translate-x-5">
+              class="relative w-48 h-48 sm:w-56 sm:h-64 md:w-56 md:h-64 lg:w-[300px] lg:h-64 rounded-lg overflow-hidden translate-x-5 lg:right-9 bottom-4">
               <img :src="'/img/maskot/Maskot-Buku.png'" alt="Character Image"
                 class="absolute inset-0 w-full h-full object-cover rounded-lg">
             </div>
@@ -77,7 +77,7 @@ const toggleFaq = (index) => {
           <!-- CTA Button (Tengah) -->
           <div class="flex justify-center items-center mt-8">
             <a :href="`https://wa.me/${whatsappNumber}`" target="_blank"
-              class="inline-flex items-center gap-3 bg-green-500 hover:bg-green-600 text-white font-bold text-lg px-8 py-4 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg justify-center  border-white border-2">
+              class="inline-flex items-center gap-3 bg-green text-white font-bold text-lg px-8 py-4 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg justify-center  border-white border-2">
               <Fa6Whatsapp class="w-10 h-10" />
               <div>
                 Baca Selengkapnya<br>

@@ -17,7 +17,7 @@ defineProps({
 })
 </script>
 <template>
-  <section class="bg-gradient-to-br from-blue-400 to-blue-600 py-16 px-4">
+  <section class="bg-primary py-16 px-4">
     <div class="max-w-6xl mx-auto">
       <div class="flex flex-col lg:flex-row items-center justify-between gap-8">
         <!-- Text Content -->
@@ -28,7 +28,7 @@ defineProps({
 
           <!-- CTA Button -->
           <a href="https://wa.me/6281234567890" target="_blank"
-            class="inline-flex items-center gap-3 bg-green-500 hover:bg-green-600 text-white font-semibold text-lg md:text-xl px-8 py-4 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+            class="inline-flex items-center gap-3 bg-green text-white font-semibold text-lg md:text-xl px-8 py-4 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
             <Fa6Whatsapp class="w-10 h-10" />
             Japri Admin Sekarang
           </a>
@@ -36,10 +36,10 @@ defineProps({
 
         <!-- Lightbulb Character -->
         <div class="relative">
-          <div class="absolute inset-0 rounded-full bg-gradient-to-r from-blue-400 to-blue-400 opacity-30 z-10"></div>
+          <div class="absolute inset-0 rounded-full bg-sky-500 z-10 lg:w-80 lg:h-80"></div>
 
           <img :src="'/img/maskot/Maskot-cta.png'" alt="Lightbulb Character"
-            class="w-64 md:w-80 lg:w-96 h-auto relative z-10" />
+            class="w-64 md:w-80 lg:w-[410px] h-auto relative z-10 lg:right-9 bottom-10" />
         </div>
       </div>
     </div>
