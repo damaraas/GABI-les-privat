@@ -1,5 +1,5 @@
 <script setup >
-
+import { Head } from '@inertiajs/vue3'
 import AppLayout from '../../Layouts/AppLayout.vue'
 import Cta from './Components/cta.vue';
 import Faq from './Components/Faq.vue';
@@ -11,6 +11,8 @@ import Testimoni from './Components/Testimoni.vue';
 </script>
 <template>
   <AppLayout>
+  <Head title="Les Privat Berkualitas di Rumah & Online | Fleksibel & Terjangkau" />
+
     <section class="">
        <Hero />
     </section>
