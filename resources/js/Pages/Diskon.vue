@@ -145,7 +145,7 @@ export default {
     },
     mascotImage: {
       type: String,
-      default: "/img/maskot/Maskot-cta.webp",
+      default: "/img/maskot/Maskot-cta-1.webp",
     },
   },
 };
