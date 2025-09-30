@@ -9,11 +9,10 @@ const mobileMenuOpen = ref(false);
   <div class="sticky top-0 w-full z-50 bg-white/80 backdrop-blur-md">
     <!-- Promo Banner -->
     <div>
-      <img
-        src="../../../public/img/diskon/bannerBeranda.webp"
-        alt="Header"
-        class="w-full"
-      />
+      <!-- Promo banner tablet/mobile -->
+      <img src="../../../public/img/diskon/bannerKecil.webp" alt="Promo banner" class="block lg:hidden w-full" />
+      <!-- Promo banner desktop -->
+      <img src="../../../public/img/diskon/bannerBeranda.webp" alt="Promo banner" class="hidden lg:block w-full" />
     </div>
 
     <!-- Header -->
