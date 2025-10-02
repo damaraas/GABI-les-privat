@@ -4,9 +4,9 @@ import { Fa6RegMessage } from "vue-icons-plus/fa6";
 
 // array logo kurikulum
 const logos = [
-    "/img/kurikulum/cambrige.webp",
+    "/img/kurikulum/Cambrige.webp",
     "/img/kurikulum/ib.webp",
-    "/img/kurikulum/singapore.webp",
+    "/img/kurikulum/Singapore.webp",
     "/img/kurikulum/nasional.webp",
 ];
 
@@ -73,7 +73,7 @@ const problems = [
                 ></div>
                 <!-- Gambar -->
                 <img
-                    :src="'/img/maskot/maskot.webp'"
+                    :src="'/img/maskot/Maskot.webp'"
                     alt="Student"
                     class="w-72 sm:w-60 md:w-72 lg:w-72 xl:w-80 rounded-lg relative left-2 sm:left-3"
                 />
