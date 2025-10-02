@@ -5,6 +5,7 @@ import { SiWhatsapp } from "vue-icons-plus/si";
 
 <template>
     <AppLayout>
+    <Head title="Promo Kelas Trial & Diskon GABI Les Privat" />
 
         <!-- HERO BANNER PROMO TRIAL -->
         <section class="w-full">
@@ -141,7 +142,7 @@ export default {
     whatsappLink: {
       type: String,
       default:
-        "https://wa.me/6281234567890?text=Halo%20saya%20mau%20klaim%20promo!",
+        "https://wa.me/6285712230349?text=Halo%20saya%20mau%20klaim%20promo!",
     },
     mascotImage: {
       type: String,
