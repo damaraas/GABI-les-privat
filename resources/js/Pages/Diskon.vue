@@ -136,13 +136,14 @@ import { SiWhatsapp } from "vue-icons-plus/si";
 </template>
 
 <script>
+const message = "Halo MinBi! Saya mau tanya info mengenai les privat di GABI. Bisa dibantu? 😊";
+
 export default {
   name: "PromoTerms",
   props: {
     whatsappLink: {
       type: String,
-      default:
-        "https://wa.me/6285712230349?text=Halo%20saya%20mau%20klaim%20promo!",
+      default: `https://wa.me/6285712230349?text=${encodeURIComponent(message)}`,
     },
     mascotImage: {
       type: String,
@@ -151,3 +152,5 @@ export default {
   },
 };
 </script>
+
+
