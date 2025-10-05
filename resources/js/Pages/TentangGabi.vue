@@ -44,7 +44,7 @@ function toggleTutors() {
                   semua mata pelajaran.
                 </p>
                 <div class="flex items-center justify-center">
-                  <img src="../../../../public/img/tentanggabi/model-anak.png" alt=""></img>
+                  <img src="../../../public/img/tentanggabi/model-anak.png" alt=""></img>
                 </div>
               </div>
             </div>
@@ -65,9 +65,8 @@ function toggleTutors() {
                 meraih prestasi akademik dan membentuk generasi yang cerdas, kritis, dan siap bersaing di 
                 era global.
               </p>
-              <img src="../../../../public/img/tentanggabi/7.png" class="w-full max-w-xs mx-auto mt-6 object-contain" alt="Visi Gabi">
+              <img src="../../../public/img/tentanggabi/7.png" class="w-full max-w-xs mx-auto mt-6 object-contain" alt="Visi Gabi">
             </div>
-
             <!-- bagian Misi -->
             <div class="flex-1 flex flex-col">
               <h1 class="text-[#11B2F7] text-3xl font-bold">Misi</h1>
@@ -217,27 +216,27 @@ function toggleTutors() {
                 alt="Media 1">
           </div>
           <div class="text-center">
-            <img src="../../../../public/img/tentanggabi/12.png" 
+            <img src="../../../public/img/tentanggabi/12.png" 
                 class="w-64 h-64 mx-auto object-contain transition" 
                 alt="Media 2">
           </div>
           <div class="text-center">
-            <img src="../../../../public/img/tentanggabi/13.png" 
+            <img src="../../../public/img/tentanggabi/13.png" 
                 class="w-64 h-64 mx-auto object-contain  transition" 
                 alt="Media 3">
           </div>
           <div class="text-center">
-            <img src="../../../../public/img/tentanggabi/14.png" 
+            <img src="../../../public/img/tentanggabi/14.png" 
                 class="w-64 h-64 mx-auto object-contain  transition" 
                 alt="Media 4">
           </div>
           <div class="text-center">
-            <img src="../../../../public/img/tentanggabi/15.png" 
+            <img src="../../../public/img/tentanggabi/15.png" 
                 class="w-64 h-64 mx-auto object-contain  transition" 
                 alt="Media 5">
           </div>
         </div>
-        <img src="../../../../public/img/tentanggabi/8.png" alt="" class="w-64 h-64 mx-auto">
+        <img src="../../../public/img/tentanggabi/8.png" alt="" class="w-64 h-64 mx-auto">
       </div>
     </section>
 
