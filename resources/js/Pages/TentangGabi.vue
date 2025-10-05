@@ -211,7 +211,7 @@ function toggleTutors() {
         <!-- Grid logo media -->
         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 items-center">
           <div class="text-center">
-            <img src="../../../../public/img/tentanggabi/11.png" 
+            <img src="../../../public/img/tentanggabi/11.png" 
                 class="w-64 h-64 mx-auto object-contain  transition" 
                 alt="Media 1">
           </div>
