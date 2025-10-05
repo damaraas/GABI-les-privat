@@ -8,6 +8,9 @@
       <slot />
     </main>
 
+    <!-- Tombol WA -->
+    <FloatingWA />
+
     <!-- Footer -->
     <Footer />
   </div>
@@ -16,11 +19,13 @@
 <script>
 import Navbar from "../Components/Navbar.vue";
 import Footer from "../Components/Footer.vue";
+import FloatingWA from "../Components/FloatingWA.vue";
 
 export default {
   components: {
     Navbar,  // Pastikan Navbar didaftarkan
-    Footer   // Pastikan Footer didaftarkan
+    Footer,   // Pastikan Footer didaftarkan
+    FloatingWA
   }
 }
 </script>
