@@ -22,5 +22,9 @@ class HomeController extends Controller
         return Inertia::render('Diskon');
     }
 
+    public function tentangGabi()
+    {
+        return Inertia::render('TentangGabi');
+    }
 
 }
