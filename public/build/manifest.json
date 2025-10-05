@@ -1,11 +1,11 @@
 {
-  "_AppLayout-C8gKjH0d.js": {
-    "file": "assets/AppLayout-C8gKjH0d.js",
+  "_AppLayout-ButqDt3m.js": {
+    "file": "assets/AppLayout-ButqDt3m.js",
     "name": "AppLayout",
     "imports": [
       "resources/js/app.js",
-      "_index-CAQSPx3B.js",
-      "_useGenIcon-zNbPFFJZ.js",
+      "_index-GEhBAtwI.js",
+      "_useGenIcon-BoDNKINv.js",
       "__plugin-vue_export-helper-DlAUqK2U.js"
     ],
     "assets": [
@@ -19,29 +19,29 @@
     "file": "assets/_plugin-vue_export-helper-DlAUqK2U.js",
     "name": "_plugin-vue_export-helper"
   },
-  "_index-BQJ2NYjn.js": {
-    "file": "assets/index-BQJ2NYjn.js",
+  "_index-C8eyt_jn.js": {
+    "file": "assets/index-C8eyt_jn.js",
     "name": "index",
     "imports": [
-      "_useGenIcon-zNbPFFJZ.js"
+      "_useGenIcon-BoDNKINv.js"
     ]
   },
-  "_index-CAQSPx3B.js": {
-    "file": "assets/index-CAQSPx3B.js",
+  "_index-CXL3kV0J.js": {
+    "file": "assets/index-CXL3kV0J.js",
     "name": "index",
     "imports": [
-      "_useGenIcon-zNbPFFJZ.js"
+      "_useGenIcon-BoDNKINv.js"
     ]
   },
-  "_index-DYij9n-J.js": {
-    "file": "assets/index-DYij9n-J.js",
+  "_index-GEhBAtwI.js": {
+    "file": "assets/index-GEhBAtwI.js",
     "name": "index",
     "imports": [
-      "_useGenIcon-zNbPFFJZ.js"
+      "_useGenIcon-BoDNKINv.js"
     ]
   },
-  "_useGenIcon-zNbPFFJZ.js": {
-    "file": "assets/useGenIcon-zNbPFFJZ.js",
+  "_useGenIcon-BoDNKINv.js": {
+    "file": "assets/useGenIcon-BoDNKINv.js",
     "name": "useGenIcon",
     "imports": [
       "resources/js/app.js"
@@ -375,8 +375,40 @@
     "file": "assets/Admin Gabi CTA (pakai bohlam)-BVkv3M9k.webp",
     "src": "public/img/maskot/Admin Gabi CTA (pakai bohlam).webp"
   },
+  "public/img/tentanggabi/11.png": {
+    "file": "assets/11-DKm2hD4z.png",
+    "src": "public/img/tentanggabi/11.png"
+  },
+  "public/img/tentanggabi/12.png": {
+    "file": "assets/12-BTW_16-v.png",
+    "src": "public/img/tentanggabi/12.png"
+  },
+  "public/img/tentanggabi/13.png": {
+    "file": "assets/13-6KgeH41e.png",
+    "src": "public/img/tentanggabi/13.png"
+  },
+  "public/img/tentanggabi/14.png": {
+    "file": "assets/14-XhNMxp2G.png",
+    "src": "public/img/tentanggabi/14.png"
+  },
+  "public/img/tentanggabi/15.png": {
+    "file": "assets/15-XnftFcSe.png",
+    "src": "public/img/tentanggabi/15.png"
+  },
+  "public/img/tentanggabi/7.png": {
+    "file": "assets/7-qUIFKPnb.png",
+    "src": "public/img/tentanggabi/7.png"
+  },
+  "public/img/tentanggabi/8.png": {
+    "file": "assets/8-B6UamTQC.png",
+    "src": "public/img/tentanggabi/8.png"
+  },
+  "public/img/tentanggabi/model-anak.png": {
+    "file": "assets/model-anak-BGtSmzAR.png",
+    "src": "public/img/tentanggabi/model-anak.png"
+  },
   "resources/css/app.css": {
-    "file": "assets/app-ysf4DKry.css",
+    "file": "assets/app-CXWV-_Yj.css",
     "src": "resources/css/app.css",
     "isEntry": true,
     "names": [
@@ -384,19 +416,19 @@
     ]
   },
   "resources/js/Pages/Diskon.vue": {
-    "file": "assets/Diskon-CZPjApNt.js",
+    "file": "assets/Diskon-CwO4Xq6u.js",
     "name": "Diskon",
     "src": "resources/js/Pages/Diskon.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_AppLayout-C8gKjH0d.js",
-      "_index-CAQSPx3B.js",
+      "_AppLayout-ButqDt3m.js",
+      "_index-GEhBAtwI.js",
       "resources/js/app.js",
-      "_useGenIcon-zNbPFFJZ.js",
+      "_useGenIcon-BoDNKINv.js",
       "__plugin-vue_export-helper-DlAUqK2U.js"
     ],
     "css": [
-      "assets/app-ysf4DKry.css"
+      "assets/app-CXWV-_Yj.css"
     ],
     "assets": [
       "assets/bannerTrialGABI-CJA46Q_4.webp",
@@ -424,17 +456,17 @@
     ]
   },
   "resources/js/Pages/HomePage/Components/Cta.vue": {
-    "file": "assets/Cta-DRudL_HD.js",
+    "file": "assets/Cta-DrKD0bwK.js",
     "name": "Cta",
     "src": "resources/js/Pages/HomePage/Components/Cta.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_index-BQJ2NYjn.js",
+      "_index-C8eyt_jn.js",
       "resources/js/app.js",
-      "_useGenIcon-zNbPFFJZ.js"
+      "_useGenIcon-BoDNKINv.js"
     ],
     "css": [
-      "assets/app-ysf4DKry.css"
+      "assets/app-CXWV-_Yj.css"
     ],
     "assets": [
       "assets/quicksand-vietnamese-400-normal-CYVZRxRj.woff2",
@@ -460,17 +492,17 @@
     ]
   },
   "resources/js/Pages/HomePage/Components/Faq.vue": {
-    "file": "assets/Faq-VW9X23He.js",
+    "file": "assets/Faq-nx5ebWPe.js",
     "name": "Faq",
     "src": "resources/js/Pages/HomePage/Components/Faq.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_index-BQJ2NYjn.js",
+      "_index-C8eyt_jn.js",
       "resources/js/app.js",
-      "_useGenIcon-zNbPFFJZ.js"
+      "_useGenIcon-BoDNKINv.js"
     ],
     "css": [
-      "assets/app-ysf4DKry.css"
+      "assets/app-CXWV-_Yj.css"
     ],
     "assets": [
       "assets/quicksand-vietnamese-400-normal-CYVZRxRj.woff2",
@@ -496,20 +528,20 @@
     ]
   },
   "resources/js/Pages/HomePage/Components/Hero.vue": {
-    "file": "assets/Hero-DPDF0HNL.js",
+    "file": "assets/Hero-CBZJfFHh.js",
     "name": "Hero",
     "src": "resources/js/Pages/HomePage/Components/Hero.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_index-CAQSPx3B.js",
-      "_index-BQJ2NYjn.js",
+      "_index-GEhBAtwI.js",
+      "_index-C8eyt_jn.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
       "resources/js/app.js",
-      "_useGenIcon-zNbPFFJZ.js"
+      "_useGenIcon-BoDNKINv.js"
     ],
     "css": [
       "assets/Hero-CxjawBr3.css",
-      "assets/app-ysf4DKry.css"
+      "assets/app-CXWV-_Yj.css"
     ],
     "assets": [
       "assets/quicksand-vietnamese-400-normal-CYVZRxRj.woff2",
@@ -535,19 +567,19 @@
     ]
   },
   "resources/js/Pages/HomePage/Components/Keunggulan.vue": {
-    "file": "assets/Keunggulan-DzQ60bMh.js",
+    "file": "assets/Keunggulan-Dzhnsykg.js",
     "name": "Keunggulan",
     "src": "resources/js/Pages/HomePage/Components/Keunggulan.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_index-DYij9n-J.js",
-      "_index-CAQSPx3B.js",
+      "_index-CXL3kV0J.js",
+      "_index-GEhBAtwI.js",
       "resources/js/app.js",
-      "_useGenIcon-zNbPFFJZ.js"
+      "_useGenIcon-BoDNKINv.js"
     ],
     "css": [
       "assets/Keunggulan-sulbyYQW.css",
-      "assets/app-ysf4DKry.css"
+      "assets/app-CXWV-_Yj.css"
     ],
     "assets": [
       "assets/quicksand-vietnamese-400-normal-CYVZRxRj.woff2",
@@ -573,18 +605,18 @@
     ]
   },
   "resources/js/Pages/HomePage/Components/Layanan.vue": {
-    "file": "assets/Layanan-CBE0uHO1.js",
+    "file": "assets/Layanan-CjCOnEzI.js",
     "name": "Layanan",
     "src": "resources/js/Pages/HomePage/Components/Layanan.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_index-DYij9n-J.js",
-      "_useGenIcon-zNbPFFJZ.js",
+      "_index-CXL3kV0J.js",
+      "_useGenIcon-BoDNKINv.js",
       "resources/js/app.js"
     ],
     "css": [
       "assets/Keunggulan-sulbyYQW.css",
-      "assets/app-ysf4DKry.css"
+      "assets/app-CXWV-_Yj.css"
     ],
     "assets": [
       "assets/quicksand-vietnamese-400-normal-CYVZRxRj.woff2",
@@ -610,17 +642,17 @@
     ]
   },
   "resources/js/Pages/HomePage/Components/Testimoni.vue": {
-    "file": "assets/Testimoni-BMFw9gPj.js",
+    "file": "assets/Testimoni-wq6YrWTM.js",
     "name": "Testimoni",
     "src": "resources/js/Pages/HomePage/Components/Testimoni.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_index-DYij9n-J.js",
+      "_index-CXL3kV0J.js",
       "resources/js/app.js",
-      "_useGenIcon-zNbPFFJZ.js"
+      "_useGenIcon-BoDNKINv.js"
     ],
     "css": [
-      "assets/app-ysf4DKry.css"
+      "assets/app-CXWV-_Yj.css"
     ],
     "assets": [
       "assets/quicksand-vietnamese-400-normal-CYVZRxRj.woff2",
@@ -646,27 +678,27 @@
     ]
   },
   "resources/js/Pages/HomePage/Index.vue": {
-    "file": "assets/Index-BBFcSuZE.js",
+    "file": "assets/Index-DLkFqia5.js",
     "name": "Index",
     "src": "resources/js/Pages/HomePage/Index.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.js",
-      "_AppLayout-C8gKjH0d.js",
+      "_AppLayout-ButqDt3m.js",
       "resources/js/Pages/HomePage/Components/Cta.vue",
       "resources/js/Pages/HomePage/Components/Faq.vue",
       "resources/js/Pages/HomePage/Components/Hero.vue",
       "resources/js/Pages/HomePage/Components/Keunggulan.vue",
       "resources/js/Pages/HomePage/Components/Layanan.vue",
       "resources/js/Pages/HomePage/Components/Testimoni.vue",
-      "_index-CAQSPx3B.js",
-      "_useGenIcon-zNbPFFJZ.js",
+      "_index-GEhBAtwI.js",
+      "_useGenIcon-BoDNKINv.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
-      "_index-BQJ2NYjn.js",
-      "_index-DYij9n-J.js"
+      "_index-C8eyt_jn.js",
+      "_index-CXL3kV0J.js"
     ],
     "css": [
-      "assets/app-ysf4DKry.css"
+      "assets/app-CXWV-_Yj.css"
     ],
     "assets": [
       "assets/quicksand-vietnamese-400-normal-CYVZRxRj.woff2",
@@ -692,19 +724,19 @@
     ]
   },
   "resources/js/Pages/Promo.vue": {
-    "file": "assets/Promo-Clj982oy.js",
+    "file": "assets/Promo-BN7c-K8_.js",
     "name": "Promo",
     "src": "resources/js/Pages/Promo.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_AppLayout-C8gKjH0d.js",
+      "_AppLayout-ButqDt3m.js",
       "resources/js/app.js",
-      "_index-CAQSPx3B.js",
-      "_useGenIcon-zNbPFFJZ.js",
+      "_index-GEhBAtwI.js",
+      "_useGenIcon-BoDNKINv.js",
       "__plugin-vue_export-helper-DlAUqK2U.js"
     ],
     "css": [
-      "assets/app-ysf4DKry.css"
+      "assets/app-CXWV-_Yj.css"
     ],
     "assets": [
       "assets/quicksand-vietnamese-400-normal-CYVZRxRj.woff2",
@@ -729,8 +761,54 @@
       "assets/poppins-latin-400-normal-BOb3E3N0.woff"
     ]
   },
+  "resources/js/Pages/TentangGabi.vue": {
+    "file": "assets/TentangGabi-CdfJ8EjH.js",
+    "name": "TentangGabi",
+    "src": "resources/js/Pages/TentangGabi.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_AppLayout-ButqDt3m.js",
+      "resources/js/app.js",
+      "_index-GEhBAtwI.js",
+      "_useGenIcon-BoDNKINv.js",
+      "__plugin-vue_export-helper-DlAUqK2U.js"
+    ],
+    "css": [
+      "assets/app-CXWV-_Yj.css"
+    ],
+    "assets": [
+      "assets/model-anak-BGtSmzAR.png",
+      "assets/7-qUIFKPnb.png",
+      "assets/11-DKm2hD4z.png",
+      "assets/12-BTW_16-v.png",
+      "assets/13-6KgeH41e.png",
+      "assets/14-XhNMxp2G.png",
+      "assets/15-XnftFcSe.png",
+      "assets/8-B6UamTQC.png",
+      "assets/quicksand-vietnamese-400-normal-CYVZRxRj.woff2",
+      "assets/quicksand-vietnamese-400-normal-D4WCpyCa.woff",
+      "assets/quicksand-latin-ext-400-normal-BdPaGDPN.woff2",
+      "assets/quicksand-latin-ext-400-normal-BzqwlOho.woff",
+      "assets/quicksand-latin-400-normal-BSDtH9U0.woff2",
+      "assets/quicksand-latin-400-normal-BqXBKzPR.woff",
+      "assets/onest-cyrillic-ext-400-normal-DZPvZ-E5.woff2",
+      "assets/onest-cyrillic-ext-400-normal-DHQn8lY1.woff",
+      "assets/onest-cyrillic-400-normal-DH8vlB-A.woff2",
+      "assets/onest-cyrillic-400-normal-BxvCLB5P.woff",
+      "assets/onest-latin-ext-400-normal--mQR5RlC.woff2",
+      "assets/onest-latin-ext-400-normal-BbXTNVXw.woff",
+      "assets/onest-latin-400-normal-bladozIj.woff2",
+      "assets/onest-latin-400-normal-BAzPRZHg.woff",
+      "assets/poppins-devanagari-400-normal-CJDn6rn8.woff2",
+      "assets/poppins-devanagari-400-normal-CqVvlrh5.woff",
+      "assets/poppins-latin-ext-400-normal-by3JarPu.woff2",
+      "assets/poppins-latin-ext-400-normal-DaBSavcJ.woff",
+      "assets/poppins-latin-400-normal-cpxAROuN.woff2",
+      "assets/poppins-latin-400-normal-BOb3E3N0.woff"
+    ]
+  },
   "resources/js/app.js": {
-    "file": "assets/app-CBcJZ1vD.js",
+    "file": "assets/app-B3h20FMa.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
@@ -743,11 +821,12 @@
       "resources/js/Pages/HomePage/Components/Layanan.vue",
       "resources/js/Pages/HomePage/Components/Testimoni.vue",
       "resources/js/Pages/HomePage/Index.vue",
-      "resources/js/Pages/Promo.vue"
+      "resources/js/Pages/Promo.vue",
+      "resources/js/Pages/TentangGabi.vue"
     ],
     "css": [
       "assets/app-ovNPYoL3.css",
-      "assets/app-ysf4DKry.css"
+      "assets/app-CXWV-_Yj.css"
     ],
     "assets": [
       "assets/onest-cyrillic-ext-300-normal--bghL-mm.woff2",
