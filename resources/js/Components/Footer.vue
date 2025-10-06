@@ -111,6 +111,6 @@ import { BsLinkedin } from "vue-icons-plus/bs";
     <!-- Copyright -->
     </div>
       <div class="border-t border-2 border-white mx-8 mb-4"></div>
-      <p>&copy; {{ new Date().getFullYear() }} Gatraco Les Privat. All rights reserved.</p>
+      <p>&copy; {{ new Date().getFullYear() }} Gabi Les Privat. All rights reserved.</p>
     </footer>
 </template>
