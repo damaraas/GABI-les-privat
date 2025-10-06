@@ -32,7 +32,7 @@ defineProps({
 
                     <!-- CTA Button -->
                     <a
-                        href="https://wa.me/6285712230349"
+                        href="https://wa.me/6281234567890?text=Halo MinBi! Saya mau tanya info mengenai les privat di GABI. Bisa dibantu?"
                         target="_blank"
                         class="items-center gap-3 bg-green text-white font-semibold text-lg md:text-xl px-8 py-4 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl lg:inline-flex hidden"
                     >

@@ -92,7 +92,7 @@ const toggleFaq = (index) => {
                     <div
                         class="lg:flex justify-center items-center hidden"
                     >
-                        <a :href="'https://wa.me/' + whatsappNumber + '?text=Halo MinBi! Saya mau tanya info mengenai les privat di GABI. Bisa dibantu?'" target="_blank"
+                        <a href="#" target="_blank"
                             class="inline-flex items-center gap-3 bg-green text-white font-bold text-lg px-10 py-4 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg justify-center border-white border-2"
                         >
                             <Fa6Whatsapp class="w-10 h-10" />
@@ -159,7 +159,7 @@ const toggleFaq = (index) => {
                     <div
                         class="flex justify-center items-center mt-10 mb-10 lg:hidden"
                     >
-                        <a :href="'https://wa.me/' + whatsappNumber" target="_blank"
+                        <a href="#" target="_blank"
                             class="inline-flex items-center gap-3 bg-green text-white font-bold text-sm px-6 py-4 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg justify-center border-white border-2"
                         >
                             <Fa6Whatsapp class="w-8 h-8" />
