@@ -21,9 +21,10 @@ const packages = ref({
                 "Persiapan masuk SD",
                 "Bahasa dan Lagu",
             ],
+            whatsappMessage: "Halo MinBi, saya mau daftar Les Privat TK, bisa dibantu? Terimakasih."
         },
         {
-            title: "Les Privat SD (3-5)",
+            title: "Les Privat SD",
             price: "Rp 1.176.000",
             sessions: " sesi dan 60-90 menit per-sesi",
             notes: "Harga bisa berubah sesuai area",
@@ -34,6 +35,7 @@ const packages = ref({
                 "Bahasa Indonesia",
                 "English basic",
             ],
+            whatsappMessage: "Halo MinBi, saya mau daftar Les Privat SD, bisa dibantu Terimakasih."
         },
         {
             title: "Les Privat SMP",
@@ -42,6 +44,7 @@ const packages = ref({
             notes: "Harga bisa berubah sesuai area",
             color: "bg-[#45FF4B]",
             features: ["Semua mapel", "Persiapan UN", "Penguatan konsep ujian"],
+            whatsappMessage: "Halo MinBi, saya mau daftar Les Privat SMP, bisa dibantu Terimakasih."
         },
         {
             title: "Les Privat SMA",
@@ -56,6 +59,7 @@ const packages = ref({
                 "Fisika",
                 "Ekonomi, dll.",
             ],
+            whatsappMessage: "Halo MinBi, saya mau daftar Les Privat SMA, bisa dibantu Terimakasih."
         },
         {
             title: "Les Persiapan UTBK",
@@ -68,6 +72,7 @@ const packages = ref({
                 "TPS & TKA (Saintek/Soshum)",
                 "Practice / Try Out",
             ],
+            whatsappMessage: "Halo Minbi, saya tertarik daftar Les Persiapan UTBK, bisa dibantu Terimakasih."
         },
     ],
     Tech: [
@@ -85,6 +90,7 @@ const packages = ref({
                 "Database (MySQL)",
                 "React",
             ],
+            whatsappMessage: "Halo MinBi, saya tertarik daftar Les Coding, bisa dibantu Terimakasih."
         },
     ],
     Bahasa: [
@@ -95,6 +101,7 @@ const packages = ref({
             notes: "Harga bisa berubah sesuai area",
             color: "bg-secondary",
             features: ["Iqro", "Tahsin", "Tahfidz", "Bimbingan Al-Qur’an"],
+            whatsappMessage: "Halo MinBi, saya mau daftar Les Privat Mengaji, bisa dibantu Terimakasih."
         },
         {
             title: "Les Privat Bahasa Mandarin",
@@ -107,6 +114,7 @@ const packages = ref({
                 "Penulisan Hanzi",
                 "Persiapan HSK 1-6",
             ],
+            whatsappMessage: "Halo MinBi, saya mau daftar Les Privat Bahasa Mandarin, bisa dibantu Terimakasih."
         },
         {
             title: "Program English (IELTS/TOEFL)",
@@ -121,6 +129,7 @@ const packages = ref({
                 "Writing & Speaking",
                 "Practice, Try Out",
             ],
+            whatsappMessage: "Halo MinBi, saya tertarik daftar Program IELTS/TOEFL, bisa dibantu Terimakasih."
         },
     ],
 });
@@ -136,6 +145,11 @@ const scroll = (direction) => {
                 : scrollLeft + clientWidth;
         scrollRef.value.scrollTo({ left: scrollTo, behavior: "smooth" });
     }
+};
+
+const whatsappUrl = (message) => {
+    const encodedMessage = encodeURIComponent(message);
+    return `https://wa.me/6285712230349?text=${encodedMessage}`;  // Replace with the actual number
 };
 </script>
 
@@ -229,12 +243,17 @@ const scroll = (direction) => {
                             </ul>
                         </div>
                         <div class="p-4">
-                            <button
-                                class="mt-auto font-bold shadow tracking-wider text-white w-full py-2 rounded-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-lg hover:opacity-90"
-                                :class="pack.color"
+                            <a
+                                :href="whatsappUrl(pack.whatsappMessage)"
+                                target="_blank"
                             >
-                                Pilih Paket Ini
-                            </button>
+                                <button
+                                    class="mt-auto font-bold shadow tracking-wider text-white w-full py-2 rounded-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-lg hover:opacity-90"
+                                    :class="pack.color"
+                                >
+                                    Pilih Paket Ini
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
