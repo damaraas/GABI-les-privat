@@ -32,45 +32,81 @@ function toggleTutors() {
 
     <!-- Jumbotron -->
     <section id="jumbotron">
-        <div class="container mx-auto px-4 bg-[#FDD636]">
-            <div class="flex flex-wrap">
-              <div class="w-full px-4">
-                <h1 class="font-bold text-center text-4xl mt-20">Belajar Lebih Personal, Prestasi Lebih Maksimal</h1>
-                <p class="mt-10 text-justify pl-20 pr-20">
-                  Gabi les privat hadir sebagai solusi untuk kebutuhan bimbingan belajar dan les privat di 
-                  Jabodetabek dan Pulau Jawa. Dengan tutor berpengalaman, kami percaya setiap siswa punya 
-                  potensi unik yang bisa dikembangkan melalui pembelajaran personal. Gabi les privat 
-                  berkomitmen menyediakan pengalaman belajar yang interaktif, adaptif, dan menyenangkan dalam 
-                  semua mata pelajaran.
-                </p>
-                <div class="flex items-center justify-center">
-                  <img src="../../../public/img/tentanggabi/model-anak.png" alt=""></img>
-                </div>
-              </div>
+      <div class="container mx-auto px-4 bg-[#FDD636]">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4">
+
+            <!-- Judul -->
+            <h1 class="font-bold text-center 
+                      text-2xl sm:text-3xl md:text-4xl 
+                      lg:text-4xl lg:mt-20">
+              Belajar Lebih Personal, Prestasi Lebih Maksimal
+            </h1>
+
+            <!-- Deskripsi -->
+            <p class="mt-6 sm:mt-8 text-justify 
+                      text-sm sm:text-base md:text-lg 
+                      px-6 sm:px-10 md:px-20 lg:pl-20 lg:pr-20">
+              Gabi les privat hadir sebagai solusi untuk kebutuhan bimbingan belajar dan les privat di 
+              Jabodetabek dan Pulau Jawa. Dengan tutor berpengalaman, kami percaya setiap siswa punya 
+              potensi unik yang bisa dikembangkan melalui pembelajaran personal. Gabi les privat 
+              berkomitmen menyediakan pengalaman belajar yang interaktif, adaptif, dan menyenangkan dalam 
+              semua mata pelajaran.
+            </p>
+
+            <!-- Gambar -->
+            <div class="flex items-center justify-center mt-8 lg:mt-0">
+              <img 
+                src="../../../../public/img/tentanggabi/model-anak.png" 
+                alt="Model anak Gabi Les Privat"
+                class="w-4/5 sm:w-2/3 md:w-1/2 lg:w-auto object-contain"
+              >
             </div>
+
+          </div>
         </div>
+      </div>
     </section>
+
 
     <!-- Visi Misi -->
     <section id="visi_misi">
       <div class="container mx-auto px-4">
-        <div class="flex flex-wrap mt-30">
-          <h1 class="w-full font-bold text-center text-4xl mt-10">Visi Misi Gabi</h1>
-          <div class="flex flex-col lg:flex-row justify-between items-stretch gap-10 mt-10 mb-30">
-            <!-- bagian visi -->
-            <div class="flex-1 flex flex-col">
-              <h1 class="text-[#11B2F7] text-3xl font-bold">Visi</h1>
-              <p class="mt-10 text-justify flex-grow text-2xl">
+        <div class="flex flex-wrap mt-10 lg:mt-30">
+          
+          <!-- Judul Utama -->
+          <h1 class="w-full font-bold text-center text-2xl sm:text-3xl lg:text-4xl mt-10">
+            Visi Misi Gabi
+          </h1>
+
+          <!-- Wrapper utama -->
+          <div class="flex flex-col lg:flex-row justify-between items-stretch gap-8 sm:gap-10 mt-10 mb-10 lg:mb-30">
+
+            <!-- Bagian Visi-->
+            <div class="flex-1 flex flex-col order-1 lg:order-1">
+              <h2 class="text-[#11B2F7] text-xl sm:text-2xl lg:text-3xl font-bold text-left">
+                Visi
+              </h2>
+              <p class="mt-6 sm:mt-8 text-justify text-base sm:text-lg lg:text-2xl leading-relaxed flex-grow">
                 Menjadi penyedia les privat terbaik di Jabodetabek dan Pulau Jawa yang membantu siswa 
                 meraih prestasi akademik dan membentuk generasi yang cerdas, kritis, dan siap bersaing di 
                 era global.
               </p>
-              <img src="../../../public/img/tentanggabi/7.png" class="w-full max-w-xs mx-auto mt-6 object-contain" alt="Visi Gabi">
+
+              <!-- Gambar (muncul di bawah Visi untuk laptop -->
+              <img 
+                src="../../../../public/img/tentanggabi/7.png" 
+                alt="Visi Gabi"
+                class="hidden lg:block w-full max-w-xs mx-auto mt-6 object-contain"
+              >
             </div>
-            <!-- bagian Misi -->
-            <div class="flex-1 flex flex-col">
-              <h1 class="text-[#11B2F7] text-3xl font-bold">Misi</h1>
-              <ul class="list-disc pl-6 space-y-2 mt-10 flex-grow pr-20 text-2xl text-justify">
+
+            <!-- Bagian Misi  -->
+            <div class="flex-1 flex flex-col order-2 lg:order-2">
+              <h2 class="text-[#11B2F7] text-xl sm:text-2xl lg:text-3xl font-bold text-left">
+                Misi
+              </h2>
+              <ul class="list-disc pl-6 sm:pl-8 mt-6 sm:mt-8 flex-grow text-base sm:text-lg lg:text-2xl text-justify space-y-3 sm:space-y-4 lg:pr-20">
                 <li>Menyediakan tutor privat berpengalaman sesuai bidangnya.</li>
                 <li>Memberikan metode belajar interaktif dan menyesuaikan dengan minat, bakat, serta kebutuhan siswa.</li>
                 <li>Menjadi teman belajar yang mendukung pemahaman semua mata pelajaran.</li>
@@ -79,14 +115,27 @@ function toggleTutors() {
                   les privat TK, les privat SD, 
                   les privat SMP, les privat SMA, 
                   hingga les privat Universitas dengan pembelajaran 
-                  yang fokus, personal dan relevan.
+                  yang fokus, personal, dan relevan.
                 </li>
               </ul>
             </div>
+
+            <!--  Gambar untuk Mobile (di bawah Misi) -->
+            <div class="block lg:hidden order-3 w-full flex justify-center mt-8">
+              <img 
+                src="../../../../public/img/tentanggabi/7.png" 
+                alt="Visi Gabi"
+                class="w-3/4 sm:w-2/3 max-w-xs object-contain"
+              >
+            </div>
+
           </div>
         </div>
       </div>
     </section>
+
+
+
 
 
     <!-- Nilai Kami -->
@@ -99,7 +148,7 @@ function toggleTutors() {
           </h1>
 
           <!-- Paragraf -->
-          <p class="text-center bg-[#FDD636] pt-20 pb-20 pl-5 pr-5 rounded-2xl max-w-5xl shadow-lg mb-10">
+          <p class="text-justify lg:text-center bg-[#FDD636] pt-20 pb-20 pl-5 pr-5 rounded-2xl max-w-5xl shadow-lg mb-10">
             Di Gabi, kami percaya setiap anak memiliki potensi unik. Karena itu, metode pengajaran 
             selalu disesuaikan dengan kebutuhan, karakter, dan gaya belajar masing-masing siswa. Kami 
             ingin menumbuhkan rasa cinta belajar yang membuat anak terdorong untuk terus berkembang. 
@@ -211,32 +260,36 @@ function toggleTutors() {
         <!-- Grid logo media -->
         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 items-center">
           <div class="text-center">
-            <img src="../../../public/img/tentanggabi/11.png" 
-                class="w-64 h-64 mx-auto object-contain  transition" 
+            <img src="../../../../public/img/tentanggabi/11.png" 
+                class="w-40 sm:w-48 md:w-64 h-auto mx-auto object-contain transition" 
                 alt="Media 1">
           </div>
           <div class="text-center">
-            <img src="../../../public/img/tentanggabi/12.png" 
-                class="w-64 h-64 mx-auto object-contain transition" 
+            <img src="../../../../public/img/tentanggabi/12.png" 
+                class="w-40 sm:w-48 md:w-64 h-auto mx-auto object-contain transition" 
                 alt="Media 2">
           </div>
           <div class="text-center">
-            <img src="../../../public/img/tentanggabi/13.png" 
-                class="w-64 h-64 mx-auto object-contain  transition" 
+            <img src="../../../../public/img/tentanggabi/13.png" 
+                class="w-40 sm:w-48 md:w-64 h-auto mx-auto object-contain transition" 
                 alt="Media 3">
           </div>
           <div class="text-center">
-            <img src="../../../public/img/tentanggabi/14.png" 
-                class="w-64 h-64 mx-auto object-contain  transition" 
+            <img src="../../../../public/img/tentanggabi/14.png" 
+                class="w-40 sm:w-48 md:w-64 h-auto mx-auto object-contain transition" 
                 alt="Media 4">
           </div>
-          <div class="text-center">
-            <img src="../../../public/img/tentanggabi/15.png" 
-                class="w-64 h-64 mx-auto object-contain  transition" 
+
+          <!-- Logo terakhir (tengah di mobile) -->
+          <div class="col-span-2 sm:col-span-1 flex justify-center md:block">
+            <img src="../../../../public/img/tentanggabi/15.png" 
+                class="w-40 sm:w-48 md:w-64 h-auto mx-auto object-contain transition" 
                 alt="Media 5">
           </div>
         </div>
-        <img src="../../../public/img/tentanggabi/8.png" alt="" class="w-64 h-64 mx-auto">
+
+        <!-- Gambar tambahan bawah -->
+        <img src="../../../../public/img/tentanggabi/8.png" alt="" class="w-64 h-64 mx-auto mt-10 object-contain">
       </div>
     </section>
 
@@ -244,20 +297,37 @@ function toggleTutors() {
     <!-- Siap Tingkatkan -->
     <section id="nilai">
       <div class="container mx-auto px-4">
-        <div class="flex flex-wrap mt-30">
-          <h1 class="w-full font-bold text-center text-4xl mt-20">Siap Tigkatkan Prestasi Belajar ? </h1>
-          <h2 class="w-full text-2xl text-center mt-10 pl-15 pr-15">
-            Yuk, coba trial class gratis atau langsung konsultasi kebutuhan belajarmu. Hubungi MinBi sekarang 
-            dan temukan tutor terbaik
+        <div class="flex flex-wrap mt-20 lg:mt-30">
+          
+          <!-- Judul -->
+          <h1 class="w-full font-bold text-center 
+                    text-2xl sm:text-3xl lg:text-4xl 
+                    mt-10 lg:mt-20">
+            Siap Tingkatkan Prestasi Belajar?
+          </h1>
+          
+          <!-- Subjudul / H2 -->
+          <h2 class="w-full text-center 
+                    text-base sm:text-lg lg:text-2xl 
+                    mt-6 sm:mt-8 lg:mt-10 
+                    px-4 sm:px-8 lg:px-15">
+            Yuk, coba trial class gratis atau langsung konsultasi kebutuhan belajarmu.  
+            Hubungi MinBi sekarang dan temukan tutor terbaik
           </h2>
-          <div class="w-full flex justify-center items-center mt-10 mb-30">
-            <button class="bg-yellow-400 text-black text-center font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-yellow-500 transition duration-300">
+          
+          <!-- Tombol -->
+          <div class="w-full flex justify-center items-center mt-8 sm:mt-10 lg:mt-10 mb-30 lg:mb-30">
+            <button class="bg-yellow-400 text-black text-center font-semibold 
+                          px-6 py-3 rounded-full shadow-lg 
+                          hover:bg-yellow-500 transition duration-300">
               Hubungi Kami
             </button>
           </div>
+          
         </div>
       </div>
     </section>
+
 
   </AppLayout>
 </template>
