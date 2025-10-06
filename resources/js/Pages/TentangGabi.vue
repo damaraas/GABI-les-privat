@@ -236,7 +236,7 @@ function toggleTutors() {
         </div>
 
         <!-- Tombol -->
-        <div class="flex justify-evenly mt-10">
+        <div class="flex flex-col sm:flex-row sm:justify-evenly mt-10 gap-4 sm:gap-0">
           <button class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-6 rounded-lg shadow">
             Mulai Belajar
           </button>
@@ -246,6 +246,7 @@ function toggleTutors() {
             {{ showExtra ? "Kembali" : "Lihat Tutor Lainnya" }}
           </button>
         </div>
+
       </div>
     </div>
   </section>
@@ -253,9 +254,11 @@ function toggleTutors() {
     <!-- Partnership -->
     <section id="partnership">
       <div class="container mx-auto px-4 py-16 bg-[#11B2F7]">
-        <h1 class="text-center text-white text-3xl md:text-4xl font-bold mb-12 leading-snug">
-          Telah diliput oleh berbagai media, <span class="text-yellow-200">GABI</span> diakui sebagai solusi belajar terpercaya
+        <h1 class="text-center text-white text-lg sm:text-2xl md:text-4xl font-bold mb-12 leading-snug">
+          Telah diliput oleh berbagai media, 
+          <span class="text-yellow-200">GABI</span> diakui sebagai solusi belajar terpercaya
         </h1>
+
 
         <!-- Grid logo media -->
         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 items-center">
