@@ -28,38 +28,51 @@ const problems = [
         desc: "Metode interaktif dan materi variatif membuat anak tetap bersemangat. Hasil belajar lebih maksimal dan menyenangkan!",
     },
 ];
+
+// Template untuk CTA WhatsApp
+const ctaButtons = {
+    searchTeacher: {
+        label: "Cari Guru",
+        icon: SiWhatsapp,
+        href: "https://wa.me/6281234567890?text=Halo MinBi! Saya mau tanya info mengenai les privat di GABI. Bisa dibantu?",
+        text: "Cari Guru"
+    },
+    consultAdmin: {
+        label: "Konsultasikan dengan admin",
+        icon: SiWhatsapp,
+        href: "https://wa.me/6281234567890?text=Halo MinBi! Saya mau tanya info mengenai les privat di GABI. Bisa dibantu?",
+        text: "Konsultasikan dengan admin"
+    },
+    mobileConsultAdmin: {
+        label: "Konsultasikan dengan admin",
+        icon: SiWhatsapp,
+        href: "https://wa.me/6281234567890?text=Halo MinBi! Saya mau tanya info mengenai les privat di GABI. Bisa dibantu?",
+        text: "Konsultasikan dengan admin"
+    },
+};
 </script>
 
 <template>
-    <div
-        class="flex flex-col lg:flex-row px-6 md:px-10 w-full py-5 bg-gray-100"
-    >
+    <div class="flex flex-col lg:flex-row px-6 md:px-10 w-full py-5 bg-gray-100">
         <!-- LEFT CONTENT -->
-        <div
-            class="w-full lg:w-7/12 space-y-6 text-left py-6 lg:py-10 lg:px-10"
-        >
-            <h1
-                class="text-lg sm:text-2xl md:text-3xl lg:text-2xl font-bold leading-snug sm:leading-tight text-gray-900 font-onest"
-            >
-                Les Privat TK, SD, SMP, SMA, MAHASISWA dan KARYAWAN Terbaik di
-                Jabodetabek dan Pulau Jawa. Semua Pelajaran, Semua Jenjang.
+        <div class="w-full lg:w-7/12 space-y-6 text-left py-6 lg:py-10 lg:px-10">
+            <h1 class="text-lg sm:text-2xl md:text-3xl lg:text-2xl font-bold leading-snug sm:leading-tight text-gray-900 font-onest">
+                Les Privat TK, SD, SMP, SMA, MAHASISWA dan KARYAWAN Terbaik di Jabodetabek dan Pulau Jawa. Semua Pelajaran, Semua Jenjang.
                 <span class="font-bold text-blue-800">Satu Solusi GABI</span>
             </h1>
-            <p
-                class="text-gray-500 text-xs sm:text-sm md:text-base font-onest font-extralight"
-            >
-                GABI siapkan guru privat ke rumah atau online buat semua mata
-                pelajaran dari TK sampai SMA bahkan kuliah. GABI punya ribuan
-                guru berpengalaman yang bisa disesuaikan sama kebutuhan kamu.
+            <p class="text-gray-500 text-xs sm:text-sm md:text-base font-onest font-extralight">
+                GABI siapkan guru privat ke rumah atau online buat semua mata pelajaran dari TK sampai SMA bahkan kuliah. GABI punya ribuan guru berpengalaman yang bisa disesuaikan sama kebutuhan kamu.
             </p>
 
             <!-- CTA Button -->
             <div>
                 <a
-                    href="https://wa.me/6285712230349"
+                    :href="ctaButtons.searchTeacher.href"
+                    target="_blank"
                     class="inline-flex items-center px-4 py-2 sm:px-6 sm:py-3 bg-green hover:bg-green-600 text-white text-sm sm:text-md font-semibold rounded-lg shadow transition"
                 >
-                    <SiWhatsapp class="mr-2 w-4 h-4 sm:w-5 sm:h-5" />Cari Guru
+                    <component :is="ctaButtons.searchTeacher.icon" class="mr-2 w-4 h-4 sm:w-5 sm:h-5" />
+                    {{ ctaButtons.searchTeacher.label }}
                 </a>
             </div>
         </div>
@@ -82,12 +95,8 @@ const problems = [
     </div>
 
     <!-- kurikulum -->
-    <div
-        class="px-4 sm:px-6 md:px-10 w-full py-8 sm:py-10 relative -top-16 lg:-top-[83px]"
-    >
-        <div
-            class="bg-primary p-2 sm:p-3 rounded-2xl w-full overflow-hidden shadow-lg"
-        >
+    <div class="px-4 sm:px-6 md:px-10 w-full py-8 sm:py-10 relative -top-16 lg:-top-[83px]">
+        <div class="bg-primary p-2 sm:p-3 rounded-2xl w-full overflow-hidden shadow-lg">
             <div class="flex items-center gap-6 sm:gap-10 animate-slide">
                 <!-- Looping dua kali supaya infinite -->
                 <template v-for="n in 4" :key="n">
@@ -108,15 +117,11 @@ const problems = [
     <div class="bg-white w-full relative -top-16 px-4 sm:px-6 md:px-10">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
             <!-- LEFT CONTENT -->
-            <div
-                class="space-y-6 lg:px-0 px-5 text-left relative top-7 lg:-top-16"
-            >
+            <div class="space-y-6 lg:px-0 px-5 text-left relative top-7 lg:-top-16">
                 <p class="text-gray-800 lg:text-md text-mlg font-medium mb-2">
                     Problem & Solusi
                 </p>
-                <h2
-                    class="text-3xl sm:text-3xl md:text-4xl font-bold leading-snug text-gray-900"
-                >
+                <h2 class="text-3xl sm:text-3xl md:text-4xl font-bold leading-snug text-gray-900">
                     Belajar jadi beban? <br />
                     Atau tutor yang membuat orang tua kecewa?
                 </h2>
@@ -126,12 +131,11 @@ const problems = [
 
                 <div class="hidden lg:block">
                     <a
-                        href="https://wa.me/6285712230349"
+                        :href="ctaButtons.consultAdmin.href"
                         target="_blank"
                         class="inline-flex items-center px-5 py-3 bg-green hover:bg-green-900 text-white text-sm sm:text-base font-semibold rounded-lg shadow transition"
                     >
-                        <SiWhatsapp class="mr-2 w-5 h-5" /> Konsultasikan dengan
-                        admin
+                        <component :is="ctaButtons.consultAdmin.icon" class="mr-2 w-5 h-5" /> {{ ctaButtons.consultAdmin.label }}
                     </a>
                 </div>
             </div>
@@ -164,12 +168,12 @@ const problems = [
                     Tenang Kami Punya Jawabannya!
                 </p>
                 <a
-                    href="https://wa.me/6281234567890"
+                    :href="ctaButtons.mobileConsultAdmin.href"
                     target="_blank"
                     class="inline-flex items-center px-10 py-3 bg-green-500 hover:bg-green-600 text-white text-sm sm:text-base font-semibold rounded-lg shadow transition"
                 >
-                    <SiWhatsapp class="mr-2 w-5 h-5" /> Konsultasikan dengan
-                    admin
+                    <component :is="ctaButtons.mobileConsultAdmin.icon" class="mr-2 w-5 h-5" />
+                    {{ ctaButtons.mobileConsultAdmin.label }}
                 </a>
             </div>
         </div>
