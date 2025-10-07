@@ -300,7 +300,7 @@ function toggleTutors() {
         </div>
 
         <!-- Gambar tambahan bawah -->
-        <img src="../../public/img/tentanggabi/8.png" alt="" class="w-64 h-64 mx-auto mt-10 object-contain">
+        <img src="../../../public/img/tentanggabi/8.png" alt="" class="w-64 h-64 mx-auto mt-10 object-contain">
       </div>
     </section>
 
