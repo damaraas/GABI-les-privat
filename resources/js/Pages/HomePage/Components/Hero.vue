@@ -34,19 +34,19 @@ const ctaButtons = {
     searchTeacher: {
         label: "Cari Guru",
         icon: SiWhatsapp,
-        href: "https://wa.me/6281234567890?text=Halo MinBi! Saya mau tanya info mengenai les privat di GABI. Bisa dibantu?",
+        href: "https://wa.me/6285712230349?text=Halo MinBi! Saya mau tanya info mengenai les privat di GABI. Bisa dibantu?",
         text: "Cari Guru"
     },
     consultAdmin: {
         label: "Konsultasikan dengan admin",
         icon: SiWhatsapp,
-        href: "https://wa.me/6281234567890?text=Halo MinBi! Saya mau tanya info mengenai les privat di GABI. Bisa dibantu?",
+        href: "https://wa.me/6285712230349?text=Halo MinBi! Saya mau tanya info mengenai les privat di GABI. Bisa dibantu?",
         text: "Konsultasikan dengan admin"
     },
     mobileConsultAdmin: {
         label: "Konsultasikan dengan admin",
         icon: SiWhatsapp,
-        href: "https://wa.me/6281234567890?text=Halo MinBi! Saya mau tanya info mengenai les privat di GABI. Bisa dibantu?",
+        href: "https://wa.me/6285712230349?text=Halo MinBi! Saya mau tanya info mengenai les privat di GABI. Bisa dibantu?",
         text: "Konsultasikan dengan admin"
     },
 };
