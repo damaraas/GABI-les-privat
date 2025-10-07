@@ -1,31 +1,32 @@
 <!-- Script Setup -->
 <script setup>
-  import AppLayout from '../Layouts/AppLayout.vue';
-  import { ref } from "vue"
+import AppLayout from '../Layouts/AppLayout.vue'
+import { ref } from 'vue'
 
 const showExtra = ref(false)
 
 const mainTutors = [
-  { img: "/img/tentanggabi/a1.png", alt: "Tutor Matematika", name: "Mr. Burhanudin" },
-  { img: "/img/tentanggabi/a2.png", alt: "Tutor Bahasa Inggris", name: "Ms. Nazwa Zachra Bayyinah" },
-  { img: "/img/tentanggabi/a3.png", alt: "Tutor Fisika", name: "Ms. Dwi Kurnia Putri" },
-  { img: "/img/tentanggabi/a4.png", alt: "Tutor Kimia", name: "Ms. Elfrida" },
-  { img: "/img/tentanggabi/a6.png", alt: "Tutor Biologi", name: "Mr. Dharma Bintang Aditya" },
-  { img: "/img/tentanggabi/a5.png", alt: "Tutor Sejarah", name: "Ms. Rosy Meiliasari" },
-  { img: "/img/tentanggabi/a8.png", alt: "Tutor Geografi", name: "Ms. Hani" },
-  { img: "/img/tentanggabi/a7.png", alt: "Tutor Ekonomi", name: "Ms. Suci" },
+  { img: '/img/tentanggabi/a1.webp', alt: 'Tutor Matematika', name: 'Mr. Burhanudin' },
+  { img: '/img/tentanggabi/a2.webp', alt: 'Tutor Bahasa Inggris', name: 'Ms. Nazwa Zachra Bayyinah' },
+  { img: '/img/tentanggabi/a3.webp', alt: 'Tutor Fisika', name: 'Ms. Dwi Kurnia Putri' },
+  { img: '/img/tentanggabi/a4.webp', alt: 'Tutor Kimia', name: 'Ms. Elfrida' },
+  { img: '/img/tentanggabi/a6.webp', alt: 'Tutor Biologi', name: 'Mr. Dharma Bintang Aditya' },
+  { img: '/img/tentanggabi/a5.webp', alt: 'Tutor Sejarah', name: 'Ms. Rosy Meiliasari' },
+  { img: '/img/tentanggabi/a8.webp', alt: 'Tutor Geografi', name: 'Ms. Hani' },
+  { img: '/img/tentanggabi/a7.webp', alt: 'Tutor Ekonomi', name: 'Ms. Suci' },
 ]
 
-const extraTutor = {
-  img: "/img/tentanggabi/a9.png",
-  alt: "Tutor Tambahan",
-  name: "Mr. Farhan Latifna"
-}
+const extraTutors = [
+  { img: '/img/tentanggabi/a9.webp', alt: 'Tutor Tambahan 1', name: 'Mr. Farhan Latifna' },
+  { img: '/img/tentanggabi/a10.webp', alt: 'Tutor Tambahan 2', name: 'Ms. Lola' },
+  { img: '/img/tentanggabi/a11.webp', alt: 'Tutor Tambahan 3', name: 'Ms. Nurma' },
+]
 
 function toggleTutors() {
   showExtra.value = !showExtra.value
 }
 </script>
+
 
 <template>
   <AppLayout>
@@ -226,12 +227,19 @@ function toggleTutors() {
 
         <!-- Tutor tambahan -->
         <div v-else class="mt-8">
-          <div class="text-center col-span-2 md:col-span-4 justify-self-center">
-            <img 
-              :src="extraTutor.img" 
-              class="w-32 h-32 mx-auto object-cover rounded-full" 
-              :alt="extraTutor.alt">
-            <h3 class="font-semibold">{{ extraTutor.name }}</h3>
+          <div class="flex flex-wrap justify-center gap-8">
+            <div 
+              v-for="(tutor, i) in extraTutors" 
+              :key="i" 
+              class="text-center"
+            >
+              <img 
+                :src="tutor.img" 
+                class="w-32 h-32 mx-auto object-cover rounded-full" 
+                :alt="tutor.alt"
+              >
+              <h3 class="font-semibold mt-2">{{ tutor.name }}</h3>
+            </div>
           </div>
         </div>
 
@@ -292,7 +300,7 @@ function toggleTutors() {
         </div>
 
         <!-- Gambar tambahan bawah -->
-        <img src="../../../public/img/tentanggabi/8.png" alt="" class="w-64 h-64 mx-auto mt-10 object-contain">
+        <img src="../../public/img/tentanggabi/8.png" alt="" class="w-64 h-64 mx-auto mt-10 object-contain">
       </div>
     </section>
 
