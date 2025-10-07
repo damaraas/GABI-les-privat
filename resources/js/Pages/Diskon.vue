@@ -1,6 +1,7 @@
 <script setup>
 import AppLayout from "../Layouts/AppLayout.vue";
 import { SiWhatsapp } from "vue-icons-plus/si";
+import { Head } from '@inertiajs/vue3'
 </script>
 
 <template>

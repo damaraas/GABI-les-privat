@@ -25,18 +25,37 @@ import { BsLinkedin } from "vue-icons-plus/bs";
       <!-- Kolom 2 -->
       <div>
         <h3 class="font-bold mb-4">PROGRAM LES PRIVAT</h3>
-        <p>
-          Les Privat TK <br>
-          Les Privat SD <br>
-          Les Privat SMP <br>
-          Les Privat SMA <br>
-          Les Persiapan UTBK <br>
-          Les Coding <br>
-          Les Privat Mengaji <br>
-          Program English Nasional dan Cambridge Kurikulum <br>
-          Les Privat Bahasa Mandarin
-        </p>
+        <ul class="space-y-2">
+          <li>
+            <a href="#" class="hover:underline">Les Privat TK</a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline">Les Privat SD</a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline">Les Privat SMP</a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline">Les Privat SMA</a>
+          </li>
+          <li>
+            <a href="/campaigntka" class="hover:underline">Les Persiapan UTBK</a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline">Les Coding</a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline">Les Privat Mengaji</a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline">Program English Nasional & Cambridge Kurikulum</a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline">Les Privat Bahasa Mandarin</a>
+          </li>
+        </ul>
       </div>
+
       
       <!-- Kolom 3 -->
       <div class="flex flex-col sm:flex-row gap-6 lg:flex-col md:col-span-2 lg:col-span-1">

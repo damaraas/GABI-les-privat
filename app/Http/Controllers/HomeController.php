@@ -27,4 +27,10 @@ class HomeController extends Controller
         return Inertia::render('TentangGabi');
     }
 
+    public function campaignTKA()
+    {
+        return Inertia::render('CampaignTKA');
+    }
+
+
 }
