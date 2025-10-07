@@ -32,5 +32,10 @@ class HomeController extends Controller
         return Inertia::render('CampaignTKA');
     }
 
+    public function flashsale()
+    {
+        return Inertia::render('Flashsale');
+    }
+
 
 }
