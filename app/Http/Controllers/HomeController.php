@@ -37,5 +37,10 @@ class HomeController extends Controller
         return Inertia::render('Flashsale');
     }
 
+    public function faq()
+    {
+        return Inertia::render('FAQ/Index');
+    }
+
 
 }
