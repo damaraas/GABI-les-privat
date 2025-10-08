@@ -317,20 +317,21 @@ function toggleTutors() {
             Siap Tingkatkan Prestasi Belajar?
           </h1>
           
-          <!-- Subjudul / H2 -->
-          <h2 class="w-full text-center 
+          <!-- Subjudul-->
+         <h2 class="w-full text-center 
                     text-base sm:text-lg lg:text-2xl 
                     mt-6 sm:mt-8 lg:mt-10 
-                    px-4 sm:px-8 lg:px-15">
+                    px-4 sm:px-5 lg:px-13 
+                    max-w-6xl mx-auto">
             Yuk, coba trial class gratis atau langsung konsultasi kebutuhan belajarmu.  
-            Hubungi MinBi sekarang dan temukan tutor terbaik
-          </h2>
-          
+            Hubungi MinBi sekarang dan temukan tutor terbaik.
+          </h2>    
+
           <!-- Tombol -->
           <div class="w-full flex justify-center items-center mt-8 sm:mt-10 lg:mt-10 mb-30 lg:mb-30">
             <button class="bg-yellow-400 text-black text-center font-semibold 
-                          px-6 py-3 rounded-full shadow-lg 
-                          hover:bg-yellow-500 transition duration-300">
+                px-15 py-3 rounded-lg shadow-lg 
+                hover:bg-yellow-500 transition duration-300">
               Hubungi Kami
             </button>
           </div>
