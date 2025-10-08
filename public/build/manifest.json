@@ -1,11 +1,11 @@
 {
-  "_AppLayout-JwHOCQ1p.js": {
-    "file": "assets/AppLayout-JwHOCQ1p.js",
+  "_AppLayout-BODNoSxP.js": {
+    "file": "assets/AppLayout-BODNoSxP.js",
     "name": "AppLayout",
     "imports": [
       "resources/js/app.js",
-      "_index-BzG4MXJQ.js",
-      "_useGenIcon-qdkwjajG.js",
+      "_index-DDrqhDuE.js",
+      "_useGenIcon-CYzTSvA7.js",
       "__plugin-vue_export-helper-DlAUqK2U.js"
     ],
     "assets": [
@@ -19,29 +19,29 @@
     "file": "assets/_plugin-vue_export-helper-DlAUqK2U.js",
     "name": "_plugin-vue_export-helper"
   },
-  "_index-BbXpOvBL.js": {
-    "file": "assets/index-BbXpOvBL.js",
+  "_index-D4UP_Nh8.js": {
+    "file": "assets/index-D4UP_Nh8.js",
     "name": "index",
     "imports": [
-      "_useGenIcon-qdkwjajG.js"
+      "_useGenIcon-CYzTSvA7.js"
     ]
   },
-  "_index-BzG4MXJQ.js": {
-    "file": "assets/index-BzG4MXJQ.js",
+  "_index-D8-D8as3.js": {
+    "file": "assets/index-D8-D8as3.js",
     "name": "index",
     "imports": [
-      "_useGenIcon-qdkwjajG.js"
+      "_useGenIcon-CYzTSvA7.js"
     ]
   },
-  "_index-DeKabVmM.js": {
-    "file": "assets/index-DeKabVmM.js",
+  "_index-DDrqhDuE.js": {
+    "file": "assets/index-DDrqhDuE.js",
     "name": "index",
     "imports": [
-      "_useGenIcon-qdkwjajG.js"
+      "_useGenIcon-CYzTSvA7.js"
     ]
   },
-  "_useGenIcon-qdkwjajG.js": {
-    "file": "assets/useGenIcon-qdkwjajG.js",
+  "_useGenIcon-CYzTSvA7.js": {
+    "file": "assets/useGenIcon-CYzTSvA7.js",
     "name": "useGenIcon",
     "imports": [
       "resources/js/app.js"
@@ -411,40 +411,40 @@
     "file": "assets/maskot-buku-1-DyBpnWmC.webp",
     "src": "public/img/maskot/maskot-buku-1.webp"
   },
-  "public/img/tentanggabi/11.png": {
-    "file": "assets/11-DKm2hD4z.png",
-    "src": "public/img/tentanggabi/11.png"
+  "public/img/tentanggabi/11.webp": {
+    "file": "assets/11-CO9KehLo.webp",
+    "src": "public/img/tentanggabi/11.webp"
   },
-  "public/img/tentanggabi/12.png": {
-    "file": "assets/12-BTW_16-v.png",
-    "src": "public/img/tentanggabi/12.png"
+  "public/img/tentanggabi/12.webp": {
+    "file": "assets/12-Dm__QZyS.webp",
+    "src": "public/img/tentanggabi/12.webp"
   },
-  "public/img/tentanggabi/13.png": {
-    "file": "assets/13-6KgeH41e.png",
-    "src": "public/img/tentanggabi/13.png"
+  "public/img/tentanggabi/13.webp": {
+    "file": "assets/13-DxMI6DIR.webp",
+    "src": "public/img/tentanggabi/13.webp"
   },
-  "public/img/tentanggabi/14.png": {
-    "file": "assets/14-XhNMxp2G.png",
-    "src": "public/img/tentanggabi/14.png"
+  "public/img/tentanggabi/14.webp": {
+    "file": "assets/14-CEFDyxeS.webp",
+    "src": "public/img/tentanggabi/14.webp"
   },
-  "public/img/tentanggabi/15.png": {
-    "file": "assets/15-XnftFcSe.png",
-    "src": "public/img/tentanggabi/15.png"
+  "public/img/tentanggabi/15.webp": {
+    "file": "assets/15-Bswmztok.webp",
+    "src": "public/img/tentanggabi/15.webp"
   },
-  "public/img/tentanggabi/7.png": {
-    "file": "assets/7-qUIFKPnb.png",
-    "src": "public/img/tentanggabi/7.png"
+  "public/img/tentanggabi/7.webp": {
+    "file": "assets/7-mw9PCzvL.webp",
+    "src": "public/img/tentanggabi/7.webp"
   },
-  "public/img/tentanggabi/8.png": {
-    "file": "assets/8-B6UamTQC.png",
-    "src": "public/img/tentanggabi/8.png"
+  "public/img/tentanggabi/8.webp": {
+    "file": "assets/8-DObQghmu.webp",
+    "src": "public/img/tentanggabi/8.webp"
   },
-  "public/img/tentanggabi/model-anak.png": {
-    "file": "assets/model-anak-BGtSmzAR.png",
-    "src": "public/img/tentanggabi/model-anak.png"
+  "public/img/tentanggabi/model-anak.webp": {
+    "file": "assets/model-anak-DhcALzxm.webp",
+    "src": "public/img/tentanggabi/model-anak.webp"
   },
   "resources/css/app.css": {
-    "file": "assets/app-DXHnF7Um.css",
+    "file": "assets/app-D-gRtdWh.css",
     "src": "resources/css/app.css",
     "isEntry": true,
     "names": [
@@ -452,19 +452,19 @@
     ]
   },
   "resources/js/Pages/CampaignTKA.vue": {
-    "file": "assets/CampaignTKA-Bx01JGXt.js",
+    "file": "assets/CampaignTKA-zGeWCITm.js",
     "name": "CampaignTKA",
     "src": "resources/js/Pages/CampaignTKA.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_AppLayout-JwHOCQ1p.js",
+      "_AppLayout-BODNoSxP.js",
       "resources/js/app.js",
-      "_index-BzG4MXJQ.js",
-      "_useGenIcon-qdkwjajG.js",
+      "_index-DDrqhDuE.js",
+      "_useGenIcon-CYzTSvA7.js",
       "__plugin-vue_export-helper-DlAUqK2U.js"
     ],
     "css": [
-      "assets/app-DXHnF7Um.css"
+      "assets/app-D-gRtdWh.css"
     ],
     "assets": [
       "assets/poster1-DGRlV22S.png",
@@ -494,19 +494,19 @@
     ]
   },
   "resources/js/Pages/Diskon.vue": {
-    "file": "assets/Diskon-Ctb9ImoV.js",
+    "file": "assets/Diskon-x1USiwj_.js",
     "name": "Diskon",
     "src": "resources/js/Pages/Diskon.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_AppLayout-JwHOCQ1p.js",
-      "_index-BzG4MXJQ.js",
+      "_AppLayout-BODNoSxP.js",
+      "_index-DDrqhDuE.js",
       "resources/js/app.js",
-      "_useGenIcon-qdkwjajG.js",
+      "_useGenIcon-CYzTSvA7.js",
       "__plugin-vue_export-helper-DlAUqK2U.js"
     ],
     "css": [
-      "assets/app-DXHnF7Um.css"
+      "assets/app-D-gRtdWh.css"
     ],
     "assets": [
       "assets/bannerTrialGABI-CJA46Q_4.webp",
@@ -534,19 +534,19 @@
     ]
   },
   "resources/js/Pages/Flashsale.vue": {
-    "file": "assets/Flashsale-BRykd0Dj.js",
+    "file": "assets/Flashsale-B1tGuDcn.js",
     "name": "Flashsale",
     "src": "resources/js/Pages/Flashsale.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_AppLayout-JwHOCQ1p.js",
+      "_AppLayout-BODNoSxP.js",
       "resources/js/app.js",
-      "_index-BzG4MXJQ.js",
-      "_useGenIcon-qdkwjajG.js",
+      "_index-DDrqhDuE.js",
+      "_useGenIcon-CYzTSvA7.js",
       "__plugin-vue_export-helper-DlAUqK2U.js"
     ],
     "css": [
-      "assets/app-DXHnF7Um.css"
+      "assets/app-D-gRtdWh.css"
     ],
     "assets": [
       "assets/flashsale-Axdx_D7C.webp",
@@ -577,17 +577,17 @@
     ]
   },
   "resources/js/Pages/HomePage/Components/Cta.vue": {
-    "file": "assets/Cta-3AJT2ILm.js",
+    "file": "assets/Cta-DgNFdYMs.js",
     "name": "Cta",
     "src": "resources/js/Pages/HomePage/Components/Cta.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_index-BbXpOvBL.js",
+      "_index-D8-D8as3.js",
       "resources/js/app.js",
-      "_useGenIcon-qdkwjajG.js"
+      "_useGenIcon-CYzTSvA7.js"
     ],
     "css": [
-      "assets/app-DXHnF7Um.css"
+      "assets/app-D-gRtdWh.css"
     ],
     "assets": [
       "assets/quicksand-vietnamese-400-normal-CYVZRxRj.woff2",
@@ -613,17 +613,17 @@
     ]
   },
   "resources/js/Pages/HomePage/Components/Faq.vue": {
-    "file": "assets/Faq-CLAuBniQ.js",
+    "file": "assets/Faq-BNNB6Bw7.js",
     "name": "Faq",
     "src": "resources/js/Pages/HomePage/Components/Faq.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_index-BbXpOvBL.js",
+      "_index-D8-D8as3.js",
       "resources/js/app.js",
-      "_useGenIcon-qdkwjajG.js"
+      "_useGenIcon-CYzTSvA7.js"
     ],
     "css": [
-      "assets/app-DXHnF7Um.css"
+      "assets/app-D-gRtdWh.css"
     ],
     "assets": [
       "assets/quicksand-vietnamese-400-normal-CYVZRxRj.woff2",
@@ -649,20 +649,20 @@
     ]
   },
   "resources/js/Pages/HomePage/Components/Hero.vue": {
-    "file": "assets/Hero-Bd_M_BAP.js",
+    "file": "assets/Hero-Jv5csE4z.js",
     "name": "Hero",
     "src": "resources/js/Pages/HomePage/Components/Hero.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_index-BzG4MXJQ.js",
-      "_index-BbXpOvBL.js",
+      "_index-DDrqhDuE.js",
+      "_index-D8-D8as3.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
       "resources/js/app.js",
-      "_useGenIcon-qdkwjajG.js"
+      "_useGenIcon-CYzTSvA7.js"
     ],
     "css": [
       "assets/Hero-DTVhSXqw.css",
-      "assets/app-DXHnF7Um.css"
+      "assets/app-D-gRtdWh.css"
     ],
     "assets": [
       "assets/quicksand-vietnamese-400-normal-CYVZRxRj.woff2",
@@ -688,19 +688,19 @@
     ]
   },
   "resources/js/Pages/HomePage/Components/Keunggulan.vue": {
-    "file": "assets/Keunggulan-BLit18RT.js",
+    "file": "assets/Keunggulan-CF57YgHY.js",
     "name": "Keunggulan",
     "src": "resources/js/Pages/HomePage/Components/Keunggulan.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_index-DeKabVmM.js",
-      "_index-BzG4MXJQ.js",
+      "_index-D4UP_Nh8.js",
+      "_index-DDrqhDuE.js",
       "resources/js/app.js",
-      "_useGenIcon-qdkwjajG.js"
+      "_useGenIcon-CYzTSvA7.js"
     ],
     "css": [
       "assets/Keunggulan-sulbyYQW.css",
-      "assets/app-DXHnF7Um.css"
+      "assets/app-D-gRtdWh.css"
     ],
     "assets": [
       "assets/quicksand-vietnamese-400-normal-CYVZRxRj.woff2",
@@ -726,18 +726,18 @@
     ]
   },
   "resources/js/Pages/HomePage/Components/Layanan.vue": {
-    "file": "assets/Layanan-CtW6qxbj.js",
+    "file": "assets/Layanan-CFc3MEd3.js",
     "name": "Layanan",
     "src": "resources/js/Pages/HomePage/Components/Layanan.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_index-DeKabVmM.js",
-      "_useGenIcon-qdkwjajG.js",
+      "_index-D4UP_Nh8.js",
+      "_useGenIcon-CYzTSvA7.js",
       "resources/js/app.js"
     ],
     "css": [
       "assets/Keunggulan-sulbyYQW.css",
-      "assets/app-DXHnF7Um.css"
+      "assets/app-D-gRtdWh.css"
     ],
     "assets": [
       "assets/quicksand-vietnamese-400-normal-CYVZRxRj.woff2",
@@ -763,17 +763,17 @@
     ]
   },
   "resources/js/Pages/HomePage/Components/Testimoni.vue": {
-    "file": "assets/Testimoni-JylUbdYr.js",
+    "file": "assets/Testimoni-D73eOkti.js",
     "name": "Testimoni",
     "src": "resources/js/Pages/HomePage/Components/Testimoni.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_index-DeKabVmM.js",
+      "_index-D4UP_Nh8.js",
       "resources/js/app.js",
-      "_useGenIcon-qdkwjajG.js"
+      "_useGenIcon-CYzTSvA7.js"
     ],
     "css": [
-      "assets/app-DXHnF7Um.css"
+      "assets/app-D-gRtdWh.css"
     ],
     "assets": [
       "assets/quicksand-vietnamese-400-normal-CYVZRxRj.woff2",
@@ -799,27 +799,27 @@
     ]
   },
   "resources/js/Pages/HomePage/Index.vue": {
-    "file": "assets/Index-CWvghGUc.js",
+    "file": "assets/Index-pa5Upgo3.js",
     "name": "Index",
     "src": "resources/js/Pages/HomePage/Index.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.js",
-      "_AppLayout-JwHOCQ1p.js",
+      "_AppLayout-BODNoSxP.js",
       "resources/js/Pages/HomePage/Components/Cta.vue",
       "resources/js/Pages/HomePage/Components/Faq.vue",
       "resources/js/Pages/HomePage/Components/Hero.vue",
       "resources/js/Pages/HomePage/Components/Keunggulan.vue",
       "resources/js/Pages/HomePage/Components/Layanan.vue",
       "resources/js/Pages/HomePage/Components/Testimoni.vue",
-      "_index-BzG4MXJQ.js",
-      "_useGenIcon-qdkwjajG.js",
+      "_index-DDrqhDuE.js",
+      "_useGenIcon-CYzTSvA7.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
-      "_index-BbXpOvBL.js",
-      "_index-DeKabVmM.js"
+      "_index-D8-D8as3.js",
+      "_index-D4UP_Nh8.js"
     ],
     "css": [
-      "assets/app-DXHnF7Um.css"
+      "assets/app-D-gRtdWh.css"
     ],
     "assets": [
       "assets/quicksand-vietnamese-400-normal-CYVZRxRj.woff2",
@@ -845,19 +845,19 @@
     ]
   },
   "resources/js/Pages/Promo.vue": {
-    "file": "assets/Promo-B0t88AjB.js",
+    "file": "assets/Promo-DdCYBQt1.js",
     "name": "Promo",
     "src": "resources/js/Pages/Promo.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_AppLayout-JwHOCQ1p.js",
+      "_AppLayout-BODNoSxP.js",
       "resources/js/app.js",
-      "_index-BzG4MXJQ.js",
-      "_useGenIcon-qdkwjajG.js",
+      "_index-DDrqhDuE.js",
+      "_useGenIcon-CYzTSvA7.js",
       "__plugin-vue_export-helper-DlAUqK2U.js"
     ],
     "css": [
-      "assets/app-DXHnF7Um.css"
+      "assets/app-D-gRtdWh.css"
     ],
     "assets": [
       "assets/quicksand-vietnamese-400-normal-CYVZRxRj.woff2",
@@ -883,29 +883,29 @@
     ]
   },
   "resources/js/Pages/TentangGabi.vue": {
-    "file": "assets/TentangGabi-DDKdBPAl.js",
+    "file": "assets/TentangGabi-DL3xAduv.js",
     "name": "TentangGabi",
     "src": "resources/js/Pages/TentangGabi.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_AppLayout-JwHOCQ1p.js",
+      "_AppLayout-BODNoSxP.js",
       "resources/js/app.js",
-      "_index-BzG4MXJQ.js",
-      "_useGenIcon-qdkwjajG.js",
+      "_index-DDrqhDuE.js",
+      "_useGenIcon-CYzTSvA7.js",
       "__plugin-vue_export-helper-DlAUqK2U.js"
     ],
     "css": [
-      "assets/app-DXHnF7Um.css"
+      "assets/app-D-gRtdWh.css"
     ],
     "assets": [
-      "assets/model-anak-BGtSmzAR.png",
-      "assets/7-qUIFKPnb.png",
-      "assets/11-DKm2hD4z.png",
-      "assets/12-BTW_16-v.png",
-      "assets/13-6KgeH41e.png",
-      "assets/14-XhNMxp2G.png",
-      "assets/15-XnftFcSe.png",
-      "assets/8-B6UamTQC.png",
+      "assets/model-anak-DhcALzxm.webp",
+      "assets/7-mw9PCzvL.webp",
+      "assets/11-CO9KehLo.webp",
+      "assets/12-Dm__QZyS.webp",
+      "assets/13-DxMI6DIR.webp",
+      "assets/14-CEFDyxeS.webp",
+      "assets/15-Bswmztok.webp",
+      "assets/8-DObQghmu.webp",
       "assets/quicksand-vietnamese-400-normal-CYVZRxRj.woff2",
       "assets/quicksand-vietnamese-400-normal-D4WCpyCa.woff",
       "assets/quicksand-latin-ext-400-normal-BdPaGDPN.woff2",
@@ -929,7 +929,7 @@
     ]
   },
   "resources/js/app.js": {
-    "file": "assets/app-DhKjS3eR.js",
+    "file": "assets/app-Wfo8AhPN.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
@@ -949,7 +949,7 @@
     ],
     "css": [
       "assets/app-ovNPYoL3.css",
-      "assets/app-DXHnF7Um.css"
+      "assets/app-D-gRtdWh.css"
     ],
     "assets": [
       "assets/onest-cyrillic-ext-300-normal--bghL-mm.woff2",

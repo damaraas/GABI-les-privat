@@ -1,6 +1,7 @@
 <!-- Script Setup -->
 <script setup>
 import AppLayout from '../Layouts/AppLayout.vue'
+import { Head } from '@inertiajs/vue3'
 import { ref } from 'vue'
 
 const showExtra = ref(false)
@@ -29,6 +30,7 @@ function toggleTutors() {
 
 
 <template>
+  <Head title="Tentang GABI Les Privat" />
   <AppLayout>
 
     <!-- Jumbotron -->
@@ -37,7 +39,6 @@ function toggleTutors() {
         <div class="flex flex-wrap">
           <div class="w-full px-4">
 
-            <!-- Judul -->
             <h1 class="font-bold text-center 
                       text-2xl sm:text-3xl md:text-4xl 
                       lg:text-4xl lg:mt-20">
@@ -58,7 +59,7 @@ function toggleTutors() {
             <!-- Gambar -->
             <div class="flex items-center justify-center mt-8 lg:mt-0">
               <img 
-                src="../../../public/img/tentanggabi/model-anak.png" 
+                src="../../../public/img/tentanggabi/model-anak.webp" 
                 alt="Model anak Gabi Les Privat"
                 class="w-4/5 sm:w-2/3 md:w-1/2 lg:w-auto object-contain"
               >
@@ -96,7 +97,7 @@ function toggleTutors() {
 
               <!-- Gambar (muncul di bawah Visi untuk laptop -->
               <img 
-                src="../../../public/img/tentanggabi/7.png" 
+                src="../../../public/img/tentanggabi/7.webp" 
                 alt="Visi Gabi"
                 class="hidden lg:block w-full max-w-xs mx-auto mt-6 object-contain"
               >
@@ -124,7 +125,7 @@ function toggleTutors() {
             <!--  Gambar untuk Mobile (di bawah Misi) -->
             <div class="block lg:hidden order-3 w-full flex justify-center mt-8">
               <img 
-                src="../../../public/img/tentanggabi/7.png" 
+                src="../../../public/img/tentanggabi/7.webp" 
                 alt="Visi Gabi"
                 class="w-3/4 sm:w-2/3 max-w-xs object-contain"
               >
@@ -271,36 +272,36 @@ function toggleTutors() {
         <!-- Grid logo media -->
         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 items-center">
           <div class="text-center">
-            <img src="../../../public/img/tentanggabi/11.png" 
+            <img src="../../../public/img/tentanggabi/11.webp" 
                 class="w-40 sm:w-48 md:w-64 h-auto mx-auto object-contain transition" 
                 alt="Media 1">
           </div>
           <div class="text-center">
-            <img src="../../../public/img/tentanggabi/12.png" 
+            <img src="../../../public/img/tentanggabi/12.webp" 
                 class="w-40 sm:w-48 md:w-64 h-auto mx-auto object-contain transition" 
                 alt="Media 2">
           </div>
           <div class="text-center">
-            <img src="../../../public/img/tentanggabi/13.png" 
+            <img src="../../../public/img/tentanggabi/13.webp" 
                 class="w-40 sm:w-48 md:w-64 h-auto mx-auto object-contain transition" 
                 alt="Media 3">
           </div>
           <div class="text-center">
-            <img src="../../../public/img/tentanggabi/14.png" 
+            <img src="../../../public/img/tentanggabi/14.webp" 
                 class="w-40 sm:w-48 md:w-64 h-auto mx-auto object-contain transition" 
                 alt="Media 4">
           </div>
 
           <!-- Logo terakhir (tengah di mobile) -->
           <div class="col-span-2 sm:col-span-1 flex justify-center md:block">
-            <img src="../../../public/img/tentanggabi/15.png" 
+            <img src="../../../public/img/tentanggabi/15.webp" 
                 class="w-40 sm:w-48 md:w-64 h-auto mx-auto object-contain transition" 
                 alt="Media 5">
           </div>
         </div>
 
         <!-- Gambar tambahan bawah -->
-        <img src="../../../public/img/tentanggabi/8.png" alt="" class="w-64 h-64 mx-auto mt-10 object-contain">
+        <img src="../../../public/img/tentanggabi/8.webp" alt="" class="w-64 h-64 mx-auto mt-10 object-contain">
       </div>
     </section>
 
@@ -329,11 +330,13 @@ function toggleTutors() {
 
           <!-- Tombol -->
           <div class="w-full flex justify-center items-center mt-8 sm:mt-10 lg:mt-10 mb-30 lg:mb-30">
-            <button class="bg-yellow-400 text-black text-center font-semibold 
-                px-15 py-3 rounded-lg shadow-lg 
-                hover:bg-yellow-500 transition duration-300">
-              Hubungi Kami
-            </button>
+            <a href="https://api.whatsapp.com/send/?phone=6285712230349&text&type=phone_number&app_absent=0" traget="_blank">
+              <button class="bg-yellow-400 text-black text-center font-semibold 
+                  px-15 py-3 rounded-lg shadow-lg 
+                  hover:bg-yellow-500 transition duration-300">
+                Hubungi Kami
+              </button>
+            </a>
           </div>
           
         </div>
