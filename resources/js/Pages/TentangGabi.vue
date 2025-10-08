@@ -1,6 +1,7 @@
 <!-- Script Setup -->
 <script setup>
 import AppLayout from '../Layouts/AppLayout.vue'
+import { Head } from '@inertiajs/vue3'
 import { ref } from 'vue'
 
 const showExtra = ref(false)
@@ -29,6 +30,7 @@ function toggleTutors() {
 
 
 <template>
+  <Head title="Tentang GABI Les Privat" />
   <AppLayout>
 
     <!-- Jumbotron -->
@@ -37,7 +39,6 @@ function toggleTutors() {
         <div class="flex flex-wrap">
           <div class="w-full px-4">
 
-            <!-- Judul -->
             <h1 class="font-bold text-center 
                       text-2xl sm:text-3xl md:text-4xl 
                       lg:text-4xl lg:mt-20">
@@ -329,11 +330,13 @@ function toggleTutors() {
 
           <!-- Tombol -->
           <div class="w-full flex justify-center items-center mt-8 sm:mt-10 lg:mt-10 mb-30 lg:mb-30">
-            <button class="bg-yellow-400 text-black text-center font-semibold 
-                px-15 py-3 rounded-lg shadow-lg 
-                hover:bg-yellow-500 transition duration-300">
-              Hubungi Kami
-            </button>
+            <a href="https://api.whatsapp.com/send/?phone=6285712230349&text&type=phone_number&app_absent=0" traget="_blank">
+              <button class="bg-yellow-400 text-black text-center font-semibold 
+                  px-15 py-3 rounded-lg shadow-lg 
+                  hover:bg-yellow-500 transition duration-300">
+                Hubungi Kami
+              </button>
+            </a>
           </div>
           
         </div>
