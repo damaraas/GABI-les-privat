@@ -19,13 +19,13 @@ const waLink = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
                     <!-- Kiri -->
                     <div class="w-full lg:w-1/2 m-10">
                         <div class="font-extrabold lg:text-left text-center">
-                            <h1 class="lg:text-5xl md:text-4xl text-3xl">
+                            <h1 class="lg:text-5xl md:text-4xl text-2xl">
                                 Flash Sale GABI Les Privat – Hemat Besar, Kuota Terbatas!
                             </h1>
-                            <h2 class="lg:text-3xl md:text-2xl text-lg lg:mt-4 md:mt-4 mt-2 lg:mr-8 lg:ml-0 md:mx-25 mx-4 italic bg-secondary p-2 rounded-xl">
+                            <h2 class="lg:text-3xl md:text-2xl text-md lg:mt-4 md:mt-4 mt-2 lg:mr-8 lg:ml-0 md:mx-25 mx-4 italic bg-secondary p-2 rounded-xl">
                                 Belajar Lebih Cerdas, Biaya Lebih Hemat
                             </h2>
-                            <h1 class="lg:text-4xl md:text-3xl text-2xl lg:mt-4 md:mt-4 mt-2 text-[#085CD2]">
+                            <h1 class="lg:text-4xl md:text-3xl text-xl lg:mt-4 md:mt-4 mt-2 text-[#085CD2]">
                                 BELAJAR LEBIH CERDAS TANPA BIKIN KANTONG JEBOL
                             </h1>
                             <h2 class="lg:text-3xl md:text-2xl text-xl lg:mt-4 md:mt-4 mt-2">
@@ -54,8 +54,8 @@ const waLink = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
                     <!-- Kiri -->
                     <div class="w-full lg:w-1/2 m-10">
                         <div class="font-extrabold lg:text-4xl md:text-3xl text-2xl lg:text-left text-center">
-                            <h1 class="text-[#085CD2] lg:text-5xl md:text-4xl text-3xl">
-                                Flash Sale GABI Les Privat <br> – Kuota Terbatas!!!
+                            <h1 class="text-[#085CD2] lg:text-5xl md:text-4xl text-2xl">
+                                Flash Sale GABI Les Privat – Kuota Terbatas!!!
                             </h1>
                             <h1 class="lg:mt-4 mt-2">
                                 Inilah yang paling ditunggu
@@ -82,7 +82,7 @@ const waLink = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
             </div>
 
             <a :href="waLink" target="_blank" rel="noopener noreferrer" class="absolute lg:left-1/2 md:right-1/3 lg:bottom-15 md:bottom-15 bottom-6 lg:-translate-x-1/6 md:-translate-x-1/2 translate-x-1/5 z-20">
-                <button class="bg-green text-white lg:text-2xl md:text-2xl text-xl font-light hover:!bg-green-600 py-3 px-4 rounded-xl duration-300 flex items-center gap-2">
+                <button class="bg-green text-white lg:text-2xl md:text-2xl text-lg font-light hover:!bg-green-600 py-3 px-4 rounded-xl duration-300 flex items-center gap-2">
                     Daftar Sekarang
                     <SiWhatsapp class="w-6 h-6"></SiWhatsapp>
                  </button>
@@ -121,7 +121,7 @@ const waLink = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
                             </li>
                             </div>
                         </div>
-                        <div class="absolute lg:right-1 md:right-12 -bottom-15 lg:translate-x-1/2 md:translate-x-1/2 translate-x-78.5 z-20">
+                        <div class="absolute lg:right-1 md:right-12 -bottom-15 lg:translate-x-1/2 md:translate-x-1/2 translate-x-63 z-20">
                             <img src="../../../public/img/flashsale/senyum.webp" alt="Mascot GABI" class="lg:w-[165px] md:w-[165px] w-[130px]">
                         </div>
                     </div>
@@ -131,7 +131,7 @@ const waLink = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 
         <!-- Section 4 -->
         <section class="bg-primary pt-10 pb-20">
-            <div class="container m-auto lg:px-42 md:px-20 font-onest lg:mb-20 md:mb-20">
+            <div class="container m-auto lg:px-42 md:px-20 px-5 font-onest lg:mb-20 md:mb-20">
                 <div class="w-full lg:m-10 lg:ml-0 md:m-10 md:ml-0 p-2 relative">
                     <h1 class="text-secondary font-extrabold lg:text-5xl md:text-4xl text-2xl text-center">
                         Mengapa Memilih Les Privat GABI saat Flash Sale?
@@ -140,7 +140,7 @@ const waLink = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
                         Selain potongan harga yang menarik, ada banyak alasan kenapa program ini patut dipilih:
                     </h3>
                     <div class="bg-white rounded-2xl lg:px-12 lg:py-8 px-10 py-4 mt-4">
-                        <div class="font-medium lg:text-3xl md:text-xl text-lg">
+                        <div class="font-medium lg:text-3xl md:text-xl text-md">
                         <li class="my-1">
                             Guru profesional dan ramah → anak bisa nyaman sejak pertemuan pertama.
                         </li>
@@ -155,7 +155,7 @@ const waLink = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
                         </li>
                         </div>
                     </div>
-                    <div class="absolute right-1 lg:-bottom-12 md:-bottom-15 -bottom-7 lg:translate-x-1/2 md:translate-x-1/2 translate-x-1/30 z-20">
+                    <div class="absolute right-1 lg:-bottom-12 -bottom-15 lg:translate-x-1/2 md:translate-x-1/2 translate-x-6 z-20">
                         <img src="../../../public/img/flashsale/senyum.webp" alt="Mascot GABI" class="lg:w-[180px] md:w-[170px] w-[130px]">
                     </div>
                 </div>
