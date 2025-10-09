@@ -26,6 +26,10 @@ const extraTutors = [
 function toggleTutors() {
   showExtra.value = !showExtra.value
 }
+
+const phone = "6285712230349";
+const message = "Halo MinBi! Saya mau tanya info mengenai les privat di GABI. Bisa dibantu? 😊";
+const waLink = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 </script>
 
 
@@ -123,7 +127,7 @@ function toggleTutors() {
             </div>
 
             <!--  Gambar untuk Mobile (di bawah Misi) -->
-            <div class="block lg:hidden order-3 w-full flex justify-center mt-8">
+            <div class="lg:hidden order-3 w-full flex justify-center mt-8">
               <img 
                 src="../../../public/img/tentanggabi/7.webp" 
                 alt="Visi Gabi"
@@ -330,7 +334,7 @@ function toggleTutors() {
 
           <!-- Tombol -->
           <div class="w-full flex justify-center items-center mt-8 sm:mt-10 lg:mt-10 mb-30 lg:mb-30">
-            <a href="https://api.whatsapp.com/send/?phone=6285712230349&text&type=phone_number&app_absent=0" traget="_blank">
+            <a :href="waLink" target="_blank" rel="noopener noreferrer">
               <button class="bg-yellow-400 text-black text-center font-semibold 
                   px-15 py-3 rounded-lg shadow-lg 
                   hover:bg-yellow-500 transition duration-300">
