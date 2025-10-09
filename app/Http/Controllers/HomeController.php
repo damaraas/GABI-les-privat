@@ -36,6 +36,10 @@ class HomeController extends Controller
     {
         return Inertia::render('Flashsale');
     }
+    public function artikel1()
+    {
+        return inertia('Artikel1');
+    }
 
 
 }
