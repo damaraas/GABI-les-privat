@@ -14,7 +14,7 @@ const waLink = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 
         <!-- Section 1 -->
         <section>
-            <div class="container m-auto px-10 font-onest lg:mb-20 md:mb-20 mb-10">
+            <div class="container mx-auto px-10 font-onest lg:mb-20 md:mb-20 mb-10">
                 <div class="flex flex-col lg:flex-row items-center">
                     <!-- Kiri -->
                     <div class="w-full lg:w-1/2 m-10">
@@ -49,7 +49,7 @@ const waLink = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 
         <!-- Section 2 -->
         <section class="relative">
-            <div class="container m-auto px-10 font-onest">
+            <div class="container mx-auto px-10 font-onest">
                 <div class="flex flex-col lg:flex-row items-center">
                     <!-- Kiri -->
                     <div class="w-full lg:w-1/2 m-10">
@@ -82,7 +82,7 @@ const waLink = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
             </div>
 
             <a :href="waLink" target="_blank" rel="noopener noreferrer" class="absolute lg:left-1/2 md:right-1/3 lg:bottom-15 md:bottom-15 bottom-6 lg:-translate-x-1/6 md:-translate-x-1/2 translate-x-1/5 z-20">
-                <button class="bg-green text-white lg:text-2xl md:text-2xl text-lg font-light hover:!bg-green-600 py-3 px-4 rounded-xl duration-300 flex items-center gap-2">
+                <button class="bg-green text-white lg:text-2xl md:text-2xl text-lg font-light hover:!bg-green-600 md:py-3 md:px-4 py-2 px-3 rounded-xl duration-300 flex items-center gap-2">
                     Daftar Sekarang
                     <SiWhatsapp class="w-6 h-6"></SiWhatsapp>
                  </button>
@@ -91,7 +91,7 @@ const waLink = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 
         <!-- Section 3 -->
         <section class="bg-primary lg:py-20 md:py-0">
-            <div class="container m-auto px-10 font-onest">
+            <div class="container mx-auto px-10 font-onest">
                 <div class="flex flex-col-reverse lg:flex-row items-center">
                     <!-- Kiri -->
                     <div class="w-full lg:w-1/2 flex justify-start overflow-visible">
@@ -121,8 +121,8 @@ const waLink = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
                             </li>
                             </div>
                         </div>
-                        <div class="absolute lg:right-1 md:right-12 -bottom-15 lg:translate-x-1/2 md:translate-x-1/2 translate-x-63 z-20">
-                            <img src="../../../public/img/flashsale/senyum.webp" alt="Mascot GABI" class="lg:w-[165px] md:w-[165px] w-[130px]">
+                        <div class="absolute lg:right-1 md:right-12 -bottom-8 lg:translate-x-1/2 md:translate-x-1/2 translate-x-74 z-20">
+                            <img src="../../../public/img/flashsale/senyum.webp" alt="Mascot GABI" class="lg:w-[120px] md:w-[100px] w-[75px]">
                         </div>
                     </div>
                 </div>
@@ -131,7 +131,7 @@ const waLink = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 
         <!-- Section 4 -->
         <section class="bg-primary pt-10 pb-20">
-            <div class="container m-auto lg:px-42 md:px-20 px-5 font-onest lg:mb-20 md:mb-20">
+            <div class="container mx-auto lg:px-42 md:px-20 px-5 font-onest lg:mb-20 md:mb-20">
                 <div class="w-full lg:m-10 lg:ml-0 md:m-10 md:ml-0 p-2 relative">
                     <h1 class="text-secondary font-extrabold lg:text-5xl md:text-4xl text-2xl text-center">
                         Mengapa Memilih Les Privat GABI saat Flash Sale?
@@ -155,8 +155,8 @@ const waLink = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
                         </li>
                         </div>
                     </div>
-                    <div class="absolute right-1 lg:-bottom-12 -bottom-15 lg:translate-x-1/2 md:translate-x-1/2 translate-x-6 z-20">
-                        <img src="../../../public/img/flashsale/senyum.webp" alt="Mascot GABI" class="lg:w-[180px] md:w-[170px] w-[130px]">
+                    <div class="absolute right-1 lg:-bottom-12 -bottom-8 lg:translate-x-1/2 md:translate-x-1/2 translate-x-3 z-20">
+                        <img src="../../../public/img/flashsale/senyum.webp" alt="Mascot GABI" class="lg:w-[140px] md:w-[110px] w-[80px]">
                     </div>
                 </div>
             </div>
@@ -164,7 +164,7 @@ const waLink = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 
         <!-- Section 5 -->
         <section class="bg-secondary lg:py-0 md:pt-10 pt-15">
-            <div class="container m-auto px-10 font-onest">
+            <div class="container mx-auto px-10 font-onest">
                 <div class="flex flex-col lg:flex-row items-center">
                     <!-- Kiri -->
                     <div class="text-left font-extrabold">
@@ -178,7 +178,7 @@ const waLink = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
                         Dengan guru berpengalaman & harga hemat, GABI jadi pilihan terbaik untuk anak anda.
                     </h3>
                     <a :href="waLink" target="_blank" rel="noopener noreferrer">
-                        <button class="bg-green text-white lg:text-2xl md:text-2xl text-xl font-light hover:!bg-green-600 py-3 px-4 rounded-xl duration-300 flex items-center gap-2 lg:mt-4 md:mt-4 mt-2">
+                        <button class="bg-green text-white lg:text-2xl md:text-2xl text-xl font-light hover:!bg-green-600 md:py-3 md:px-4 py-3 px-4 rounded-xl duration-300 flex items-center gap-2 lg:mt-4 md:mt-4 mt-2">
                             Daftar Sekarang
                             <SiWhatsapp class="w-6 h-6"></SiWhatsapp>
                         </button>
