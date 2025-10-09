@@ -6,7 +6,7 @@ import { SiWhatsapp } from "vue-icons-plus/si";
 
 <template>
     <AppLayout>
-        <Head title="Road to Campus 2026 - Gabi Les Privat" />
+        <Head title="Road to Campus 2026 - Siap Hadapi TKA Bareng Gabi!" />
 
         <!-- SECTION 1: HERO -->
         <section>
@@ -25,27 +25,28 @@ import { SiWhatsapp } from "vue-icons-plus/si";
                         Inilah saatnya kamu mulai perjalanan <b>Road to Campus 2026!</b>
                     </p>
                 </div>
-                
-                <div class="md:w-1/2 mt-10 md:mt-0 flex justify-center">
-                    <img
-                        src="\public\img\campaigntka\poster1.png"
-                        alt="Road to Campus Gabi"
-                        class="rounded-xl w-80 md:w-[420px]"
-                    />
-                </div>
+                <div class="md:w-1/2 flex items-center justify-center overflow-visible self-stretch relative">
+                    <div class="h-96 drop-shadow-xl absolute rounded-full bg-primary flex justify-center">
+                        <img
+                            src="\public\img\campaigntka\poster1.png"
+                            alt="Road to Campus Gabi"
+                            class="w-96 h-auto object-contain"
+                        />
+                    </div>
+                </div>  
             </div>
         </section>
 
         <!-- SECTION 2: KENAPA BELAJAR DI GABI -->
         <section>
-            <div class="py-16 px-6 md:px-20 bg-white flex justify-center font-poppins">
+            <div class="py-12 px-6 md:px-20 bg-white flex justify-center font-poppins">
                 <div>
                     <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Kenapa Belajar di Gabi?</h2>
-                    <p class="text-black mb-6 max-w-2xl">
+                    <p class="text-black mb-6 max-w-3xl">
                         Sebagai <b>bimbel SNBT terbaik</b>, Gabi menawarkan fleksibilitas belajar tanpa batas.
                         Kamu bisa mengakses materi, video pembelajaran, hingga try out kapan saja dan di mana saja.
                     </p>
-                    <div class="bg-primary rounded-xl p-6 text-white space-y-2 max-w-2xl flex ">
+                    <div class="bg-primary rounded-xl p-6 text-white space-y-2 max-w-3xl flex ">
                         <ul class="list-disc pl-5 space-y-1">
                             <li>Materi lengkap sesuai kisi-kisi resmi SNBT.</li>
                             <li>Try out rutin untuk melatih kecepatan dan strategi mengerjakan soal.</li>
@@ -61,19 +62,23 @@ import { SiWhatsapp } from "vue-icons-plus/si";
 
         <!-- SECTION 3: FLEKSIBEL DAN RAMAH GEN Z -->
         <section>
-            <div class="py-16 px-6 md:px-20 bg-white flex justify-center font-poppins">
+            <div class="py-12 px-6 md:px-20 bg-white flex justify-center font-poppins">
                 <div>
-                    <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Fleksibel dan Ramah Gen Z</h2>
-                    <div class="rounded-xl p-6 text-black space-y-2 max-w-2xl flex">
-                        <div class="bg-[#FDD734] rounded-full flex items-center justify-center">
-                            <img src="/public/img/maskot/maskot-buku-1.webp" alt="Maskot Gabi (Bola Lampu megang Pena)" class="w-32 h-auto object-contain">
+                    <h1 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Fleksibel dan Ramah Gen Z</h1>
+                    <div class="grid grid-cols-3 gap-4 p-6 text-black space-y-2 max-w-3xl items-center justify-center">
+                        <div class="flex justify-center">
+                            <div class="bg-[#FDD734] rounded-full flex items-center justify-center overflow-hidden w-40 h-40">
+                                <img src="/public/img/maskot/maskot-buku-1.webp" alt="Maskot Gabi (Bola Lampu megang Pena)" class="w-40 h-auto object-contain">
+                            </div>
                         </div>
-                        <p class="text-justify">
-                            Gabi kasih kamu kebebasan untuk atur waktu belajar. 
-                            Bahkan tutor yang kamu pilih akan menyesuaikan karakter, kepribadian, dan 
-                            gaya belajar kamu!Tentunya ga perlu ragu kalau kamu pengen persiapan lebih serius, 
-                            karena Gabi memang dirancang jadi <b>bimbel PTN terbaik</b> buat Gen Z yang mau tembus kampus impian.
-                        </p>
+                        <div class="col-span-2">
+                            <p class="text-justify text-base">
+                                Gabi kasih kamu kebebasan untuk atur waktu belajar. 
+                                Bahkan tutor yang kamu pilih akan menyesuaikan karakter, kepribadian, dan 
+                                gaya belajar kamu!Tentunya ga perlu ragu kalau kamu pengen persiapan lebih serius, 
+                                karena Gabi memang dirancang jadi <b>bimbel PTN terbaik</b> buat Gen Z yang mau tembus kampus impian.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -81,7 +86,7 @@ import { SiWhatsapp } from "vue-icons-plus/si";
 
         <!-- SECTION 4: LES PRIVAT CTA -->
         <section>
-            <div class="py-16 px-6 md:px-20 bg-white flex justify-center">
+            <div class="py-12 px-6 md:px-20 bg-white flex justify-center">
                 <div class="flex flex-col justify-center text-black font-poppins">
                     <h2 class="text-2xl md:text-3xl font-bold mb-6">Jangan Tunggu Sampai Mepet!</h2>
                     <img
@@ -103,7 +108,7 @@ import { SiWhatsapp } from "vue-icons-plus/si";
 
         <!-- SECTION 5: CTA -->
         <section>
-            <div class="bg-[#11B2F7] text-white py-16 px-6 md:px-20 text-center flex justify-center font-poppins">
+            <div class="bg-[#11B2F7] text-white py-12 px-6 md:px-20 text-center flex justify-center font-poppins">
                 <div>
                     <h2 class="text-2xl md:text-3xl font-bold mb-4">
                         Yuk, mulai perjalananmu bareng Gabi, <br></br> 
@@ -112,17 +117,38 @@ import { SiWhatsapp } from "vue-icons-plus/si";
                         Konsultasikan rencana Road to Campus 2026 <br></br>
                         kamu dengan MinBi sekarang!
                     </h2>
-                    <a
-                        href="https://wa.me/6285712230349?text=Halo%20Minbi%2C%20saya%20tertarik%20daftar%20Les%20Persiapan%20UTBK%2C%20bisa%20dibantu%3F%20Terima%20kasih."
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="inline-flex items-center gap-2 bg-[#08CB00] text-white font-bold text-lg px-6 py-4 rounded-xl shadow-2xl hover:bg-green-500 transition duration-300"
-                    >
-                        <SiWhatsapp class="mr-2 w-4 h-4 sm:w-5 sm:h-5" />Tanya Sekarang
-                    </a>
+                    <div class="flex items-center gap-4 justify-center">
+                        <!-- BUTTON -->
+                        <a
+                            href="https://wa.me/6285712230349?text=Halo%20Minbi%2C%20saya%20tertarik%20daftar%20Les%20Persiapan%20UTBK%2C%20bisa%20dibantu%3F%20Terima%20kasih."
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="inline-flex items-center gap-2 bg-[#08CB00] text-white font-bold text-lg px-6 py-4 rounded-xl shadow-2xl hover:bg-green-500 transition duration-300"
+                        >
+                            <SiWhatsapp class="w-5 h-5" />Tanya Sekarang
+                        </a>
+                        <!-- GAMBAR -->
+                        <img
+                            :src="mascotImage"
+                            alt="Maskot GABI"
+                            class="w-24 h-auto object-contain drop-shadow-xl"
+                        />
+                    </div>
                 </div>    
             </div>
         </section>
 
     </AppLayout>
 </template>
+
+<script>
+export default {
+  name: "PromoTerms",
+  props: {
+    mascotImage: {
+      type: String,
+      default: "/img/maskot/maskot-cta-1.webp",
+    },
+  },
+};
+</script>

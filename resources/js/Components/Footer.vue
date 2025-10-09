@@ -56,7 +56,6 @@ import { BsLinkedin } from "vue-icons-plus/bs";
         </ul>
       </div>
 
-      
       <!-- Kolom 3 -->
       <div class="flex flex-col sm:flex-row gap-6 lg:flex-col md:col-span-2 lg:col-span-1">
         <div>
