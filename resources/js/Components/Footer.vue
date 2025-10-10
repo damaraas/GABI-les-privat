@@ -87,7 +87,7 @@ import { BsLinkedin } from "vue-icons-plus/bs";
             <Link href="/promo" class="hover:underline">Promo GABI</Link>
           </li>
           <li>
-            <Link href="/" class="hover:underline">FAQ & Bantuan</Link>
+            <Link href="/faq-bantuan" class="hover:underline">FAQ & Bantuan</Link>
           </li>
           <li>
             <Link href="/" class="hover:underline">Trial Gratis</Link>

@@ -41,5 +41,10 @@ class HomeController extends Controller
         return inertia('Artikel1');
     }
 
+    public function faq()
+    {
+        return Inertia::render('FAQ/Index');
+    }
+
 
 }

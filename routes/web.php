@@ -11,3 +11,5 @@ Route::get('/tentang', [HomeController::class, 'tentangGabi'])->name('tentanggab
 Route::get('/campaigntka', [HomeController::class, 'campaignTKA'])->name('campaigntka');
 Route::get('/flashsale', [HomeController::class, 'flashsale'])->name('flashsale');
 Route::get('/artikel1', [HomeController::class, 'artikel1'])->name('artikel1');
+Route::get('faq-bantuan', [HomeController::class, 'faq'])->name('faq');
+
