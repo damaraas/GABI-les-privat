@@ -1,7 +1,7 @@
 <script setup>
 import AppLayout from "../Layouts/AppLayout.vue";
 import { Fa6Whatsapp, Fa6ArrowRight, Fa6ArrowLeft } from "vue-icons-plus/fa6";
-import { ref, computed, onMounted } from "vue";
+import { ref, computed, onMounted, watch } from "vue";
 
 // === PROMO UTAMA (Alasan Memilih GABI) ===
 const promos = [
@@ -91,11 +91,30 @@ function prevSpecial() {
     if (specialIndex.value > 0) specialIndex.value--;
 }
 
-// Update otomatis ketika resize window
+// setSpecial: pindah langsung ke card (dipakai untuk dot)
+function setSpecial(idx) {
+    specialIndex.value = idx;
+}
+
+// resize handling: update isMobile dan clamp index agar tidak out-of-range
+function handleResize() {
+    isMobile.value = window.innerWidth < 768;
+    // clamp indexes based on computed max values
+    currentIndex.value = Math.min(currentIndex.value, maxIndex.value);
+    specialIndex.value = Math.min(specialIndex.value, maxSpecial.value);
+}
+
 onMounted(() => {
-    window.addEventListener("resize", () => {
-        isMobile.value = window.innerWidth < 768;
-    });
+    handleResize();
+    window.addEventListener("resize", handleResize);
+});
+
+// juga watch perubahan max agar index otomatis di-clamp bila computed berubah
+watch(maxIndex, (v) => {
+    currentIndex.value = Math.min(currentIndex.value, v);
+});
+watch(maxSpecial, (v) => {
+    specialIndex.value = Math.min(specialIndex.value, v);
 });
 </script>
 
@@ -324,92 +343,94 @@ onMounted(() => {
 
                 <!-- === PROMO SPESIAL === -->
                 <div class="mb-14">
-                    <div class="lg:hidden">
-                        <h2
-                            class="text-2xl md:text-3xl font-bold text-center text-gray-800 mb-4 lg:hidden"
+                    <!-- Slide untuk mobile -->
+                    <div class="relative p-3 lg:hidden">
+                        <button
+                            v-if="specialIndex > 0"
+                            @click="prevSpecial"
+                            class="absolute left-0 top-1/2 -translate-y-1/2 bg-white border border-black text-black rounded-full px-2 py-2 shadow z-10"
                         >
-                            Promo Spesial Untuk Sobat GABI
-                        </h2>
-                        <p
-                            class="text-center text-gray-600 mb-10 text-sm md:text-base lg:hidden"
+                            <Fa6ArrowLeft />
+                        </button>
+                        <button
+                            v-if="specialIndex < maxSpecial"
+                            @click="nextSpecial"
+                            class="absolute right-0 top-1/2 -translate-y-1/2 bg-white border border-black text-black rounded-full px-2 py-2 shadow z-10"
                         >
-                            Oke, MinBi bakal spill promo-promo di GABI Les
-                            Privat buat kamu ya, pastiin kamu enggak kelewat
-                            infonya agar bimbel kamu di GABI nanti jadi lebih
-                            menguntungkan!
-                        </p>
+                            <Fa6ArrowRight />
+                        </button>
 
-                        <!-- Slide untuk mobile -->
-                        <div class="relative p-3">
-                            <button
-                                v-if="specialIndex > 0"
-                                @click="prevSpecial"
-                                class="absolute left-0 top-1/2 -translate-y-1/2 bg-white border border-black text-black rounded-full px-2 py-2 shadow z-10"
+                        <div class="overflow-hidden">
+                            <div
+                                class="flex transition-transform duration-500 ease-in-out"
+                                :style="{
+                                    transform: `translateX(-${
+                                        specialIndex * 100
+                                    }%)`,
+                                }"
                             >
-                                <Fa6ArrowLeft />
-                            </button>
-                            <button
-                                v-if="specialIndex < maxSpecial"
-                                @click="nextSpecial"
-                                class="absolute right-0 top-1/2 -translate-y-1/2 bg-white border border-black text-black rounded-full px-2 py-2 shadow z-10"
-                            >
-                                <Fa6ArrowRight />
-                            </button>
-
-                            <div class="overflow-hidden">
                                 <div
-                                    class="flex transition-transform duration-500 ease-in-out"
-                                    :style="{
-                                        transform: `translateX(-${
-                                            specialIndex * 100
-                                        }%)`,
-                                    }"
+                                    v-for="(slide, sIdx) in slidesSpecial"
+                                    :key="sIdx"
+                                    class="min-w-full h-full flex-1 flex flex-col items-center px-3 items-stretch"
                                 >
                                     <div
-                                        v-for="(slide, sIdx) in slidesSpecial"
-                                        :key="sIdx"
-                                        class="min-w-full h-full flex-1 flex flex-col items-center px-3 items-stretch"
+                                        v-for="(promo, i) in slide"
+                                        :key="i"
+                                        class="bg-primary text-white rounded-2xl shadow-lg overflow-hidden flex flex-col w-full"
                                     >
-                                        <div
-                                            v-for="(promo, i) in slide"
-                                            :key="i"
-                                            class="bg-primary text-white rounded-2xl shadow-lg overflow-hidden flex flex-col w-full"
-                                        >
-                                            <div class="text-center p-3">
-                                                <img
-                                                    :src="promo.image"
-                                                    alt=""
-                                                    class="mx-auto"
-                                                />
-                                            </div>
-                                            <div class="px-4 pb-5 pt-2">
-                                                <h3
-                                                    class="text-center font-semibold text-lg mb-2"
+                                        <div class="text-center p-3">
+                                            <img
+                                                :src="promo.image"
+                                                alt=""
+                                                class="mx-auto"
+                                            />
+                                        </div>
+                                        <div class="px-4 pb-5 pt-2">
+                                            <h3
+                                                class="text-center font-semibold text-lg mb-2"
+                                            >
+                                                {{ promo.title }}
+                                            </h3>
+                                            <p class="text-justify text-sm">
+                                                {{ promo.desc }}
+                                            </p>
+                                            <div
+                                                class="pt-4 flex justify-center"
+                                            >
+                                                <a
+                                                    href="https://wa.me/6285712230349?text=Halo MinBi! Saya mau tanya info mengenai les privat di GABI. Bisa dibantu?"
+                                                    target="_blank"
+                                                    class="flex items-center gap-2 bg-green border-2 border-white text-white font-semibold text-sm px-8 py-2 rounded-xl hover:scale-105 transition-all duration-300 shadow-lg"
                                                 >
-                                                    {{ promo.title }}
-                                                </h3>
-                                                <p class="text-justify text-sm">
-                                                    {{ promo.desc }}
-                                                </p>
-                                                <div
-                                                    class="pt-4 flex justify-center"
-                                                >
-                                                    <a
-                                                        href="https://wa.me/6285712230349?text=Halo MinBi! Saya mau tanya info mengenai les privat di GABI. Bisa dibantu?"
-                                                        target="_blank"
-                                                        class="flex items-center gap-2 bg-green border-2 border-white text-white font-semibold text-sm px-8 py-2 rounded-xl hover:scale-105 transition-all duration-300 shadow-lg"
-                                                    >
-                                                        <Fa6Whatsapp
-                                                            class="w-5 h-5"
-                                                        />
-                                                        Tanya Sekarang
-                                                    </a>
-                                                </div>
+                                                    <Fa6Whatsapp
+                                                        class="w-5 h-5"
+                                                    />
+                                                    Tanya Sekarang
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+
+                        <!-- DOT NAV (hanya tampil di mobile) -->
+                        <div
+                            class="flex justify-center items-center gap-2 mt-4"
+                        >
+                            <button
+                                v-for="(_, idx) in promoSpecials"
+                                :key="idx"
+                                @click="setSpecial(idx)"
+                                :aria-label="`Pindah ke promo ke-${idx + 1}`"
+                                :class="[
+                                    'w-3 h-3 rounded-full transition-transform transform',
+                                    specialIndex === idx
+                                        ? 'scale-125 bg-secondary shadow-lg w-[14px] h-[14px]'
+                                        : 'bg-primary',
+                                ]"
+                            />
                         </div>
                     </div>
 
@@ -593,7 +614,7 @@ onMounted(() => {
                             berlaku :
                         </h1>
                         <ol
-                            class="list-decimal font-medium list-inside space-y-2 text-justify text-base leading-relaxed"
+                            class="list-decimal font-medium list-inside space-y-2 text-justify text-base text-md leading-relaxed"
                         >
                             <li>
                                 Promo berlaku untuk pendaftaran baru (siswa yang
@@ -628,7 +649,7 @@ onMounted(() => {
                         </ol>
                     </div>
                     <div>
-                        <p class="text-black font-medium text-sm md:text-base">
+                        <p class="text-black font-medium text-md lg:text-lg">
                             Siapa nih yang bilang kalau les privat berkualitas,
                             dengan tutor berpengalaman dan fasilitas lengkap itu
                             pasti mahal? Bareng GABI Les Privat, kamu bisa
@@ -638,7 +659,7 @@ onMounted(() => {
                             dimanfaatkan.
                         </p>
                         <p
-                            class="mt-4 text-black font-medium text-sm md:text-base"
+                            class="mt-4 text-black font-medium text-md lg:text-lg"
                         >
                             Kalau kata MinBi sih, jangan tunggu lama-lama deh!
                             Yuk, coba daftar di GABI Les Privat sekarang.
