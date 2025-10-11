@@ -12,7 +12,7 @@ import { BsLinkedin } from "vue-icons-plus/bs";
 
 <template>
     <footer class="bg-dark text-white text-center py-4">
-      <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8 lg:gap-16 py-8 sm:py-18 lg:py-18 px-6 sm:px-12 lg:px-38 text-left">
+      <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8 lg:gap-8 py-8 sm:py-18 lg:py-18 px-6 sm:px-12 lg:px-25 text-left">
       
       <!-- Kolom 1 -->
       <div class="md:col-span-3 lg:col-span-1 md:text-center lg:text-left">
@@ -56,7 +56,6 @@ import { BsLinkedin } from "vue-icons-plus/bs";
         </ul>
       </div>
 
-      
       <!-- Kolom 3 -->
       <div class="flex flex-col sm:flex-row gap-6 lg:flex-col md:col-span-2 lg:col-span-1">
         <div>
@@ -88,7 +87,7 @@ import { BsLinkedin } from "vue-icons-plus/bs";
             <Link href="/promo" class="hover:underline">Promo GABI</Link>
           </li>
           <li>
-            <Link href="/" class="hover:underline">FAQ & Bantuan</Link>
+            <Link href="/faq-bantuan" class="hover:underline">FAQ & Bantuan</Link>
           </li>
           <li>
             <Link href="/" class="hover:underline">Trial Gratis</Link>
