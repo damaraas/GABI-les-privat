@@ -2,6 +2,7 @@
 import AppLayout from "../Layouts/AppLayout.vue";
 import { Fa6Whatsapp, Fa6ArrowRight, Fa6ArrowLeft } from "vue-icons-plus/fa6";
 import { ref, computed, onMounted, watch } from "vue";
+import { Head } from '@inertiajs/vue3';
 
 // === PROMO UTAMA (Alasan Memilih GABI) ===
 const promos = [
@@ -120,6 +121,8 @@ watch(maxSpecial, (v) => {
 
 <template>
     <AppLayout>
+        <Head title="Promo GABI Les Privat" />
+
         <div class="bg-white lg:px-22 px-7 w-full py-5">
             <!-- Header Section -->
             <div class="lg:py-6 py-0">
