@@ -22,7 +22,7 @@ import { Head } from "@inertiajs/vue3";
         </h1>
         <p class="text-gray-600 mt-2">
           Temukan metode membaca untuk anak SMA agar lebih efisien dan tidak cepat bosan.
-          Gunakan teknik membaca cepat, skimming, scanning, hingga Pomodoro.
+          Gunakan teknik membaca cepat, skimming, scanning, hingga Podomoro.
         </p>
       </header>
     
@@ -69,14 +69,6 @@ import { Head } from "@inertiajs/vue3";
           </p>
         </section>
       </article>
-
-         <!-- Keyword Turunan -->
-        <div class="bg-gray-50 border border-gray-200 rounded-lg p-4 mb-4">
-            <p class="text-sm text-gray-600">
-            <span class="font-semibold text-gray-800">Keyword Utama:</span> 
-              membaca untuk anak SMA
-            </p>
-        </div>
 
         <!-- Judul Artikel Bagian Kedua-->
         <h2 class="text-xl sm:text-2xl lg:text-3xl font-semibold text-center text-[#FDD636]
@@ -271,28 +263,11 @@ import { Head } from "@inertiajs/vue3";
             Kalau membaca sendiri masih terasa berat, coba pertimbangkan belajar bersama guru privat. 
             Kadang, bimbingan kecil bisa membuat pemahaman lebih mudah. 
             Nah, kamu bisa mencoba layanan 
-            <a href="https://bimbelprivatjkt.com/" target="_blank" rel="noopener noreferrer" class="text-[#11B2F7] font-medium hover:underline">
+            <a href="/" target="_blank" rel="noopener noreferrer" class="text-[#11B2F7] font-medium hover:underline">
             GABI Les Privat untuk Anak SD–SMA
             </a>. 
             Dengan biaya trial hanya <span class="font-semibold">Rp50.000</span>, kamu bisa merasakan belajar lebih fokus karena dibimbing, 
             mendapatkan tips membaca yang sesuai kebutuhanmu, dan juga meningkatkan hasil akademik.
-        </p>
-
-        <!-- Keyword Turunan -->
-        <div class="bg-gray-50 border border-gray-200 rounded-lg p-4 mb-4">
-            <p class="text-sm text-gray-600">
-            <span class="font-semibold text-gray-800">Keyword Turunan:</span> 
-              cara membaca efisien untuk anak SMA, trik membaca untuk siswa, teknik membaca cepat siswa, 
-              tips belajar efisien anak SMA            
-            </p>
-        </div>
-
-        <!-- Internal Link -->
-        <p class="text-gray-700 mt-4">
-            <span class="font-semibold">Baca juga:</span> 
-            <a href="#" class="text-[#11B2F7] hover:underline">
-            Efisiensi Waktu Belajar dengan Les Privat
-            </a>
         </p>
         </section> 
     </section>
