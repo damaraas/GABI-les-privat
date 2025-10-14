@@ -1,6 +1,16 @@
 <script setup>
 import AppLayout from "../Layouts/AppLayout.vue";
 import { Head } from "@inertiajs/vue3";
+
+// terima props dari Laravel
+const props = defineProps({
+  slug: {
+    type: String,
+    default: 'tidak-ada-slug',
+  },
+});
+
+const judul = "Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan";
 </script>
 
 <template>
@@ -17,13 +27,11 @@ import { Head } from "@inertiajs/vue3";
 
       <!-- Hero -->
       <header class="mb-6">
-        <h1 class="text-3xl font-bold leading-tight">
-          Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan
-        </h1>
+        <h1 class="text-3xl font-bold leading-tight">{{ judul }}</h1>
         <p class="text-gray-600 mt-2">
           Temukan metode membaca untuk anak SMA agar lebih efisien dan tidak cepat bosan.
-          Gunakan teknik membaca cepat, skimming, scanning, hingga Podomoro.
         </p>
+        <!-- <p class="mt-4 text-sm text-gray-500">Slug: {{ slug }}</p> -->
       </header>
     
         <!-- Judul Artikel Bagian Pertama-->

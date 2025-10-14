@@ -40,6 +40,12 @@ class HomeController extends Controller
     {
         return inertia('Artikel1');
     }
+   public function artikel1Detail($slug)
+{
+    return inertia('Artikel1', [
+        'slug' => $slug,
+    ]);
+}
 
     public function faq()
     {
