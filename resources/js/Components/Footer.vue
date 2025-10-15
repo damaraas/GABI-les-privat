@@ -93,10 +93,13 @@ import { BsLinkedin } from "vue-icons-plus/bs";
             <Link href="/" class="hover:underline">Trial Gratis</Link>
           </li>
           <li>
+            <Link href="/flashsale" class="hover:underline">Flash Sale</Link>
+          </li>
+          <li>
             <Link href="/" class="hover:underline">Karier</Link>
           </li>
           <li>
-            <Link href="/" class="hover:underline">Blog</Link>
+            <Link href="/blog" class="hover:underline">Blog</Link>
           </li>
           <li>
             <Link href="/" class="hover:underline">Press</Link>
