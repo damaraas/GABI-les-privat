@@ -1,3 +1,5 @@
+<!-- hubungkan ke route ini http://127.0.0.1:8000/artikel1/metode-membaca-efisien-agar-tidak-cepat-bosan -->
+
 <script setup>
 import AppLayout from "../Layouts/AppLayout.vue";
 import { Head } from "@inertiajs/vue3";
