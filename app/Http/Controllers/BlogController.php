@@ -14,17 +14,23 @@ class BlogController extends Controller
                 'id' => 1,
                 'thumbnail' => 'img/artikel1/a1.webp',
                 'judul' => 'Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan',
-                'konten' => 'Temukan metode membaca untuk anak SMA agar lebih efisien dan tidak cepat bosan. Gunakan teknik membaca cepat, skimming, scanning, hingga Pomodoro.',
-                'tanggal' => '32 Februari 2028',
+                'konten' => 'Hayoo, siapa di sini yang masih malas membaca? Merujuk dari quotes di atas, seharusnya bisa memotivasi 
+                    kamu untuk lebih giat membaca. Faktanya, banyak orang sebenarnya punya niat membaca, tapi sulit bertahan lebih dari 
+                    beberapa halaman. Apalagi di era sekarang, ketika notifikasi handphone terasa lebih menarik daripada baris-baris tulisan.',
+                'tanggal' => '09 Oktober 2025',
+                'formattanggal' => '2025-10-09',
                 'slug' => 'cara-membaca-efisien-untuk-anak-SMA-agar-tidak-cepat-bosan',
             ],
             [
                 'id' => 2,
-                'thumbnail' => 'img/artikel1/a1.webp',
-                'judul' => 'Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan',
-                'konten' => 'Temukan metode membaca untuk anak SMA agar lebih efisien dan tidak cepat bosan. Gunakan teknik membaca cepat, skimming, scanning, hingga Pomodoro.',
-                'tanggal' => '32 Februari 2028',
-                'slug' => 'cara-membaca-efisien-untuk-anak-SMA-agar-tidak-cepat-bosan',
+                'thumbnail' => 'img/artikel2/a1.webp',
+                'judul' => 'Cara Mengatur Waktu Belajar Efektif dengan Pomodoro Technique',
+                'konten' => 'Pernah ga sih kamu ngerasa udah belajar berjam-jam tapi tetap nggak paham-paham? 
+                    Atau baru buka buku 10 menit, eh tangan malah gatal buka Snapgram? Belum lagi rasa bosan yang cepat 
+                    datang kalau duduk terlalu lama. Tantangan-tantangan seperti ini sering bikin belajar jadi terasa berat dan nggak efisien.',
+                'tanggal' => '20 Oktober 2025',
+                'formattanggal' => '2025-10-20',
+                'slug' => 'cara-mengatur-waktu-belajar-efektif-dengan-pomodoro-technique',
             ],
             [
                 'id' => 3,
@@ -32,6 +38,7 @@ class BlogController extends Controller
                 'judul' => 'Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan',
                 'konten' => 'Temukan metode membaca untuk anak SMA agar lebih efisien dan tidak cepat bosan. Gunakan teknik membaca cepat, skimming, scanning, hingga Pomodoro.',
                 'tanggal' => '32 Februari 2028',
+                'formattanggal' => '2025-01-35',
                 'slug' => 'cara-membaca-efisien-untuk-anak-SMA-agar-tidak-cepat-bosan',
             ],
             [
@@ -40,6 +47,7 @@ class BlogController extends Controller
                 'judul' => 'Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan',
                 'konten' => 'Temukan metode membaca untuk anak SMA agar lebih efisien dan tidak cepat bosan. Gunakan teknik membaca cepat, skimming, scanning, hingga Pomodoro.',
                 'tanggal' => '32 Februari 2028',
+                'formattanggal' => '2025-01-35',
                 'slug' => 'cara-membaca-efisien-untuk-anak-SMA-agar-tidak-cepat-bosan',
             ],
             [
@@ -48,6 +56,7 @@ class BlogController extends Controller
                 'judul' => 'Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan',
                 'konten' => 'Temukan metode membaca untuk anak SMA agar lebih efisien dan tidak cepat bosan. Gunakan teknik membaca cepat, skimming, scanning, hingga Pomodoro.',
                 'tanggal' => '32 Februari 2028',
+                'formattanggal' => '2025-01-35',
                 'slug' => 'cara-membaca-efisien-untuk-anak-SMA-agar-tidak-cepat-bosan',
             ],
             [
@@ -56,56 +65,16 @@ class BlogController extends Controller
                 'judul' => 'Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan',
                 'konten' => 'Temukan metode membaca untuk anak SMA agar lebih efisien dan tidak cepat bosan. Gunakan teknik membaca cepat, skimming, scanning, hingga Pomodoro.',
                 'tanggal' => '32 Februari 2028',
+                'formattanggal' => '2025-01-35',
                 'slug' => 'cara-membaca-efisien-untuk-anak-SMA-agar-tidak-cepat-bosan',
             ],
         ];
 
+        usort($posts, function($a, $b) {
+            return strtotime($b['formattanggal']) - strtotime($a['formattanggal']);
+        });
+
+
         return Inertia::render('Blog/Index', ['posts' => $posts]);
-    }
-
-    public function show($slug)
-    {
-        $posts = [
-        'cara-membaca-efisien-untuk-anak-SMA-agar-tidak-cepat-bosan' => [
-            'id' => 1,
-            'judul' => 'Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan',
-            'tanggal' => '32 Februari 2028',
-            'konten' => 'Temukan metode membaca untuk anak SMA agar lebih efisien dan tidak cepat bosan. Gunakan teknik membaca cepat, skimming, scanning, hingga Pomodoro.',
-        ],
-        'cara-membaca-efisien-untuk-anak-SMA-agar-tidak-cepat-bosan' => [
-            'id' => 2,
-            'judul' => 'Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan',
-            'tanggal' => '32 Februari 2028',
-            'konten' => 'Temukan metode membaca untuk anak SMA agar lebih efisien dan tidak cepat bosan. Gunakan teknik membaca cepat, skimming, scanning, hingga Pomodoro.',
-        ],
-        'cara-membaca-efisien-untuk-anak-SMA-agar-tidak-cepat-bosan' => [
-            'id' => 3,
-            'judul' => 'Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan',
-            'tanggal' => '32 Februari 2028',
-            'konten' => 'Temukan metode membaca untuk anak SMA agar lebih efisien dan tidak cepat bosan. Gunakan teknik membaca cepat, skimming, scanning, hingga Pomodoro.',
-        ],
-        'cara-membaca-efisien-untuk-anak-SMA-agar-tidak-cepat-bosan' => [
-            'id' => 4,
-            'judul' => 'Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan',
-            'tanggal' => '32 Februari 2028',
-            'konten' => 'Temukan metode membaca untuk anak SMA agar lebih efisien dan tidak cepat bosan. Gunakan teknik membaca cepat, skimming, scanning, hingga Pomodoro.',
-        ],
-        'cara-membaca-efisien-untuk-anak-SMA-agar-tidak-cepat-bosan' => [
-            'id' => 5,
-            'judul' => 'Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan',
-            'tanggal' => '32 Februari 2028',
-            'konten' => 'Temukan metode membaca untuk anak SMA agar lebih efisien dan tidak cepat bosan. Gunakan teknik membaca cepat, skimming, scanning, hingga Pomodoro.',
-        ],
-        'cara-membaca-efisien-untuk-anak-SMA-agar-tidak-cepat-bosan' => [
-            'id' => 6,
-            'judul' => 'Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan',
-            'tanggal' => '32 Februari 2028',
-            'konten' => 'Temukan metode membaca untuk anak SMA agar lebih efisien dan tidak cepat bosan. Gunakan teknik membaca cepat, skimming, scanning, hingga Pomodoro.',
-        ],
-        ];
-
-        abort_unless(isset($posts[$slug]), 404);
-
-        return Inertia::render('Blog/Show', ['post' => $posts[$slug]]);
     }
 }

@@ -1,7 +1,7 @@
 <!-- hubungkan ke route ini http://127.0.0.1:8000/artikel1/metode-membaca-efisien-agar-tidak-cepat-bosan -->
 
 <script setup>
-import AppLayout from "../Layouts/AppLayout.vue";
+import AppLayout from "../../Layouts/AppLayout.vue";
 import { Head } from "@inertiajs/vue3";
 
 // terima props dari Laravel
@@ -18,23 +18,29 @@ const judul = "Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan";
 <template>
   <AppLayout>
     <Head title="Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan" />
+    <!-- Head untuk title, description, keyword SEO -->
+    <Head>
+      <title>Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan</title>
+      <meta name="description" content="Temukan metode membaca untuk anak SMA agar lebih efisien dan tidak cepat bosan. Gunakan teknik membaca cepat, skimming, scanning, hingga Pomodoro.">
+      <meta name="keywords" content="membaca untuk anak SMA, cara membaca efisien untuk anak SMA, trik membaca untuk siswa, teknik membaca cepat siswa, tips belajar efisien anak SMA">
+    </Head>
 
     <!-- Breadcrumb -->
     <section class="max-w-4xl mx-auto p-6">
       <nav class="text-sm mb-4">
-        <a href="/" class="text-[#11B2F7] hover:underline">Beranda</a>
+        <a href="/blog" class="text-[#11B2F7] hover:underline">Beranda</a>
         <span class="mx-2">/</span>
-        <span class="text-gray-600">Artikel</span>
+        <span class="text-gray-600">Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan</span>
       </nav>
 
       <!-- Hero -->
-      <header class="mb-6">
+      <!-- <header class="mb-6">
         <h1 class="text-3xl font-bold leading-tight">{{ judul }}</h1>
         <p class="text-gray-600 mt-2">
           Temukan metode membaca untuk anak SMA agar lebih efisien dan tidak cepat bosan.
         </p>
-        <!-- <p class="mt-4 text-sm text-gray-500">Slug: {{ slug }}</p> -->
-      </header>
+        <p class="mt-4 text-sm text-gray-500">Slug: {{ slug }}</p>
+      </header> -->
     
         <!-- Judul Artikel Bagian Pertama-->
         <h2 class="text-xl sm:text-2xl lg:text-3xl font-semibold text-center text-[#FDD636]
@@ -45,7 +51,7 @@ const judul = "Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan";
         <!-- Gambar Artikel -->
         <div class="w-full flex justify-center my-6">
         <img 
-            src="../../../public/img/artikel1/a1.webp" 
+            src="../../../../public/img/artikel1/a1.webp" 
             alt="Ilustrasi Membaca Efisien"
             class="w-[85%] sm:w-[70%] md:w-[60%] lg:w-[50%] shadow-md object-cover"
         />
@@ -59,19 +65,19 @@ const judul = "Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan";
       <!-- Isi Artikel Bagian Pertama -->
       <article class="prose prose-lg">
         <section>
-          <p class="mb-5 text-justify sm:text-left">
+          <p class="mb-5 text-justify">
             Hayoo, siapa di sini yang masih malas membaca? Merujuk dari quotes di atas, seharusnya bisa 
             memotivasi kamu untuk lebih giat membaca. Faktanya, banyak orang sebenarnya punya niat 
             membaca, tapi sulit bertahan lebih dari beberapa halaman. Apalagi di era sekarang, ketika 
             notifikasi handphone terasa lebih menarik daripada baris-baris tulisan.
           </p>
-          <p class="mb-5 text-justify sm:text-left">
+          <p class="mb-5 text-justify">
             Padahal, membaca adalah kunci utama untuk memahami pelajaran, menguasai materi ujian, bahkan 
             persiapan masuk perguruan tinggi untuk anak SMA. Kalau kamu sebagai siswa sudah terbiasa 
             dengan cara membaca efisien, kamu akan lebih mudah mengatur waktu belajar, tidak gampang 
             bosan, dan tentu saja bisa mendapatkan hasil belajar yang lebih baik.
           </p>
-          <p class="mb-5 text-justify sm:text-left">
+          <p class="mb-5 text-justify">
             Padahal, membaca adalah kunci utama untuk memahami pelajaran, menguasai materi ujian, bahkan 
             persiapan masuk perguruan tinggi untuk anak SMA. Kalau kamu sebagai siswa sudah terbiasa 
             dengan cara membaca efisien, kamu akan lebih mudah mengatur waktu belajar, tidak gampang 
@@ -89,17 +95,17 @@ const judul = "Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan";
          <!-- Isi Artikel Bagian Kedua -->
         <article class="prose prose-lg">
             <section>
-            <p class="mb-5 text-justify sm:text-left">
+            <p class="mb-5 text-justify">
                 Kita hidup di zaman ketika informasi berlimpah, tapi konsentrasi justru makin terbagi. 
                 Gadget dan media sosial menjadi distraksi utama, membuat membaca satu bab buku saja 
                 terasa berat apalagi baca satu buku yang tebalnya ratusan halaman kan… 
             </p>
-            <p class="mb-5 text-justify sm:text-left">
+            <p class="mb-5 text-justify">
                 Selain itu, budaya serba instan membuat kita terbiasa dengan sesuatu yang cepat selesai. 
                 Reels Instagram atau bahkan Video TikTok pasti lebih menarik daripada membaca buku yang 
                 tebal, sehingga duduk berjam-jam bersama buku terasa membosankan.
             </p>
-            <p class="mb-5 text-justify sm:text-left">
+            <p class="mb-5 text-justify">
                 Bagi pelajar atau mahasiswa, membaca bukan hanya soal hobi, tapi juga kebutuhan akademik. 
                 Hampir setiap hari kamu harus berhadapan dengan buku pelajaran yang tebal, rangkuman 
                 materi, apalagi untuk anak SMA bacaan tambahan untuk persiapan ujian juga banyak kan. 
@@ -202,7 +208,7 @@ const judul = "Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan";
         <!-- Gambar Artikel -->
         <div class="w-full flex justify-center my-6">
         <img 
-            src="../../../public/img/artikel1/a2.webp" 
+            src="../../../../public/img/artikel1/a2.webp" 
             alt="Ilustrasi Membaca Efisien"
             class="w-[85%] sm:w-[70%] md:w-[60%] lg:w-[50%] shadow-md object-cover"
         />
@@ -245,37 +251,31 @@ const judul = "Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan";
         </li>
         </ul>
 
-
-        <!-- Judul Artikel Bagian Keenam-->
-        <h2 class="text-xl sm:text-2xl lg:text-3xl font-semibold text-center text-[#FDD636]
-                tracking-wide leading-tight mt-15 mb-6">
-        Kesimpulan
-        </h2>
-         <!-- Isi Artikel Bagian Keenam -->
-        <section class="mt-8">
-        <p class="text-gray-700 leading-relaxed mb-4 text-justify sm:text-left">
+         <!-- Kesimpulan -->
+        <section class="mt-15">
+        <p class="text-gray-700 leading-relaxed mb-4 text-justify">
             Membaca adalah keterampilan penting untuk siswa terutama siswa SMA, karena hampir semua mata pelajaran membutuhkan pemahaman dari buku dan teks panjang. 
             Sayangnya, banyak siswa cepat merasa bosan. Tapi, dengan menerapkan <span class="font-semibold text-[#11B2F7]">cara membaca efisien</span> 
             seperti skimming, scanning, chunking, membuat catatan, hingga Pomodoro Technique, belajar bisa terasa lebih ringan dan terarah.
         </p>
 
-        <p class="text-gray-700 leading-relaxed mb-4 text-justify sm:text-left">
+        <p class="text-gray-700 leading-relaxed mb-4 text-justify">
             Ingat, tujuan membaca bukan hanya menyelesaikan halaman, melainkan memahami isi pelajaran. 
             Kalau kamu masih kesulitan, jangan menyerah. Mulailah dengan trik membaca sederhana lalu kembangkan sedikit demi sedikit.
         </p>
 
-        <p class="text-gray-700 leading-relaxed mb-4 text-justify sm:text-left">
+        <p class="text-gray-700 leading-relaxed mb-4 text-justify">
             Strategi membaca buku pelajaran yang tepat akan sangat membantu dalam menghadapi ujian harian, ujian semester, hingga persiapan masuk perguruan tinggi. 
             Dengan teknik membaca cepat dan efisien, kamu bisa menghemat waktu, menjaga fokus, dan tetap termotivasi.
         </p>
 
-        <p class="text-gray-700 leading-relaxed mb-6 text-justify sm:text-left">
+        <p class="text-gray-700 leading-relaxed mb-6 text-justify">
             Kalau membaca sendiri masih terasa berat, coba pertimbangkan belajar bersama guru privat. 
             Kadang, bimbingan kecil bisa membuat pemahaman lebih mudah. 
             Nah, kamu bisa mencoba layanan 
             <a href="/" target="_blank" rel="noopener noreferrer" class="text-[#11B2F7] font-medium hover:underline">
-            GABI Les Privat untuk Anak SD–SMA
-            </a>. 
+            GABI Les Privat untuk Anak SD–SMA.
+            </a>
             Dengan biaya trial hanya <span class="font-semibold">Rp50.000</span>, kamu bisa merasakan belajar lebih fokus karena dibimbing, 
             mendapatkan tips membaca yang sesuai kebutuhanmu, dan juga meningkatkan hasil akademik.
         </p>
