@@ -1,16 +1,19 @@
-<!-- hubungkan ke route ini http://127.0.0.1:8000/artikel1/metode-membaca-efisien-agar-tidak-cepat-bosan -->
-
 <script setup>
 import AppLayout from "../../Layouts/AppLayout.vue";
 import { Head } from "@inertiajs/vue3";
+import Cta from '../HomePage/Components/Cta.vue';
 
 const judul = "Cara Mengatur Waktu Belajar Efektif dengan Pomodoro Technique";
 </script>
 
 <template>
   <AppLayout>
-    <Head title="Cara Mengatur Waktu Belajar Efektif dengan Pomodoro Technique" />
-    
+    <Head>
+        <title>Cara Mengatur Waktu Belajar Efektif dengan Pomodoro Technique</title>
+        <meta name="description" content="Temukan langkah-langkah, manfaat, dan tips agar waktu belajar tidak cepat membosankan bersama GABI Les Privat belajar efektif 25 menit dan 5 menit istirahat.">
+        <meta name="keywords" content="cara belajar efektif, teknik manajemen waktu belajar, metode Pomodoro untuk produktivitas, tips belajar fokus, trik manajemen waktu pelajar">
+    </Head>
+
     <!-- Breadcrumb -->
     <section class="max-w-4xl mx-auto p-6">
       <nav class="text-sm mb-4">
@@ -53,9 +56,12 @@ const judul = "Cara Mengatur Waktu Belajar Efektif dengan Pomodoro Technique";
           </p>
           <p class="mb-5 text-justify">
             Belajar efektif nggak harus lama, yang penting tahu cara mengatur waktunya. Dengan pendekatan 
-            personal dan metode interaktif, <span class="font-bold">Gabi Les Privat (internal link home)</span> membantu siswa menerapkan 
-            <span class="font-bold">Pomodoro Technique</span> agar belajar jadi lebih fokus, santai, dan menyenangkan. Bersama tutor berpengalaman,
-             belajar bukan lagi beban, tapi jadi rutinitas yang bikin semangat setiap hari.
+            personal dan metode interaktif, 
+            <a href="/" target="_blank" class="text-[#11B2F7] font-medium hover:underline">
+            GABI Les Privat
+            </a> 
+            membantu siswa menerapkan <span class="font-bold">Pomodoro Technique</span> agar belajar jadi lebih fokus, santai, dan menyenangkan. Bersama tutor berpengalaman,
+            belajar bukan lagi beban, tapi jadi rutinitas yang bikin semangat setiap hari.
           </p>
           <a href="https://gabi.bimbelprivatjkt.com/">Baca Juga: <span class="underline text-blue-500 hover:text-blue-700 duration-300">Les privat SD</span></a>
         </section>
@@ -227,7 +233,11 @@ const judul = "Cara Mengatur Waktu Belajar Efektif dengan Pomodoro Technique";
             Dengan biaya trial hanya <span class="font-semibold">Rp50.000</span>, kamu bisa belajar mengatur waktu agar lebih efisien atau mungkin 
             mencoba teknik ini bersama guru berpengalaman, ayo jangan buang-buang waktu lagi!!
         </p>
-        </section> 
+        </section>
+    </section>
+
+    <section>
+        <Cta />
     </section>
   </AppLayout>
 </template>

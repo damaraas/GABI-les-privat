@@ -17,7 +17,11 @@ const judul = "Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan";
 
 <template>
   <AppLayout>
-    <Head title="Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan" />
+    <Head>
+      <title>Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan</title>
+      <meta name="description" content="Temukan metode membaca untuk anak SMA agar lebih efisien dan tidak cepat bosan. Gunakan teknik membaca cepat, skimming, scanning, hingga Pomodoro.">
+      <meta name="keywords" content="cara belajar efektif, teknik manajemen waktu belajar, metode Pomodoro untuk produktivitas, tips belajar fokus, trik manajemen waktu pelajar">
+    </Head>
 
     <!-- Breadcrumb -->
     <section class="max-w-4xl mx-auto p-6">
