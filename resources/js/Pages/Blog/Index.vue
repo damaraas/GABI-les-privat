@@ -6,7 +6,7 @@ import { ref, computed } from "vue";
 const props = defineProps({ posts: Array });
 
 // Pagination
-const perPage = 3; // jumlah artikel per halaman
+const perPage = 6; // jumlah artikel per halaman
 const currentPage = ref(1);
 
 const totalPages = computed(() => {

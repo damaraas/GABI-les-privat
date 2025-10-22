@@ -25,9 +25,6 @@ const judul = "Cara Mengatur Waktu Belajar Efektif dengan Pomodoro Technique";
       <!-- Hero -->
       <header class="mb-6">
         <h1 class="text-3xl font-bold leading-tight text-center">{{ judul }}</h1>
-        <!-- <p class="text-gray-600 mt-2">
-          Temukan metode membaca untuk anak SMA agar lebih efisien dan tidak cepat bosan.
-        </p> -->
       </header>
 
         <!-- Gambar Artikel -->
@@ -63,7 +60,7 @@ const judul = "Cara Mengatur Waktu Belajar Efektif dengan Pomodoro Technique";
             membantu siswa menerapkan <span class="font-bold">Pomodoro Technique</span> agar belajar jadi lebih fokus, santai, dan menyenangkan. Bersama tutor berpengalaman,
             belajar bukan lagi beban, tapi jadi rutinitas yang bikin semangat setiap hari.
           </p>
-          <a href="https://gabi.bimbelprivatjkt.com/">Baca Juga: <span class="underline text-blue-500 hover:text-blue-700 duration-300">Les privat SD</span></a>
+          <a href="https://gabi.bimbelprivatjkt.com/">🔗Baca Juga: <span class="underline text-blue-500 hover:text-blue-700 duration-300">Les privat SD</span></a>
         </section>
       </article>
 
@@ -92,7 +89,7 @@ const judul = "Cara Mengatur Waktu Belajar Efektif dengan Pomodoro Technique";
                 atau bekerja terasa ringan karena dibagi ke dalam potongan waktu yang lebih kecil dan terukur.
             </p>
             <a href="https://bimbelprivatjkt.com/les-privat-untuk-berbagai-kebutuhan/">
-                Baca juga: <span class="underline text-blue-500 hover:text-blue-700 duration-300">Les Privat untuk Berbagai Kebutuhan</span>
+                🔗Baca juga: <span class="underline text-blue-500 hover:text-blue-700 duration-300">Les Privat untuk Berbagai Kebutuhan</span>
             </a>
             </section>
         </article>
@@ -137,20 +134,32 @@ const judul = "Cara Mengatur Waktu Belajar Efektif dengan Pomodoro Technique";
 
         <!-- Gambar Artikel -->
         <div class="w-full flex justify-center my-6">
-        <img 
+        <div class="flex flex-col items-center">
+            <img 
             src="../../../../public/img/artikel2/a2.webp" 
             alt="Ilustrasi Anak Sedang Belajar"
             class="w-[85%] sm:w-[70%] md:w-[60%] lg:w-[50%] shadow-md object-cover"
         />
+        <p class="text-sm text-gray-500 mt-2 italic text-center">
+            Sumber:
+                <a
+                    href="https://id.pinterest.com/pin/64457838416793865/"
+                    target="_blank"
+                    class="underline hover:text-gray-700"
+                >
+                    pinterest
+                </a>
+        </p>
+        </div>
         </div>
 
         <!-- Paragraf Pembuka -->
-        <p class="text-gray-700 leading-relaxed mb-6">
+        <p class="text-gray-700 leading-relaxed mb-6 text-justify">
             Buat pelajar, atau mahasiswa, Pomodoro Technique punya banyak manfaat:
         </p>
 
         <!-- Daftar -->
-        <ul class="list-disc pl-6 space-y-3 text-gray-700">
+        <ul class="list-disc pl-6 space-y-3 text-gray-700 text-justify">
         <li>
             <span class="font-semibold text-[#11B2F7]">Meningkatkan konsentrasi</span> – Batasan waktu bikin otak lebih sigap.
         </li>
@@ -167,7 +176,7 @@ const judul = "Cara Mengatur Waktu Belajar Efektif dengan Pomodoro Technique";
 
         <br>
         <a href="https://bimbelprivatjkt.com/cara-mengatur-waktu-belajar-privat-untuk-anak-yang-aktif/">
-            Baca juga: <span class="underline text-blue-500 hover:text-blue-700 duration-300">Strategi belajar privat: Cara Mengatur Waktu Belajar Privat untuk Anak yang Aktif</span>
+            🔗Baca juga: <span class="underline text-blue-500 hover:text-blue-700 duration-300">Strategi belajar privat: Cara Mengatur Waktu Belajar Privat untuk Anak yang Aktif</span>
         </a>
 
         <!-- Judul Artikel Bagian Kelima-->
@@ -176,12 +185,12 @@ const judul = "Cara Mengatur Waktu Belajar Efektif dengan Pomodoro Technique";
         </h2>
 
         <!-- Paragraf Pembuka -->
-        <p class="text-gray-700 leading-relaxed mb-6">
+        <p class="text-gray-700 leading-relaxed mb-6 text-justify">
             Supaya lebih jelas, begini contoh penerapannya:
         </p>
 
         <!-- Daftar Tips Membaca -->
-        <ul class="list-disc pl-6 space-y-3 text-gray-700">
+        <ul class="list-disc pl-6 space-y-3 text-gray-700 text-justify">
         <li>
             <span class="block">
             <span class="font-semibold text-[#11B2F7]">Belajar Matematika: </span> 
@@ -203,8 +212,8 @@ const judul = "Cara Mengatur Waktu Belajar Efektif dengan Pomodoro Technique";
         </ul>
 
         <!-- Paragraf Penutup -->
-        <p class="text-gray-700 leading-relaxed mt-6">
-            Dengan cara ini, belajar kamu akan terasa lebih ringan karena dibagi dalam porsi kecil, bukan marathon panjang yang bikin stres
+        <p class="text-gray-700 leading-relaxed mt-6 text-justify">
+            Dengan cara ini, belajar kamu akan terasa lebih ringan karena dibagi dalam porsi kecil, bukan marathon panjang yang bikin stres.
         </p>
 
          <!-- Kesimpulan -->
