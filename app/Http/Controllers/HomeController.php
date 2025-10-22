@@ -58,6 +58,11 @@ class HomeController extends Controller
     {
         return Inertia::render('FAQ/Index');
     }
+    public function artikel4()
+    {
+    return Inertia::render('Blog/Artikel4');
+    }
+
 
 
 }

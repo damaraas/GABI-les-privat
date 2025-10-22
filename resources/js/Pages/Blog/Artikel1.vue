@@ -19,8 +19,6 @@ const judul = "Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan";
   <AppLayout>
     <Head>
       <title>Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan</title>
-      <meta name="description" content="Temukan metode membaca untuk anak SMA agar lebih efisien dan tidak cepat bosan. Gunakan teknik membaca cepat, skimming, scanning, hingga Pomodoro.">
-      <meta name="keywords" content="cara belajar efektif, teknik manajemen waktu belajar, metode Pomodoro untuk produktivitas, tips belajar fokus, trik manajemen waktu pelajar">
     </Head>
 
     <!-- Breadcrumb -->
@@ -41,7 +39,7 @@ const judul = "Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan";
       </header> -->
     
         <!-- Judul Artikel Bagian Pertama-->
-        <h2 class="text-xl sm:text-2xl lg:text-3xl font-semibold text-center text-[#FDD636]
+        <h2 class="text-xl sm:text-2xl lg:text-3xl font-bold text-center
                 tracking-wide leading-tight mt-8 mb-6">
         Metode Membaca Efisien agar Tidak Cepat Bosan
         </h2>
@@ -85,7 +83,7 @@ const judul = "Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan";
       </article>
 
         <!-- Judul Artikel Bagian Kedua-->
-        <h2 class="text-xl sm:text-2xl lg:text-3xl font-semibold text-center text-[#FDD636]
+        <h2 class="text-xl sm:text-2xl lg:text-3xl font-bold text-center
                 tracking-wide leading-tight mt-15 mb-6">
         Tantangan Membaca di Era Digital
         </h2>
@@ -114,7 +112,7 @@ const judul = "Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan";
 
 
         <!-- Judul Artikel Bagian Ketiga-->
-        <h2 class="text-xl sm:text-2xl lg:text-3xl font-semibold text-center text-[#FDD636]
+        <h2 class="text-xl sm:text-2xl lg:text-3xl font-bold text-center
                 tracking-wide leading-tight mt-15 mb-6">
         Kenapa Banyak Orang Cepat Bosan Membaca
         </h2>
@@ -144,7 +142,7 @@ const judul = "Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan";
 
 
         <!-- Judul Artikel Bagian Keempat-->
-        <h2 class="text-xl sm:text-2xl lg:text-3xl font-semibold text-center text-[#FDD636]
+        <h2 class="text-xl sm:text-2xl lg:text-3xl font-bold text-center
                 tracking-wide leading-tight mt-15 mb-6">
         Metode Membaca Efisien
         </h2>
@@ -198,7 +196,7 @@ const judul = "Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan";
 
 
         <!-- Judul Artikel Bagian Kelima-->
-        <h2 class="text-xl sm:text-2xl lg:text-3xl font-semibold text-center text-[#FDD636]
+        <h2 class="text-xl sm:text-2xl lg:text-3xl font-bold text-center
                 tracking-wide leading-tight mt-15 mb-6">
         Menemukan Gaya Membaca yang Cocok
         </h2>

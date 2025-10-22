@@ -25,6 +25,9 @@ Route::get('/blog/cara-mengatur-waktu-belajar-efektif-dengan-pomodoro-technique'
 Route::get('/blog/Cara-Jitu-Persiapan-UTBK-SNBT-agar-Meraih-Skor-Tinggi', function () {
     return Inertia::render('Blog/Artikel5');
 });
+Route::get('/blog/cara-belajar-bahasa-mandarin', function () {
+    return Inertia::render('Blog/Artikel4');
+});
 
 // Route::get('/artikel1/{slug}', [HomeController::class, 'artikel1Detail'])->name('artikel1.detail');
 // Route::get('/artikel1', [HomeController::class, 'artikel1'])->name('artikel1');
