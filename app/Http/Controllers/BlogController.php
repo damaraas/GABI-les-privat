@@ -61,12 +61,12 @@ class BlogController extends Controller
             ],
             [
                 'id' => 6,
-                'thumbnail' => 'img/artikel1/a1.webp',
-                'judul' => 'Artikel 6',
-                'konten' => 'Temukan metode membaca untuk anak SMA agar lebih efisien dan tidak cepat bosan. Gunakan teknik membaca cepat, skimming, scanning, hingga Pomodoro.',
+                'thumbnail' => 'img/artikel6/a1.webp',
+                'judul' => '5 Fun Fact Menarik tentang Metode Montessori Privat yang Bikin Anak Betah Belajar',
+                'konten' => 'Metode Montessori adalah pendekatan belajar yang dikembangkan oleh Dr. Maria Montessori pada awal abad ke-20. Filosofinya menekankan kebebasan, eksplorasi, dan pembelajaran yang dipersonalisasi sesuai kebutuhan anak.',
                 'tanggal' => '22 Oktober 2025',
                 'formattanggal' => '2025-10-22',
-                'slug' => 'cara-membaca-efisien-untuk-anak-SMA-agar-tidak-cepat-bosan',
+                'slug' => '5-Fun-Fact-Menarik-tentang-Metode-Montessori-Privat-yang-Bikin-Anak-Betah-Belajar',
             ],
             [
                 'id' => 7,

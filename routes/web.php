@@ -28,6 +28,10 @@ Route::get('/blog/5-manfaat-belajar-bahasa-mandarin-untuk-masa-depan', function 
 Route::get('/blog/Cara-Jitu-Persiapan-UTBK-SNBT-agar-Meraih-Skor-Tinggi', function () {
     return Inertia::render('Blog/Artikel5');
 });
+Route::get('/blog/5-Fun-Fact-Menarik-tentang-Metode-Montessori-Privat-yang-Bikin-Anak-Betah-Belajar
+', function () {
+    return Inertia::render('Blog/Artikel6');
+});
 Route::get('/blog/cara-cepat-jago-speaking-dan-grammar-dengan-les-privat-bahasa-inggris', function () {
     return Inertia::render('Blog/Artikel7');
 });
