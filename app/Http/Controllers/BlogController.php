@@ -52,12 +52,12 @@ class BlogController extends Controller
             ],
             [
                 'id' => 5,
-                'thumbnail' => 'img/artikel1/a1.webp',
-                'judul' => 'Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan',
-                'konten' => 'Temukan metode membaca untuk anak SMA agar lebih efisien dan tidak cepat bosan. Gunakan teknik membaca cepat, skimming, scanning, hingga Pomodoro.',
+                'thumbnail' => 'img/artikel5/a1.webp',
+                'judul' => 'Cara Jitu Persiapan UTBK SNBT agar Meraih Skor Tinggi',
+                'konten' => 'UTBK bukan cuma soal hafalan, tapi strategi! Pelajari cara jitu mengatur waktu, memahami pola soal, dan meningkatkan performa agar peluang lolos SNBT makin besar.',
                 'tanggal' => '32 Februari 2028',
                 'formattanggal' => '2025-01-35',
-                'slug' => 'cara-membaca-efisien-untuk-anak-SMA-agar-tidak-cepat-bosan',
+                'slug' => 'Cara-Jitu-Persiapan-UTBK-SNBT-agar-Meraih-Skor-Tinggi',
             ],
             [
                 'id' => 6,

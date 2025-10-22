@@ -22,6 +22,9 @@ Route::get('/blog/cara-membaca-efisien-untuk-anak-SMA-agar-tidak-cepat-bosan', f
 Route::get('/blog/cara-mengatur-waktu-belajar-efektif-dengan-pomodoro-technique', function() {
     return Inertia::render('Blog/Artikel2');
 });
+Route::get('/blog/Cara-Jitu-Persiapan-UTBK-SNBT-agar-Meraih-Skor-Tinggi', function () {
+    return Inertia::render('Blog/Artikel5');
+});
 
 // Route::get('/artikel1/{slug}', [HomeController::class, 'artikel1Detail'])->name('artikel1.detail');
 // Route::get('/artikel1', [HomeController::class, 'artikel1'])->name('artikel1');

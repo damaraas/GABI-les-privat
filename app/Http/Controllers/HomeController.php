@@ -36,16 +36,23 @@ class HomeController extends Controller
     {
         return Inertia::render('Flashsale');
     }
+
     public function artikel1()
     {
         return inertia('Artikel1');
     }
-   public function artikel1Detail($slug)
-{
-    return inertia('Artikel1', [
-        'slug' => $slug,
-    ]);
-}
+
+    public function artikel5()
+    {
+        return inertia('Artikel5');
+    }
+    
+    public function artikel1Detail($slug)
+    {
+        return inertia('Artikel1', [
+            'slug' => $slug,
+        ]);
+    }
 
     public function faq()
     {
