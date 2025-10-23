@@ -204,7 +204,7 @@ const judul = "Cara Jitu Persiapan UTBK SNBT agar Meraih Skor Tinggi";
             <p class="mt-4">
                 🔗
                 <a
-                    href="/artikel/tips-manajemen-waktu-utbk"
+                    href="https://bimbelprivatjkt.com/tips-utbk-pola-pikir-manajemen-waktu-dan-les-privat-utbk/"
                     class="text-blue-600 font-semibold underline hover:text-blue-800 transition"
                 >
                     Baca juga: Tips Manajemen Waktu UTBK
