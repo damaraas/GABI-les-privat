@@ -22,6 +22,9 @@ Route::get('/blog/cara-membaca-efisien-untuk-anak-SMA-agar-tidak-cepat-bosan', f
 Route::get('/blog/cara-mengatur-waktu-belajar-efektif-dengan-pomodoro-technique', function() {
     return Inertia::render('Blog/Artikel2');
 });
+Route::get('/blog/trik-cepat-kuasai-ujian-toefl-listening-reading-dan-writing', function () {
+    return Inertia::render('Blog/Artikel3');
+});
 Route::get('/blog/5-manfaat-belajar-bahasa-mandarin-untuk-masa-depan', function () {
     return Inertia::render('Blog/Artikel4');
 });

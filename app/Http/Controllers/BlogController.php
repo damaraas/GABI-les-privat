@@ -34,12 +34,12 @@ class BlogController extends Controller
             ],
             [
                 'id' => 3,
-                'thumbnail' => 'img/artikel1/a1.webp',
-                'judul' => 'Artikel 3',
-                'konten' => 'Temukan metode membaca untuk anak SMA agar lebih efisien dan tidak cepat bosan. Gunakan teknik membaca cepat, skimming, scanning, hingga Pomodoro.',
+                'thumbnail' => 'img/artikel3/a1.webp',
+                'judul' => 'Trik Cepat Kuasai Ujian TOEFL Listening, Reading, dan Writing',
+                'konten' => 'Pelajari trik cepat dan efektif menghadapi ujian TOEFL. Kuasai skill Listening, Reading, dan Writing dengan strategi belajar yang terbukti sukses!',
                 'tanggal' => '22 Oktober 2025',
                 'formattanggal' => '2025-10-22',
-                'slug' => 'cara-membaca-efisien-untuk-anak-SMA-agar-tidak-cepat-bosan',
+                'slug' => 'trik-cepat-kuasai-ujian-toefl-listening-reading-dan-writing',
             ],
             [
                 'id' => 4,
