@@ -280,7 +280,7 @@ const judul = "Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan";
   </AppLayout>
 </template>
 
-<script>
+<!-- <script>
 const message = "Halo MinBi! Saya mau tanya info mengenai les privat GABI. Bisa dibantu? 😊";
 
 export default {
@@ -292,4 +292,4 @@ export default {
     },
   },
 };
-</script>
+</script> -->
