@@ -205,7 +205,7 @@ const judul = "Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan";
         <div class="w-full flex justify-center my-6">
         <img 
             src="../../../../public/img/artikel1/a2.webp" 
-            alt="Ilustrasi Membaca Efisien"
+            alt="Strategi membaca untuk anak SMA dalam Les Privat.jpg"
             class="w-[85%] sm:w-[70%] md:w-[60%] lg:w-[50%] shadow-md object-cover"
         />
         </div>

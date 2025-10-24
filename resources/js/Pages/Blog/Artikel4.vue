@@ -204,7 +204,7 @@ const judul = "Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan";
             </p>
 
             <div class="w-full flex justify-center my-6">
-                <img src="../../../../public/img/artikel4/a2.webp" alt="Belajar Bahasa Mandarin" class="w-[85%] sm:w-[70%] md:w-[60%] lg:w-[50%] shadow-md object-cover"/>
+                <img src="../../../../public/img/artikel4/a2.webp" alt="Manfaat Belajar Bahasa Mandarin.jpg" class="w-[85%] sm:w-[70%] md:w-[60%] lg:w-[50%] shadow-md object-cover"/>
             </div>
 
             <p class="text-justify mb-5">
