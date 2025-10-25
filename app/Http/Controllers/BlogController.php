@@ -12,7 +12,7 @@ class BlogController extends Controller
         $posts = [
             [
                 'id' => 1,
-                'thumbnail' => 'img/artikel1/a1.webp',
+                'thumbnail' => 'img/artikel1/a2.webp',
                 'judul' => 'Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan',
                 'konten' => 'Hayoo, siapa di sini yang masih malas membaca? Merujuk dari quotes di atas, seharusnya bisa memotivasi 
                     kamu untuk lebih giat membaca. Faktanya, banyak orang sebenarnya punya niat membaca, tapi sulit bertahan lebih dari 
@@ -43,7 +43,7 @@ class BlogController extends Controller
             ],
             [
                 'id' => 4,
-                'thumbnail' => 'img/artikel4/a1.webp',
+                'thumbnail' => 'img/artikel4/a2.webp',
                 'judul' => '5 Manfaat Belajar Bahasa Mandarin untuk Masa Depan',
                 'konten' => 'Di era globalisasi seperti sekarang, penguasaan bahasa asing menjadi salah satu keterampilan penting yang bisa membuka banyak peluang. Dari sekian banyak bahasa asing, Bahasa Mandarin menempati posisi yang sangat strategis. Mengapa? Karena Mandarin bukan hanya bahasa sehari-hari bagi lebih dari satu miliar orang di dunia, tetapi juga kunci untuk memahami budaya, bisnis, dan pendidikan di Tiongkok yang kini berkembang pesat.',
                 'tanggal' => '22 Oktober 2025',
@@ -52,7 +52,7 @@ class BlogController extends Controller
             ],
             [
                 'id' => 5,
-                'thumbnail' => 'img/artikel5/a1.webp',
+                'thumbnail' => 'img/artikel5/a2.webp',
                 'judul' => 'Cara Jitu Persiapan UTBK SNBT agar Meraih Skor Tinggi',
                 'konten' => 'UTBK SNBT (Seleksi Nasional Berdasarkan Tes) adalah salah satu momen paling menegangkan bagi para siswa SMA yang bercita-cita masuk perguruan tinggi negeri favorit. Setiap tahunnya, ratusan ribu peserta berjuang memperebutkan kursi yang jumlahnya terbatas. Tantangannya bukan hanya soal persaingan nih, tapi juga bagaimana mempersiapkan diri secara efektif agar bisa meraih skor tinggi.',
                 'tanggal' => '22 Oktober 2025',

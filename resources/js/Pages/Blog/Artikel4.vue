@@ -3,6 +3,7 @@
 <script setup>
 import AppLayout from "../../Layouts/AppLayout.vue";
 import { Head } from "@inertiajs/vue3";
+import Cta from '../HomePage/Components/Cta.vue';
 
 // terima props dari Laravel
 const props = defineProps({
@@ -215,10 +216,11 @@ const judul = "Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan";
                 bisa belajar bahasa Mandarin dengan metode yang interaktif, materi yang disesuaikan dengan 
                 kebutuhan, serta jadwal fleksibel, intinya kamu bisa belajar dengan nyaman dan hasil maksimal.
             </p>
-
-            
-            
         </article>
+    </section>
+
+    <section>
+        <Cta />
     </section>
   </AppLayout>
 </template>

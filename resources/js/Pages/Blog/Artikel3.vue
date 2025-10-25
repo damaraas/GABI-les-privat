@@ -292,16 +292,9 @@ const waLink = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 
             <div class="w-full flex justify-center my-6">
                 <div class="flex flex-col items-center">
-                    <img src="../../../../public/img/artikel3/a3.webp"
+                    <img src="../../../../public/img/artikel3/a1.webp"
                         alt="Ilustrasi Toefl"
                         class="w-[85%] sm:w-[70%] md:w-[60%] lg:w-[60%] shadow-md object-cover" />
-                    <p class="text-sm text-black font-bold mt-2 italic text-center">
-                        Sumber:
-                        <a href="https://id.pinterest.com/pin/589971619969055777/" target="_blank"
-                            class="underline hover:text-gray-700 font-medium text-gray-600">
-                            https://id.pinterest.com/pin/589971619969055777/
-                        </a>
-                    </p>
                 </div>
             </div>
 

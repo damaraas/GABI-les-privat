@@ -31,7 +31,7 @@ const judul = "Cara Mengatur Waktu Belajar Efektif dengan Pomodoro Technique";
         <div class="w-full flex justify-center my-6">
         <img 
             src="../../../../public/img/artikel2/a1.webp" 
-            alt="Ilustrasi Pomodoro Technique"
+            alt="Pomodoro Technique - Untuk Belajar Anak"
             class="w-[85%] sm:w-[70%] md:w-[60%] lg:w-[50%] shadow-md object-cover"
         />
         </div>

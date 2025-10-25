@@ -46,7 +46,7 @@ const judul = "Cara Jitu Persiapan UTBK SNBT agar Meraih Skor Tinggi";
                 <div class="flex flex-col items-center">
                     <img
                         src="../../../../public/img/artikel5/a1.webp"
-                        alt="Ilustrasi Pomodoro Technique"
+                        alt="Para Siswa Sedang mengerjakan UTBK SNBT"
                         class="w-[85%] sm:w-[70%] md:w-[60%] lg:w-[50%] shadow-md object-cover"
                     />
                     <p class="text-sm text-gray-500 mt-2 italic text-center">
@@ -286,19 +286,9 @@ const judul = "Cara Jitu Persiapan UTBK SNBT agar Meraih Skor Tinggi";
             <div class="w-full flex flex-col items-center my-6">
                 <img
                     src="../../../../public/img/artikel5/a2.webp"
-                    alt="Ilustrasi menjaga kesehatan dan manajemen stres"
-                    class="w-[85%] sm:w-[70%] md:w-[60%] lg:w-[50%] shadow-md object-cover rounded-lg"
+                    alt="Jurus Jitu Taklukan UTBK SNBT"
+                    class="w-[85%] sm:w-[70%] md:w-[60%] lg:w-[50%] shadow-md object-cover"
                 />
-                <p class="text-sm text-gray-500 mt-2 italic text-center">
-                    Sumber:
-                    <a
-                        href="https://id.pinterest.com/pin/377035800069420488/"
-                        target="_blank"
-                        class="underline hover:text-gray-700"
-                    >
-                        pinterest
-                    </a>
-                </p>
             </div>
 
             <p class="mb-4">

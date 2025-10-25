@@ -3,6 +3,7 @@
 <script setup>
 import AppLayout from "../../Layouts/AppLayout.vue";
 import { Head } from "@inertiajs/vue3";
+import Cta from '../HomePage/Components/Cta.vue';
 
 // terima props dari Laravel
 const props = defineProps({
@@ -205,7 +206,7 @@ const judul = "Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan";
         <div class="w-full flex justify-center my-6">
         <img 
             src="../../../../public/img/artikel1/a2.webp" 
-            alt="Strategi membaca untuk anak SMA dalam Les Privat.jpg"
+            alt="Strategi membaca untuk anak SMA dalam Les Privat"
             class="w-[85%] sm:w-[70%] md:w-[60%] lg:w-[50%] shadow-md object-cover"
         />
         </div>
@@ -275,7 +276,11 @@ const judul = "Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan";
             Dengan biaya trial hanya <span class="font-semibold">Rp50.000</span>, kamu bisa merasakan belajar lebih fokus karena dibimbing, 
             mendapatkan tips membaca yang sesuai kebutuhanmu, dan juga meningkatkan hasil akademik.
         </p>
-        </section> 
+        </section>
+    </section>
+
+    <section>
+        <Cta />
     </section>
   </AppLayout>
 </template>

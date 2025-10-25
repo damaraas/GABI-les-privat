@@ -52,20 +52,10 @@ const waLink = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
             <div class="w-full flex justify-center my-6">
                 <div class="flex flex-col items-center">
                     <img
-                        src="../../../../public/img/artikel6/a2.webp"
+                        src="../../../../public/img/artikel6/a1.webp"
                         alt="Ilustrasi Gambar Metode Montessori"
                         class="w-[85%] sm:w-[70%] md:w-[60%] lg:w-[50%] shadow-md object-cover"
                     />
-                    <p class="text-sm text-gray-500 mt-2 italic text-center">
-                        Sumber:
-                        <a
-                            href="https://id.pinterest.com/pin/29203097579886464/"
-                            target="_blank"
-                            class="underline hover:text-gray-700"
-                        >
-                            https://id.pinterest.com/pin/29203097579886464/
-                        </a>
-                    </p>
                 </div>
             </div>
 
