@@ -36,8 +36,8 @@ const waLink = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
                 >
                 <span class="mx-2">/</span>
                 <span class="text-gray-600"
-                    >Cara Cepat Jago Speaking dan Grammar dengan Les Privat
-                    Bahasa Inggris</span
+                    >5 Fun Fact Menarik tentang Metode Montessori Privat yang Bikin
+                Anak Betah Belajar</span
                 >
             </nav>
 
