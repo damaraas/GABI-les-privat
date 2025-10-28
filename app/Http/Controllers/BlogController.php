@@ -104,6 +104,15 @@ class BlogController extends Controller
                 'formattanggal' => '2025-10-29',
                 'slug' => 'cara-membuat-jadwal-belajar-realistis-dan-konsisten',
             ],
+            [
+                'id' => 13,
+                'thumbnail' => 'img/artikel13/a1.webp',
+                'judul' => 'Cara Meningkatkan Motivasi Belajar dan Konsentrasi di Rumah',
+                'konten' => 'Belajar di rumah sering kali terasa nyaman, tapi nggak jarang juga bikin kita gampang terdistraksi. Rasa malas, godaan gadget, sampai suasana yang kurang mendukung bisa banget nurunin konsentrasi sekaligus motivasi belajar. Padahal, dua hal ini penting banget biar proses belajar lebih efektif dan hasilnya juga maksimal.',
+                'tanggal' => '30 Oktober 2025',
+                'formattanggal' => '2025-10-29',
+                'slug' => 'Strategi-Meningkatkan-Konsentrasi-dan-Motivasi-Belajar-di-Rumah',
+            ],
         ];
 
         usort($posts, function ($a, $b) {

@@ -47,3 +47,6 @@ Route::get('/blog/5-manfaat-les-privat-calistung-untuk-perkembangan-anak-usia-di
 Route::get('/blog/cara-membuat-jadwal-belajar-realistis-dan-konsisten', function () {
     return Inertia::render('Blog/Artikel11');
 });
+Route::get('/blog/Strategi-Meningkatkan-Konsentrasi-dan-Motivasi-Belajar-di-Rumah', function () {
+    return Inertia::render('Blog/Artikel13');
+});
