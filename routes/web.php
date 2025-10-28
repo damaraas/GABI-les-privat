@@ -38,6 +38,9 @@ Route::get('/blog/5-Fun-Fact-Menarik-tentang-Metode-Montessori-Privat-yang-Bikin
 Route::get('/blog/cara-cepat-jago-speaking-dan-grammar-dengan-les-privat-bahasa-inggris', function () {
     return Inertia::render('Blog/Artikel7');
 });
+Route::get('/blog/Les-Privat-Matematika-Menyenangkan-dengan-4-Tips-Efektif-untuk-Anak', function () {
+    return Inertia::render('Blog/Artikel8');
+});
 Route::get('/blog/5-manfaat-les-privat-calistung-untuk-perkembangan-anak-usia-dini', function () {
     return Inertia::render('Blog/Artikel10');
 });

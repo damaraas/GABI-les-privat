@@ -78,6 +78,15 @@ class BlogController extends Controller
                 'slug' => 'cara-cepat-jago-speaking-dan-grammar-dengan-les-privat-bahasa-inggris',
             ],
             [
+                'id' => 8,
+                'thumbnail' => 'img/artikel8/a3.webp',
+                'judul' => 'Les Privat Matematika Menyenangkan dengan 4 Tips Efektif untuk Anak',
+                'konten' => 'Banyak anak sekolah yang langsung “angkat tangan” saat mendengar kata matematika. Bagi mereka, angka-angka terasa rumit, rumus bikin pusing, dan soal cerita seringkali membingungkan. Tidak sedikit yang kemudian berkata, “Aku nggak bisa matematika, ini bukan pelajaran buat aku.” Padahal, kunci utama agar anak bisa menguasai matematika adalah menemukan cara belajar yang sesuai dan membuat mereka nyaman.',
+                'tanggal' => '29 Oktober 2025',
+                'formattanggal' => '2025-10-22',
+                'slug' => 'Les-Privat-Matematika-Menyenangkan-dengan-4-Tips-Efektif-untuk-Anak',
+            ],
+            [
                 'id' => 10,
                 'thumbnail' => 'img/artikel10/a1.webp',
                 'judul' => '5 Manfaat Les Privat Calistung untuk Perkembangan Anak Usia Dini',
@@ -97,7 +106,7 @@ class BlogController extends Controller
             ],
         ];
 
-        usort($posts, function($a, $b) {
+        usort($posts, function ($a, $b) {
             return strtotime($b['formattanggal']) - strtotime($a['formattanggal']);
         });
 
