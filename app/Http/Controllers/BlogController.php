@@ -78,6 +78,15 @@ class BlogController extends Controller
                 'slug' => 'cara-cepat-jago-speaking-dan-grammar-dengan-les-privat-bahasa-inggris',
             ],
             [
+                'id' => 10,
+                'thumbnail' => 'img/artikel10/a1.webp',
+                'judul' => '5 Manfaat Les Privat Calistung untuk Perkembangan Anak Usia Dini',
+                'konten' => 'Pernah nggak sih bun merasa bingung ketika anak masih ogah-ogahan belajar membaca atau berhitung, padahal sebentar lagi mau masuk SD? Atau mungkin bunda-bunda disini sudah coba berbagai cara, mulai dari membeli buku latihan, aplikasi belajar, sampai ikut kelas kelompok, tapi tetap aja anak lebih senang main dibanding belajar?',
+                'tanggal' => '29 Oktober 2025',
+                'formattanggal' => '2025-10-29',
+                'slug' => '5-manfaat-les-privat-calistung-untuk-perkembangan-anak-usia-dini',
+            ],
+            [
                 'id' => 11,
                 'thumbnail' => 'img/artikel11/a1.webp',
                 'judul' => 'Cara Membuat Jadwal Belajar Realistis & Konsisten',
