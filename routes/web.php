@@ -38,6 +38,10 @@ Route::get('/blog/5-Fun-Fact-Menarik-tentang-Metode-Montessori-Privat-yang-Bikin
 Route::get('/blog/cara-cepat-jago-speaking-dan-grammar-dengan-les-privat-bahasa-inggris', function () {
     return Inertia::render('Blog/Artikel7');
 });
+Route::get('/blog/cara-membuat-jadwal-belajar-realistis-dan-konsisten', function () {
+    return Inertia::render('Blog/Artikel11');
+});
+
 
 // Route::get('/artikel1/{slug}', [HomeController::class, 'artikel1Detail'])->name('artikel1.detail');
 // Route::get('/artikel1', [HomeController::class, 'artikel1'])->name('artikel1');

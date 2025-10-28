@@ -77,6 +77,15 @@ class BlogController extends Controller
                 'formattanggal' => '2025-10-22',
                 'slug' => 'cara-cepat-jago-speaking-dan-grammar-dengan-les-privat-bahasa-inggris',
             ],
+            [
+                'id' => 11,
+                'thumbnail' => 'img/artikel11/a1.webp',
+                'judul' => 'Cara Membuat Jadwal Belajar Realistis & Konsisten',
+                'konten' => 'Temukan panduan lengkap cara membuat jadwal belajar yang realistis, konsisten, dan fleksibel agar progres belajarmu lebih terarah tanpa stres.',
+                'tanggal' => '29 Oktober 2025',
+                'formattanggal' => '2025-10-29',
+                'slug' => 'cara-membuat-jadwal-belajar-realistis-dan-konsisten',
+            ],
         ];
 
         usort($posts, function($a, $b) {
