@@ -122,6 +122,15 @@ class BlogController extends Controller
                 'formattanggal' => '2025-10-29',
                 'slug' => 'Manfaat-Les-Privat-Dibanding-Belajar-Konvensional',
             ],
+            [
+                'id' => 17,
+                'thumbnail' => 'img/artikel17/a1.webp',
+                'judul' => 'Belajar Lebih Fokus Meski Attention Span Pendek Bersama Guru Privat Tatap Muka',
+                'konten' => 'Pernah merasa baru buka buku sebentar, eh tangan tiba-tiba gatel buka ponsel? Atau lagi ngerjain soal, baru lima menit, pikiran langsung melayang ke mana-mana. Fenomena ini sering banget dialami banyak siswa dan mahasiswa sekarang. Dalam dunia psikologi, hal itu dikenal dengan istilah attention span, alias rentang konsentrasi.',
+                'tanggal' => '30 Oktober 2025',
+                'formattanggal' => '2025-10-29',
+                'slug' => 'Belajar-Lebih-Fokus-Meski-Sulit-Konsentrasi-dengan-Guru-Privat',
+            ],
         ];
 
         usort($posts, function ($a, $b) {

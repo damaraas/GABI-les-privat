@@ -53,3 +53,6 @@ Route::get('/blog/Manfaat-Les-Privat-Dibanding-Belajar-Konvensional', function (
 Route::get('/blog/Strategi-Meningkatkan-Konsentrasi-dan-Motivasi-Belajar-di-Rumah', function () {
     return Inertia::render('Blog/Artikel13');
 });
+Route::get('/blog/Belajar-Lebih-Fokus-Meski-Sulit-Konsentrasi-dengan-Guru-Privat', function () {
+    return Inertia::render('Blog/Artikel17');
+});
