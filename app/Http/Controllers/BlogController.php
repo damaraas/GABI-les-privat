@@ -105,13 +105,22 @@ class BlogController extends Controller
                 'slug' => 'cara-membuat-jadwal-belajar-realistis-dan-konsisten',
             ],
             [
+                'id' => 12,
+                'thumbnail' => 'img/artikel12/a1.webp',
+                'judul' => 'Manfaat Les Privat Lebih Efektif Dibanding Belajar Konvensional',
+                'konten' => 'Pernah merasa belajar di sekolah aja belum cukup? Atau mungkin sudah ikut kursus tambahan, tapi masih bingung juga pas ngerjain soal? Nah, di sinilah les privat bisa jadi solusi. Dibanding cara belajar konvensional di kelas, les privat punya kelebihan yang bikin proses belajar lebih efektif dan nyaman.',
+                'tanggal' => '30 Oktober 2025',
+                'formattanggal' => '2025-10-29',
+                'slug' => 'Manfaat-Les-Privat-Dibanding-Belajar-Konvensional',
+            ],
+            [
                 'id' => 13,
                 'thumbnail' => 'img/artikel13/a1.webp',
                 'judul' => 'Cara Meningkatkan Motivasi Belajar dan Konsentrasi di Rumah',
                 'konten' => 'Belajar di rumah sering kali terasa nyaman, tapi nggak jarang juga bikin kita gampang terdistraksi. Rasa malas, godaan gadget, sampai suasana yang kurang mendukung bisa banget nurunin konsentrasi sekaligus motivasi belajar. Padahal, dua hal ini penting banget biar proses belajar lebih efektif dan hasilnya juga maksimal.',
                 'tanggal' => '30 Oktober 2025',
                 'formattanggal' => '2025-10-29',
-                'slug' => 'Strategi-Meningkatkan-Konsentrasi-dan-Motivasi-Belajar-di-Rumah',
+                'slug' => 'Manfaat-Les-Privat-Dibanding-Belajar-Konvensional',
             ],
         ];
 
