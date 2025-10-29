@@ -8,7 +8,6 @@ const judul = "Cara Jitu Persiapan UTBK SNBT agar Meraih Skor Tinggi";
 
 <template>
     <AppLayout>
-
         <Head>
             <title>Cara Jitu Persiapan UTBK SNBT agar Meraih Skor Tinggi</title>
             <meta
@@ -388,8 +387,7 @@ const judul = "Cara Jitu Persiapan UTBK SNBT agar Meraih Skor Tinggi";
         </section>
 
         <section>
-            <Cta/>
+            <Cta />
         </section>
-
     </AppLayout>
 </template>
