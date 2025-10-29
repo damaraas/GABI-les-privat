@@ -236,7 +236,7 @@ const waLink = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
       <div class="w-full flex justify-center my-6">
         <div class="flex flex-col items-center">
           <img
-            src="../../../../public/img/artikel8/a2.webp"
+            src="../../../../public/img/artikel8/a3.webp"
             alt="Belajar Matematika Asik dengan Les Privat Gabi"
             class="w-[85%] sm:w-[70%] md:w-[60%] lg:w-[60%] shadow-md object-cover"
           />

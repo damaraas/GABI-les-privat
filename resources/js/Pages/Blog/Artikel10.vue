@@ -14,7 +14,7 @@ const waLink = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
     <Head>
         <title>Manfaat Les Privat Calistung untuk Perkembangan Anak Usia Dini</title>
         <meta name="description" content="Temukan 5 manfaat utama les privat calistung untuk membantu anak usia dini lebih cepat membaca, menulis, dan berhitung. GABI Les Privat siap dampingi anak belajar dengan metode menyenangkan.">
-        <meta name="keywords" content="">
+        <meta name="keywords" content="les privat calistung, les privat calistung untuk anak TK, belajar membaca dan berhitung untuk anak usia dini, les privat calistung terdekat, guru privat calistung berpengalaman, cara agar anak cepat bisa membaca dan menulis, les calistung metode menyenangkan">
     </Head>
 
     <!-- Breadcrumb -->
