@@ -87,6 +87,15 @@ class BlogController extends Controller
                 'slug' => 'Les-Privat-Matematika-Menyenangkan-dengan-4-Tips-Efektif-untuk-Anak',
             ],
             [
+                'id' => 9,
+                'thumbnail' => 'img/artikel9/a1.webp',
+                'judul' => 'Les Privat Tatap Muka vs Online —Mana yang Lebih Efektif untuk Anak?',
+                'konten' => 'Di era digital seperti sekarang, banyak orang tua yang bingung memilih antara les privat tatap muka atau online. Keduanya punya kelebihan dan kekurangan masing-masing. Tatap muka memungkinkan anak berinteraksi langsung dengan guru, memudahkan pemahaman lewat bahasa tubuh dan ekspresi. Sementara kelas online menawarkan fleksibilitas waktu dan tempat, cocok untuk anak yang aktif dan punya jadwal padat.',
+                'tanggal' => '29 Oktober 2025',
+                'formattanggal' => '2025-10-29',
+                'slug' => 'les-privat-tatap-muka-vs-online-mana-yang-lebih-cocok',
+            ],
+            [
                 'id' => 10,
                 'thumbnail' => 'img/artikel10/a1.webp',
                 'judul' => '5 Manfaat Les Privat Calistung untuk Perkembangan Anak Usia Dini',

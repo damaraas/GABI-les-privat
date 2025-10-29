@@ -41,6 +41,9 @@ Route::get('/blog/cara-cepat-jago-speaking-dan-grammar-dengan-les-privat-bahasa-
 Route::get('/blog/Les-Privat-Matematika-Menyenangkan-dengan-4-Tips-Efektif-untuk-Anak', function () {
     return Inertia::render('Blog/Artikel8');
 });
+Route::get('/blog/les-privat-tatap-muka-vs-online-mana-yang-lebih-cocok', function () {
+    return Inertia::render('Blog/Artikel9');
+});
 Route::get('/blog/5-manfaat-les-privat-calistung-untuk-perkembangan-anak-usia-dini', function () {
     return Inertia::render('Blog/Artikel10');
 });
