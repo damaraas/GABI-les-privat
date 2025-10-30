@@ -179,7 +179,7 @@ const judul = "Cara Membaca Efisien untuk Anak SMA agar Tidak Cepat Bosan";
              </h2>
 
              <div class="w-full flex justify-center my-6">
-                  <img src="../../../../public/img/artikel9/a2.webp" alt="Les Privat Tatap Muka vs Les Privat Online.jpg" class="w-[85%] sm:w-[70%] md:w-[60%] lg:w-[50%] shadow-md object-cover"/>
+                  <img src="../../../../public/img/artikel9/a3.webp" alt="Les Privat Tatap Muka vs Les Privat Online.jpg" class="w-[85%] sm:w-[70%] md:w-[60%] lg:w-[50%] shadow-md object-cover"/>
              </div>
 
              <div class="max-w-3xl  bg-white  mt-8">
