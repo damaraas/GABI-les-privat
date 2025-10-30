@@ -56,6 +56,9 @@ Route::get('/blog/Manfaat-Les-Privat-Dibanding-Belajar-Konvensional', function (
 Route::get('/blog/Strategi-Meningkatkan-Konsentrasi-dan-Motivasi-Belajar-di-Rumah', function () {
     return Inertia::render('Blog/Artikel13');
 });
+Route::get('/blog/Waktu-Terbaik-untuk-Belajar-Tips-Menentukan-Jam-Belajar-Efektif', function () {
+    return Inertia::render('Blog/Artikel14');
+});
 Route::get('/blog/Kenapa-Punya-Teman-Belajar-Bisa-Bikin-Kamu-Lebih-Semangat', function () {
     return Inertia::render('Blog/Artikel15');
 });
