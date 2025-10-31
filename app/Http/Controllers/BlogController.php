@@ -88,7 +88,7 @@ class BlogController extends Controller
             ],
             [
                 'id' => 9,
-                'thumbnail' => 'img/artikel9/a1.webp',
+                'thumbnail' => 'img/artikel9/a3.webp',
                 'judul' => 'Les Privat Tatap Muka vs Online — Mana yang Lebih Efektif untuk Anak?',
                 'konten' => 'Di era digital seperti sekarang, banyak orang tua yang bingung memilih antara les privat tatap muka atau online. Keduanya punya kelebihan dan kekurangan masing-masing. Tatap muka memungkinkan anak berinteraksi langsung dengan guru, memudahkan pemahaman lewat bahasa tubuh dan ekspresi. Sementara kelas online menawarkan fleksibilitas waktu dan tempat, cocok untuk anak yang aktif dan punya jadwal padat.',
                 'tanggal' => '29 Oktober 2025',
