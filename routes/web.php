@@ -15,6 +15,8 @@ Route::get('/flashsale', [HomeController::class, 'flashsale'])->name('flashsale'
 Route::get('/faq-bantuan', [HomeController::class, 'faq'])->name('faq');
 
 Route::get('/blog', [BlogController::class, 'index']);
+Route::get('/blog/{slug}', [BlogController::class, 'show'])->name('blog.show');
+
 // Halaman tiap artikel manual
 Route::get('/blog/cara-membaca-efisien-untuk-anak-SMA-agar-tidak-cepat-bosan', function() {
     return Inertia::render('Blog/Artikel1');

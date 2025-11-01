@@ -1,7 +1,7 @@
-@import 'tailwindcss';
-@import '@fontsource/quicksand';
-@import '@fontsource/onest';
-@import '@fontsource/poppins';
+@import "tailwindcss";
+@import "@fontsource/quicksand";
+@import "@fontsource/onest";
+@import "@fontsource/poppins";
 
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
@@ -9,74 +9,103 @@
 @source '../**/*.js';
 
 @theme {
-  --font-sans: 'Quicksand', ui-sans-serif, system-ui, sans-serif;
-  --font-onest: 'Onest', ui-sans-serif, system-ui, sans-serif;
-  --font-poppins: 'Poppins', ui-sans-serif, system-ui, sans-serif;
+    --font-sans: "Quicksand", ui-sans-serif, system-ui, sans-serif;
+    --font-onest: "Onest", ui-sans-serif, system-ui, sans-serif;
+    --font-poppins: "Poppins", ui-sans-serif, system-ui, sans-serif;
 }
 
 /* resources/css/app.css */
 
 :root {
-   font-family: var(--font-onest); /* Set default font to Quicksand */
+    font-family: var(--font-onest); /* Set default font to Quicksand */
 
-  --primary: #11b2f7; /* Biru */
-  --secondary: #fdd636; /* Ungu */
-  --accent: #006897; /* Orange */
-  --dark: #111154; /* Biru gelap */
-  --neutral: #374151; /* Abu-abu */
-  --light-gray: #F3F4F6; /* Abu-abu terang */
-  --success: #10B981; /* Hijau */
-  --danger: #EF4444; /* Merah */
-  --orange:  #fdb436; /* Orange */
-  --warning: #feeca4; /* Kuning */
-  --green:  #08cb00; /* Hijau */
+    --primary: #11b2f7; /* Biru */
+    --secondary: #fdd636; /* Ungu */
+    --accent: #006897; /* Orange */
+    --dark: #111154; /* Biru gelap */
+    --neutral: #374151; /* Abu-abu */
+    --light-gray: #f3f4f6; /* Abu-abu terang */
+    --success: #10b981; /* Hijau */
+    --danger: #ef4444; /* Merah */
+    --orange: #fdb436; /* Orange */
+    --warning: #feeca4; /* Kuning */
+    --green: #08cb00; /* Hijau */
 }
 
 .font-onest {
-  font-family: var(--font-onest);
+    font-family: var(--font-onest);
 }
 
 .font-poppins {
-  font-family: var(--font-poppins);
+    font-family: var(--font-poppins);
 }
 
 /* Contoh penggunaan variabel */
 .bg-primary {
-  background-color: var(--primary);
+    background-color: var(--primary);
 }
 
 .bg-dark {
-  background-color: var(--dark);
+    background-color: var(--dark);
 }
 
 .text-primary {
-  color: var(--primary);
+    color: var(--primary);
 }
 
 .bg-secondary {
-  background-color: var(--secondary);
+    background-color: var(--secondary);
 }
 
 .text-secondary {
-  color: var(--secondary);
+    color: var(--secondary);
 }
 
 .bg-accent {
-  background-color: var(--accent);
+    background-color: var(--accent);
 }
 
 .bg-green {
-  background-color: var(--green);
+    background-color: var(--green);
 }
 
 .bg-warning {
-  background-color: var(--warning);
+    background-color: var(--warning);
 }
 
 .text-accent {
-  color: var(--accent);
+    color: var(--accent);
 }
 
 .text-danger {
-  color: var(--danger);
+    color: var(--danger);
+}
+
+.prose img {
+    @apply w-[85%] sm:w-[70%] md:w-[60%] lg:w-[50%] mx-auto shadow-md object-cover rounded-lg;
+}
+
+/* Untuk heading */
+.prose h1 {
+  @apply text-3xl font-bold text-black leading-tight text-center font-poppins;
+}
+
+.prose h2 {
+    @apply text-2xl font-bold text-black mb-4 text-center font-poppins;
+}
+
+/* Untuk paragraf */
+.prose p {
+    @apply mb-4 leading-relaxed font-poppins;
+}
+
+/* biar list rapih juga */
+.prose ul,
+.prose ol {
+    @apply list-disc list-inside mb-4 space-y-2;
+}
+
+/* untuk blockquote */
+.prose blockquote {
+    @apply border-l-4 border-gray-300 pl-4 italic text-gray-600 font-poppins;
 }
