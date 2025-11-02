@@ -22,6 +22,8 @@ class BlogResource extends Resource
 
     protected static ?string $recordTitleAttribute = 'Blog';
 
+    protected static ?string $pluralModelLabel = 'Artikel';
+
     public static function form(Schema $schema): Schema
     {
         return BlogForm::configure($schema);

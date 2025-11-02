@@ -2,13 +2,15 @@
 
 namespace App\Filament\Resources\Blogs\Schemas;
 
-use Filament\Forms\Components\DateTimePicker;
+use Filament\Forms\Components\DatePicker;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\FileUpload;
 use Filament\Schemas\Schema;
+use Filament\Forms\Components\ToggleButtons;
+use Filament\Support\Icons\Heroicon;
 
 class BlogForm
 {
@@ -18,15 +20,25 @@ class BlogForm
             ->components([
                 TextInput::make('title')
                     ->required(),
-                Textarea::make('meta_description')
-                    ->rows(3),
+                ToggleButtons::make('status')
+                    ->inline()
+                    ->options([
+                        'draft' => 'Draft',
+                        'published' => 'Published'
+                    ])
+                    ->icons([
+                        'draft' => Heroicon::OutlinedPencil,
+                        'published' => Heroicon::OutlinedCheckCircle,
+                    ])
+                    ->colors([
+                        'draft' => 'info',
+                        'published' => 'success',
+                    ]),
                 TextInput::make('meta_keywords')
                     ->placeholder('pisahkan dengan koma'),
-                Select::make('status')
-                    ->options(['draft' => 'Draft', 'published' => 'Published'])
-                    ->default('draft')
-                    ->required(),
+                Textarea::make('meta_description'),
                 TextInput::make('slug')
+                    ->placeholder('pisahkan dengan strip (-)')
                     ->required(),
                 FileUpload::make('thumbnail')
                     ->disk('public')              // ← ini yang penting
@@ -36,7 +48,7 @@ class BlogForm
                 RichEditor::make('content')
                     ->required()
                     ->columnSpanFull(),
-                DateTimePicker::make('published_at'),
+                DatePicker::make('published_at'),
             ]);
     }
 }

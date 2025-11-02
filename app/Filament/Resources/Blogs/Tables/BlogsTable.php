@@ -8,6 +8,10 @@ use Filament\Actions\EditAction;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 use Filament\Tables\Columns\ImageColumn;
+use Filament\Actions\ActionGroup;
+use Filament\Actions\DeleteAction;
+use Filament\Actions\ViewAction;
+use Filament\Tables\Enums\RecordActionsPosition;
 
 class BlogsTable
 {
@@ -15,14 +19,31 @@ class BlogsTable
     {
         return $table
             ->columns([
-                TextColumn::make('title')
-                    ->searchable(),
-                TextColumn::make('status'),
-                TextColumn::make('slug')
-                    ->searchable(),
+                TextColumn::make('status')
+                    ->badge()
+                    ->sortable()
+                    ->color(fn(string $state): string => match ($state) {
+                        'draft' => 'gray',
+                        'published' => 'success',
+                    }),
                 ImageColumn::make('thumbnail')
                     ->disk('public')          // <- WAJIB sama dengan FileUpload
                     ->label('Thumbnail'),
+                TextColumn::make('title')
+                    ->limit(50)
+                    ->searchable(),
+                TextColumn::make('meta_description')
+                    ->limit(50)
+                    ->searchable(),
+                TextColumn::make('meta_keywords')
+                    ->limit(50)
+                    ->searchable(),
+                TextColumn::make('slug')
+                    ->limit(50)
+                    ->searchable(),
+                TextColumn::make('content')
+                    ->limit(50)
+                    ->searchable(),
                 TextColumn::make('published_at')
                     ->dateTime()
                     ->sortable(),
@@ -39,8 +60,12 @@ class BlogsTable
                 //
             ])
             ->recordActions([
-                EditAction::make(),
-            ])
+                ActionGroup::make([
+                    ViewAction::make(),
+                    EditAction::make(),
+                    DeleteAction::make(),
+                ]),
+            ], position: RecordActionsPosition::BeforeColumns)
             ->toolbarActions([
                 BulkActionGroup::make([
                     DeleteBulkAction::make(),
