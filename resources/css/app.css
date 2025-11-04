@@ -102,7 +102,7 @@
 /* biar list rapih juga */
 .prose ul,
 .prose ol {
-    @apply list-disc list-inside mb-4 space-y-2;
+    @apply list-disc  mb-4 pl-6;
 }
 
 /* untuk blockquote */
