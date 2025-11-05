@@ -2,15 +2,16 @@
 
 namespace App\Filament\Resources\Blogs\Tables;
 
-use Filament\Actions\BulkActionGroup;
-use Filament\Actions\DeleteBulkAction;
-use Filament\Actions\EditAction;
-use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
-use Filament\Tables\Columns\ImageColumn;
+use Illuminate\Support\Str;
+use Filament\Actions\EditAction;
+use Filament\Actions\ViewAction;
 use Filament\Actions\ActionGroup;
 use Filament\Actions\DeleteAction;
-use Filament\Actions\ViewAction;
+use Filament\Actions\BulkActionGroup;
+use Filament\Actions\DeleteBulkAction;
+use Filament\Tables\Columns\TextColumn;
+use Filament\Tables\Columns\ImageColumn;
 use Filament\Tables\Enums\RecordActionsPosition;
 
 class BlogsTable
@@ -42,8 +43,9 @@ class BlogsTable
                     ->limit(50)
                     ->searchable(),
                 TextColumn::make('content')
-                    ->limit(50)
-                    ->searchable(),
+                    ->getStateUsing(fn($record) => Str::limit(strip_tags($record->content), 80))
+                    ->tooltip(fn($record) => strip_tags($record->content))
+                    ->wrap(),
                 TextColumn::make('published_at')
                     ->dateTime()
                     ->sortable(),

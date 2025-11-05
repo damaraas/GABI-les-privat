@@ -37,9 +37,9 @@ class BlogForm
                 TextInput::make('meta_keywords')
                     ->placeholder('pisahkan dengan koma'),
                 Textarea::make('meta_description'),
-                TextInput::make('slug')
-                    ->placeholder('pisahkan dengan strip (-)')
-                    ->required(),
+                // TextInput::make('slug')
+                //     ->placeholder('pisahkan dengan strip (-)')
+                //     ->required(),
                 FileUpload::make('thumbnail')
                     ->disk('public')              // ← ini yang penting
                     ->directory('thumbnails')     // folder di dalam storage/app/public
