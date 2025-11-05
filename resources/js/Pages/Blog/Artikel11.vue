@@ -52,7 +52,7 @@ const judul = "Cara Membuat Jadwal Belajar Realistis & Konsisten";
             <div class="w-full flex justify-center my-6">
                 <div class="flex flex-col items-center">
                     <img
-                        src="../../../../public/img/artikel11/a1.webp"
+                        src="../../../../public/img/artikel11/artikel11(2).webp"
                         alt="Siswa belajar sesuai jadwal bersama guru privat Gabi untuk hasil belajar maksimal"
                         class="w-[85%] sm:w-[70%] md:w-[60%] lg:w-[50%] shadow-md object-cover rounded-2xl"
                     />
@@ -144,7 +144,7 @@ const judul = "Cara Membuat Jadwal Belajar Realistis & Konsisten";
             <div class="w-full flex justify-center my-6">
                 <div class="flex flex-col items-center">
                     <img
-                        src="../../../../public/img/artikel11/a2.webp"
+                        src="../../../../public/img/artikel11/artikel11(1).webp"
                         alt="Siswa belajar sesuai jadwal bersama guru privat Gabi untuk hasil belajar maksimal"
                         class="w-[85%] sm:w-[70%] md:w-[60%] lg:w-[50%] shadow-md object-cover rounded-2xl"
                     />

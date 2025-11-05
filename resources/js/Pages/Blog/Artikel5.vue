@@ -44,7 +44,7 @@ const judul = "Cara Jitu Persiapan UTBK SNBT agar Meraih Skor Tinggi";
             <div class="w-full flex justify-center my-6">
                 <div class="flex flex-col items-center">
                     <img
-                        src="../../../../public/img/artikel5/a1.webp"
+                        src="../../../../public/img/artikel5/artikel5(1).webp"
                         alt="Para Siswa Sedang mengerjakan UTBK SNBT"
                         class="w-[85%] sm:w-[70%] md:w-[60%] lg:w-[50%] shadow-md object-cover"
                     />
@@ -284,7 +284,7 @@ const judul = "Cara Jitu Persiapan UTBK SNBT agar Meraih Skor Tinggi";
             <!-- Gambar Artikel -->
             <div class="w-full flex flex-col items-center my-6">
                 <img
-                    src="../../../../public/img/artikel5/a2.webp"
+                    src="../../../../public/img/artikel5/artikel5(2).webp"
                     alt="Jurus Jitu Taklukan UTBK SNBT"
                     class="w-[85%] sm:w-[70%] md:w-[60%] lg:w-[50%] shadow-md object-cover"
                 />
