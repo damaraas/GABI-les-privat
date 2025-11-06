@@ -25,6 +25,18 @@ class BlogController extends Controller
             ->where('status', 'published') // hanya yang published
             ->firstOrFail();
 
+        $blog->content = preg_replace(
+            '/<p>\s*Baca juga:(.*?)<\/p>/i',
+            '<p class="related-link">🔗 Baca juga:$1</p>',
+            $blog->content
+        );
+
+        $blog->content = preg_replace(
+            '/<p[^>]*>\s*(?:<strong>)?\s*Sumber:\s*(.*?)(?:<\/strong>)?\s*<\/p>/i',
+            '<p class="source-link">Sumber: $1</p>',
+            $blog->content
+        );
+
         return inertia('Blog/Show', [
             'blog' => $blog,
             'meta' => [

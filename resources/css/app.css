@@ -107,7 +107,7 @@
 
 /* untuk blockquote */
 .prose blockquote {
-    @apply border-l-4 border-gray-300 pl-4 italic text-gray-600 font-poppins;
+    @apply bg-blue-50 border-l-4 border-blue-600 p-3 rounded-md my-4 font-poppins italic;
 }
 
 /* styling tabel di dalam prose */
@@ -132,3 +132,14 @@
     @apply bg-gray-50;
 }
 
+.related-link a {
+    @apply text-blue-600 font-semibold underline hover:text-blue-800 transition;
+}
+
+.source-link {
+    @apply text-sm text-gray-500 mt-2 italic text-center;
+}
+
+.source-link a {
+    @apply underline hover:text-gray-700 transition;
+}
