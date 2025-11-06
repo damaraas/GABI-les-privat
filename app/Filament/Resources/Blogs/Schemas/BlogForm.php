@@ -46,6 +46,13 @@ class BlogForm
                     ->preserveFilenames()
                     ->image(),
                 RichEditor::make('content')
+                    ->toolbarButtons([
+                        ['bold', 'italic', 'underline', 'strike', 'subscript', 'superscript', 'link'],
+                        ['h1', 'h2', 'h3', 'alignStart', 'alignCenter', 'alignEnd', 'alignJustify'],
+                        ['blockquote', 'codeBlock', 'bulletList', 'orderedList'],
+                        ['table', 'attachFiles'],
+                        ['undo', 'redo'],
+                    ])
                     ->required()
                     ->columnSpanFull(),
                 DatePicker::make('published_at'),
