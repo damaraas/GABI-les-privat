@@ -5,6 +5,7 @@ namespace App\Filament\Resources\Users\Schemas;
 use Filament\Forms\Components\DateTimePicker;
 use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Schema;
+use Filament\Support\Enums\Operation;
 
 class UserForm
 {
@@ -21,6 +22,8 @@ class UserForm
                 TextInput::make('password')
                     ->password()
                     ->revealable()
+                    ->hiddenOn(Operation::Edit)
+                    ->visibleOn(Operation::Create)
                     ->required(),
                 DateTimePicker::make('email_verified_at'),
             ]);
