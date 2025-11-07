@@ -40,8 +40,7 @@ class BlogController extends Controller
         return inertia('Blog/Show', [
             'blog' => $blog,
             'meta' => [
-                'title' => $blog->title,
-                'meta_title' => $blog->meta_title,
+                'title' => $blog->meta_title,
                 'description' => $blog->meta_description,
                 'keywords' => $blog->meta_keywords,
             ],
