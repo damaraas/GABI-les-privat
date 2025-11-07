@@ -13,6 +13,7 @@ use Filament\Actions\DeleteBulkAction;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Columns\ImageColumn;
 use Filament\Tables\Enums\RecordActionsPosition;
+use Filament\Support\Icons\Heroicon;
 
 class BlogsTable
 {
@@ -23,9 +24,14 @@ class BlogsTable
                 TextColumn::make('status')
                     ->badge()
                     ->sortable()
+                    ->icon(fn(string $state): string => match ($state) {
+                        'draft' => 'heroicon-o-pencil',
+                        'published' => 'heroicon-o-check-circle',
+                    })
                     ->color(fn(string $state): string => match ($state) {
                         'draft' => 'gray',
                         'published' => 'success',
+                        default => 'gray',
                     }),
                 ImageColumn::make('thumbnail')
                     ->disk('public')          // <- WAJIB sama dengan FileUpload
@@ -69,7 +75,7 @@ class BlogsTable
                     ViewAction::make(),
                     EditAction::make(),
                     DeleteAction::make(),
-                ]),
+                ])->dropdownPlacement('right-start'),
             ], position: RecordActionsPosition::BeforeColumns)
             ->toolbarActions([
                 BulkActionGroup::make([

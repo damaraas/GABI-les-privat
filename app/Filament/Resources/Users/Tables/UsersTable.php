@@ -43,7 +43,7 @@ class UsersTable
                     ViewAction::make(),
                     EditAction::make(),
                     DeleteAction::make(),
-                ]),
+                ])->dropdownPlacement('right-start'),
             ], position: RecordActionsPosition::BeforeColumns)
             ->toolbarActions([
                 BulkActionGroup::make([
