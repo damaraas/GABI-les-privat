@@ -28,7 +28,6 @@ class AdminPanelProvider extends PanelProvider
             ->id('admin')
             ->path('admin')
             ->login()
-            ->profile()
             ->brandName('Gabi Les Privat')
             ->favicon('favicon.webp')
             ->colors([
