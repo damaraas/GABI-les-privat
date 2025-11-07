@@ -18,11 +18,9 @@ use App\Filament\Resources\Blogs\Tables\BlogsTable;
 class BlogResource extends Resource
 {
     protected static ?string $model = Blog::class;
-
-    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
-
+    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedDocument;
+    protected static string|BackedEnum|null $activeNavigationIcon = 'heroicon-s-document';
     protected static ?string $recordTitleAttribute = 'Blog';
-
     protected static ?string $pluralModelLabel = 'Artikel';
 
     public static function form(Schema $schema): Schema
