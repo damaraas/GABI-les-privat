@@ -33,6 +33,9 @@ class BlogsTable
                 TextColumn::make('title')
                     ->limit(50)
                     ->searchable(),
+                TextColumn::make('meta_title')
+                    ->limit(50)
+                    ->searchable(),
                 TextColumn::make('meta_description')
                     ->limit(50)
                     ->searchable(),

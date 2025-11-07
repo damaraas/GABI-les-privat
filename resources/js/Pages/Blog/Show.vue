@@ -12,7 +12,7 @@ const props = defineProps({
 <template>
   <AppLayout>
     <Head>
-      <title>{{ blog.title }}</title>
+      <title>{{ meta?.title}}</title>
       <meta
         name="description"
         :content="meta?.description || 'Meta description default untuk blog GABI '"

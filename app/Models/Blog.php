@@ -20,6 +20,7 @@ class Blog extends Model
         'thumbnail',
         'user_id',
         'published_at',
+        "meta_title",
         "meta_description",
         "meta_keywords",
     ];

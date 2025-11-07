@@ -87,11 +87,11 @@
 
 /* Untuk heading */
 .prose h1 {
-  @apply text-3xl font-bold text-black leading-tight text-center font-poppins;
+  @apply text-3xl font-bold text-black leading-tight text-center font-poppins mb-4 mt-10;
 }
 
 .prose h2 {
-    @apply text-2xl font-bold text-black mb-4 text-center font-poppins;
+    @apply text-2xl font-bold text-black mb-4 mt-10 text-center font-poppins;
 }
 
 /* Untuk paragraf */

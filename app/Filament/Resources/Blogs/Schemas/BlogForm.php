@@ -34,6 +34,7 @@ class BlogForm
                         'draft' => 'info',
                         'published' => 'success',
                     ]),
+                TextInput::make('meta_title'),
                 TextInput::make('meta_keywords')
                     ->placeholder('pisahkan dengan koma'),
                 Textarea::make('meta_description'),
