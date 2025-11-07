@@ -26,13 +26,13 @@ class BlogController extends Controller
             ->firstOrFail();
 
         $blog->content = preg_replace(
-            '/<p>\s*Baca juga:(.*?)<\/p>/i',
-            '<p class="related-link">🔗 Baca juga:$1</p>',
+            '/<p[^>]*>\s*(?:<strong>)?\s*Baca juga\s*:\s*(.*?)\s*(?:<\/strong>)?\s*<\/p>/is',
+            '<p class="related-link">🔗 Baca juga: $1</p>',
             $blog->content
         );
 
         $blog->content = preg_replace(
-            '/<p[^>]*>\s*(?:<strong>)?\s*Sumber:\s*(.*?)(?:<\/strong>)?\s*<\/p>/i',
+            '/<p[^>]*>\s*(?:<strong>)?\s*Sumber\s*:\s*(.*?)(?:<\/strong>)?\s*<\/p>/is',
             '<p class="source-link">Sumber: $1</p>',
             $blog->content
         );
@@ -40,7 +40,8 @@ class BlogController extends Controller
         return inertia('Blog/Show', [
             'blog' => $blog,
             'meta' => [
-                'title' => $blog->meta_title,
+                'title' => $blog->title,
+                'meta_title' => $blog->meta_title,
                 'description' => $blog->meta_description,
                 'keywords' => $blog->meta_keywords,
             ],

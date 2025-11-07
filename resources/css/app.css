@@ -82,7 +82,7 @@
 }
 
 .prose img {
-    @apply w-[85%] sm:w-[70%] md:w-[60%] lg:w-[50%] mx-auto shadow-md object-cover rounded-lg;
+    @apply w-[85%] sm:w-[70%] md:w-[60%] lg:w-[50%] mx-auto shadow-md object-cover rounded-lg mb-0;
 }
 
 /* Untuk heading */
@@ -132,14 +132,18 @@
     @apply bg-gray-50;
 }
 
-.related-link a {
+.prose .related-link a {
     @apply text-blue-600 font-semibold underline hover:text-blue-800 transition;
 }
 
-.source-link {
-    @apply text-sm text-gray-500 mt-2 italic text-center;
+.prose .source-link {
+    @apply text-sm text-gray-500 italic text-center;
 }
 
-.source-link a {
+.prose .source-link a {
     @apply underline hover:text-gray-700 transition;
+}
+
+.prose p.source-link {
+    @apply -mt-4 mb-0;
 }

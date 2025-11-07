@@ -58,9 +58,10 @@ class Blog extends Model
     {
         parent::boot();
 
-        static::saving(function ($blog) {
-            if (empty($blog->slug) && !empty($blog->title)) {
-                $blog->slug = self::generateUniqueSlug($blog->title, $blog->id);
+        static::saving(function ($model) {
+            // Cek apakah title berubah atau slug masih kosong
+            if ($model->isDirty('title') || empty($model->slug)) {
+                $model->slug = self::generateUniqueSlug($model->title, $model->id);
             }
         });
     }
@@ -71,10 +72,11 @@ class Blog extends Model
         $original = $slug;
         $count = 2;
 
-        // Cek slug sudah ada belum
-        while (self::where('slug', $slug)
-            ->when($ignoreId, fn($query) => $query->where('id', '!=', $ignoreId))
-            ->exists()) {
+        while (
+            self::where('slug', $slug)
+                ->when($ignoreId, fn($query) => $query->where('id', '!=', $ignoreId))
+                ->exists()
+        ) {
             $slug = "{$original}-{$count}";
             $count++;
         }
